@@ -26,7 +26,8 @@ export default {
         'light-green': "#DFF6F1",
         'dark-green': "#00C934",
         'deep-green': "#00E765",
-        'green': "#51FFAB"
+        'green': "#51FFAB",
+        'ghost-white':"#F9F9F9",
       },
       fontSize: {
         'custom-2xl': "32px",
@@ -56,7 +57,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/assets/images/webp/hero-bg-img.webp')",
-        "e-commerce":"url('/assets/images/webp/e-commerce-bg.webp')"
+        "pricing-table": "url('/assets/images/webp/pricing-table-bg.webp')",
       },
       dropShadow:{
         'custom-1': '25px -20px 60px 0px #0000001A',
