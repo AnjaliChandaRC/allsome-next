@@ -2,7 +2,9 @@ import React from 'react'
 
 const FulfilledMillions = () => {
   return (
-    <div>FulfilledMillions</div>
+    <div className='lg:pt-11 md:pt-12 py-6'>
+
+    </div>
   )
 }
 
