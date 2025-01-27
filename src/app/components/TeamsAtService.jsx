@@ -23,7 +23,7 @@ const TeamsAtService = () => {
       <div className="pt-[88px] max-xl:pt-0 relative z-20">
         <CustomHeading
           title="“Your e-commerce tech operation teams at service”"
-          classStyle="!text-white text-center max-w-[761px] mx-auto"
+          classstyle="!text-white text-center max-w-[761px] mx-auto"
         />
         <p className="text-center pt-[19px] text-white max-w-[445px] mx-auto text-base leading-6">
           Fulfillment is perfect for brands looking to get more traffic, build
@@ -31,11 +31,11 @@ const TeamsAtService = () => {
         </p>
         <div className="flex items-center justify-center gap-[21px] mt-[38px]">
           <CustomButton
-            classStyle="!text-white py-[14px h-[52px] flex items-center justify-center border border-solid border-white rounded-full min-w-[172px] e-commerce-btn"
+            classstyle="!text-white py-[14px h-[52px] flex items-center justify-center border border-solid border-white rounded-full min-w-[172px] e-commerce-btn"
             title="Sign up today"
           />
           <CustomButton
-            classStyle="!text-white py-[14px] border h-[52px] flex items-center justify-center border-solid border-white rounded-full min-w-[171px] e-commerce-btn"
+            classstyle="!text-white py-[14px] border h-[52px] flex items-center justify-center border-solid border-white rounded-full min-w-[171px] e-commerce-btn"
             title="Request a demo"
           />
         </div>

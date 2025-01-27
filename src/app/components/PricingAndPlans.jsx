@@ -49,8 +49,8 @@ const PRICING_DATA_LIST = [
 const PricingAndPlans = () => {
   return (
     <div className="container">
-      <CustomHeading classStyle="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
-      <CustomDescription classStyle="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
+      <CustomHeading classstyle="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
+      <CustomDescription classstyle="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
       <div className="flex gap-[39px] max-lg:flex-wrap justify-center">
         {PRICING_DATA_LIST.map((card, index) => (
           <div key={index} className={`w-full max-w-[303px] rounded-2xl py-[31px] bg-cover bg-center bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20"} `}>
@@ -71,7 +71,7 @@ const PricingAndPlans = () => {
                 ))}
               </ul>
               <div className="flex items-center justify-center">
-                <CustomButton title="Start for free" classStyle={`!py-3 !px-[67px] ${index === 1 ? "!bg-black !text-white" : ""}`} />
+                <CustomButton title="Start for free" classstyle={`!py-3 !px-[67px] ${index === 1 ? "!bg-black !text-white" : ""}`} />
               </div>
             </div>
           </div>

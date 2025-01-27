@@ -68,7 +68,7 @@ const Faqs = () => {
       <div className='max-w-[1172px] mx-auto px-4'>
         <CustomHeading
           title='Frequently asked questions?'
-          classStyle='text-center font-kanit max-w-[734px] mx-auto leading-16xl'
+          classstyle='text-center font-kanit max-w-[734px] mx-auto leading-16xl'
         />
         <div className='max-w-[754px] mx-auto flex flex-col gap-2 pt-[46px] max-lg:pt-10 max-md:pt-7'>
           {FAQ_LIST.map((obj, i) => (
@@ -82,25 +82,22 @@ const Faqs = () => {
                   e.stopPropagation()
                   toggle(i)
                 }}
-                className={`flex items-center justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] pl-5 !pb-[15px] max-sm:p-4 max-sm:!pb-4 ${
-                  active === i
+                className={`flex items-center justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] pl-5 !pb-[15px] max-sm:p-4 max-sm:!pb-4 ${active === i
                     ? '!pb-[11px] max-sm:!pb-[11px]'
                     : 'pb-0 transition-all duration-300'
-                }`}
+                  }`}
               >
                 {obj.title}
                 <span
-                  className={`transition-all duration-300 ${
-                    active === i ? 'rotate-180' : ''
-                  }`}
+                  className={`transition-all duration-300 ${active === i ? 'rotate-180' : ''
+                    }`}
                 >
                   <ArrowIcon />
                 </span>
               </button>
               <div
-                className={`text-black transition-all duration-300 overflow-hidden pl-5 pr-[18px] max-sm:px-4 ${
-                  active === i ? 'pb-[20px] max-sm:pb-4 max-h-40' : 'max-h-0'
-                }`}
+                className={`text-black transition-all duration-300 overflow-hidden pl-5 pr-[18px] max-sm:px-4 ${active === i ? 'pb-[20px] max-sm:pb-4 max-h-40' : 'max-h-0'
+                  }`}
               >
                 <p className='text-black leading-6 !max-md:text-sm max-md:leading-6 max-sm:text-sm pb-[9px] max-md:pb-1 max-w-[716px]'>
                   {obj.description}

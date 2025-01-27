@@ -47,7 +47,7 @@ const Header = () => {
     <div className="flex justify-between flex-col w-full">
       <div className="w-full bg-black">
         <div className={`max-w-[1320px] flex justify-between max-md:flex-col w-full mx-auto lg:py-[13px] py-2 items-center max-xl:px-6`}>
-          <CustomDescription classStyle="lg:!text-xs !text-[10px] lg:!leading-custom-2xl !text-white" description='AllSome is your e-commerce operation team to auto-send your sold orders.' />
+          <CustomDescription classstyle="lg:!text-xs !text-[10px] lg:!leading-custom-2xl !text-white" description='AllSome is your e-commerce operation team to auto-send your sold orders.' />
           <select className="bg-transparent outline-none text-white flex justify-center items-center appearance" name="Eng" id="">
             <option className="text-black" value="">Eng</option>
             <option className="text-black" value="">Hindi</option>
@@ -71,16 +71,16 @@ const Header = () => {
           ))}
           <div className="lg:hidden max-lg:block">
             <div className="flex gap-2.5">
-              <CustomButton classStyle='lg:!py-[8.5px] !py-1.5' title='Log in' />
-              <CustomButton classStyle='lg:!py-[8.5px] !py-1.5' title='Start free' />
+              <CustomButton classstyle='lg:!py-[8.5px] !py-1.5' title='Log in' />
+              <CustomButton classstyle='lg:!py-[8.5px] !py-1.5' title='Start free' />
             </div>
           </div>
         </div>
 
         <div className="lg:block max-lg:hidden  ">
           <div className="flex gap-2.5 w-full">
-            <CustomButton classStyle='lg:!py-[8.5px] !py-1.5' title='Log in' />
-            <CustomButton classStyle='lg:!py-[8.5px] !py-1.5' title='Start free' />
+            <CustomButton classstyle='lg:!py-[8.5px] !py-1.5' title='Log in' />
+            <CustomButton classstyle='lg:!py-[8.5px] !py-1.5' title='Start free' />
           </div>
         </div>
 
