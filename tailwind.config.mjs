@@ -55,7 +55,7 @@ export default {
         'custom-17xl': "84px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/public/assets/images/webp/hero-bg-img.webp')",
+        "hero-pattern": "url('/assets/images/webp/hero-bg-img.webp')",
       },
     },
   },
