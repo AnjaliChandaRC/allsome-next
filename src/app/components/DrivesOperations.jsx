@@ -57,7 +57,7 @@ const DrivesOperations = () => {
                 src={obj.cardIcon}
                 width={64}
                 height={81}
-                className="object-cover h-auto w-auto mx-auto"
+                className="object-cover h-auto w-auto mx-auto pointer-events-none"
                 alt="icons"
               />
               <h4 className="text-center font-medium text-lg leading-custom-8xl pt-5">
