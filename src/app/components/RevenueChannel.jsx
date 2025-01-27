@@ -11,13 +11,13 @@ const RevenueChannel = () => {
             <p className='font-kanit text-xl font-semibold leading-5 text-dark-green'>
               Let's take about sales
             </p>
-            <CustomHeading title="Turn fulfillment into your #1 revenue channel" classstyle="" />
+            <CustomHeading title="Turn fulfillment into your #1 revenue channel" style="" />
             <p className='text-black opacity-80 max-w-[510px] leading-6 pt-[11px]'>
               We helped thousands of merchants scale their business to new
               heights. AllSome customers achieve 340% growth overtime with auto
               run e-commerce post purchase operations.
             </p>
-            <CustomButton title="Chat with our fulfillment experts" classstyle='mt-[23px] !py-3' />
+            <CustomButton title="Chat with our fulfillment experts" style='mt-[23px] !py-3' />
           </div>
         </div>
       </div>

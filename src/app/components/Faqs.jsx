@@ -68,7 +68,7 @@ const Faqs = () => {
       <div className='max-w-[1172px] mx-auto px-4'>
         <CustomHeading
           title='Frequently asked questions?'
-          classstyle='text-center font-kanit max-w-[734px] mx-auto leading-16xl'
+          styleclass='text-center font-kanit max-w-[734px] mx-auto leading-16xl'
         />
         <div className='max-w-[754px] mx-auto flex flex-col gap-2 pt-[46px] max-lg:pt-10 max-md:pt-7'>
           {FAQ_LIST.map((obj, i) => (
@@ -83,8 +83,8 @@ const Faqs = () => {
                   toggle(i)
                 }}
                 className={`flex items-center justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] pl-5 !pb-[15px] max-sm:p-4 max-sm:!pb-4 ${active === i
-                    ? '!pb-[11px] max-sm:!pb-[11px]'
-                    : 'pb-0 transition-all duration-300'
+                  ? '!pb-[11px] max-sm:!pb-[11px]'
+                  : 'pb-0 transition-all duration-300'
                   }`}
               >
                 {obj.title}

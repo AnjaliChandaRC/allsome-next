@@ -13,10 +13,10 @@ const Hero = () => {
         <div className="flex flex-wrap">
           <div className="lg:w-6/12 w-full py-[126px]">
             <h1 className='uppercase lg:mb-2.5 mb-1.5 text-black font-extrabold xl:text-custom-6xl lg:text-custom-5xl md:text-custom-4xl sm:text-custom-3xl text-custom-2xl max-w-[579px] !leading-[100%] text-start'>SELL & SHIP EVERYWHERE</h1>
-            <CustomDescription classstyle="xl:mb-[34px] lg:mb-7 md:mb-5 mb-4 max-w-[450px] lg:!text-lg !text-base" description="Turn your inventory into sales channel. Sell more stuff everywhere" />
+            <CustomDescription styleclass="xl:mb-[34px] lg:mb-7 md:mb-5 mb-4 max-w-[450px] lg:!text-lg !text-base" description="Turn your inventory into sales channel. Sell more stuff everywhere" />
             <div className="flex gap-2">
-              <CustomButton classstyle='xl:!py-[14.5px] lg:!py-3 !py-2 xl:!px-[34.5px]' style="!hidden" title='Sign up for free' />
-              <CustomButton classstyle='xl:!py-[14.5px] lg:!py-3 !py-2 xl:!px-[25px]' style="!block" icon={<WhatsAppLogo />} title='Whatsapp us' />
+              <CustomButton styleclass='xl:!py-[14.5px] lg:!py-3 !py-2 xl:!px-[34.5px]' title='Sign up for free' />
+              <CustomButton styleclass='xl:!py-[14.5px] lg:!py-3 !py-2 xl:!px-[25px]' icon={<WhatsAppLogo />} title='Whatsapp us' />
             </div>
           </div>
           <div className="lg:w-6/12 w-full">

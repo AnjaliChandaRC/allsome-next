@@ -10,8 +10,8 @@ const SellToShoppers = () => {
         <div className="flex flex-wrap">
           <div className="lg:w-4/12 w-full">
             <div className="lg:py-[22px] md:py-4 py-3 lg:px-5 md:px-4 px-3">
-              <CustomHeading classstyle='xl:!text-[40px] lg:text-3xl md:!text-2xl !text-xl font-semibold lg:mb-4 md:mb-3 mb-2' title='Sell to shoppers wherever they are' />
-              <CustomDescription classstyle='lg:mb-6 md:mb-5 mb-4' title='AllSome helps you to build your e-commerce operations across all sales channels.' />
+              <CustomHeading style='xl:!text-[40px] lg:text-3xl md:!text-2xl !text-xl font-semibold lg:mb-4 md:mb-3 mb-2' title='Sell to shoppers wherever they are' />
+              <CustomDescription style='lg:mb-6 md:mb-5 mb-4' title='AllSome helps you to build your e-commerce operations across all sales channels.' />
               <CustomButton title='Sign up today' />
             </div>
           </div>
