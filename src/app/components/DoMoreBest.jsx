@@ -4,56 +4,31 @@ const DoMoreBest = () => {
    const SERVICES_CARDS = [
     {
       circle: "/assets/images/webp/white-circle.webp",
-       title: "Multiple channels",
-       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
-    },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Ship fast",
-       description: "Domestic, international, Cash on Delivery (COD), standard, same day, one hour or self pick up.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "E-commerce malls",
-       description: "Free access to 3,000+ locations. Be next to your shopper to make the experience real.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Shareable maps",
-       description: "Get discovered through world maps, share with single click and welcome shoppers.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Try before purchase",
-       description: "Let shoppers find and order the most suitable one, they will definitely return again!",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Return & exchange",
-       description: "Return to store and exchange same day. Free shipping and 10x faster return experience.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Customizable operations",
-       description: "Share your e-commerce procedures and outlets execute as instructed. Take control and work from anywhere.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Inventory reports",
-       description: "Clean & report for inbound, in-store and shipped SKUs. By orders, locations and dates.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Giveaway & samples",
-       description: "Reach more shoppers with your trial sets and let the products sell for themselves!",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Data insights",
-       description: "Get actionable insights and know how your shoppers interact with your products in real life.",
-     },
-  ];
-  return (
+      title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+    }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+  ]; 
+  return ( 
     <div className='bg-black'>
       <div className='container max-w-[1178px] mx-auto'>
         <div className='flex flex-row flex-wrap xl:gap-[22px] max-xl:justify-between xl:pt-[108px] lg:pt-20 md:pt-12 pt-9'>

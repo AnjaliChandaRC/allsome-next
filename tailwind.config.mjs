@@ -58,6 +58,10 @@ export default {
         "hero-pattern": "url('/assets/images/webp/hero-bg-img.webp')",
         "e-commerce":"url('/assets/images/webp/e-commerce-bg.webp')"
       },
+      dropShadow:{
+        'custom-1': '25px -20px 60px 0px #0000001A',
+        
+      }
     },
   },
   plugins: [],
