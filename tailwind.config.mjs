@@ -57,6 +57,10 @@ export default {
       backgroundImage: {
         "hero-pattern": "url('/assets/images/webp/hero-bg-img.webp')",
       },
+      dropShadow:{
+        'custom-1': '25px -20px 60px 0px #0000001A',
+        
+      }
     },
   },
   plugins: [],

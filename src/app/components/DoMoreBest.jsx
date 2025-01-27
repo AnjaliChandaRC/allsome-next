@@ -4,31 +4,31 @@ const DoMoreBest = () => {
    const SERVICES_CARDS = [
     {
       circle: "/assets/images/webp/white-circle.webp",
-      title: "Smart Contract ",
-       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
-    },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Smart Contract ",
-       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Smart Contract ",
-       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Smart Contract ",
-       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
-     },
-     {
-       circle: "/assets/images/webp/white-circle.webp",
-       title: "Smart Contract ",
-       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
-     },
-  ];
-  return (
+      title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+    }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+     { 
+       circle: "/assets/images/webp/white-circle.webp", 
+       title: "Smart Contract ", 
+       description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.", 
+     }, 
+  ]; 
+  return ( 
     <div className='bg-black'>
       <div className='container'>
         <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8 max-lg:justify-center'>
