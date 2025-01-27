@@ -10,14 +10,14 @@ const TeamsAtService = () => {
         src="/assets/images/webp/light-green-shadow-e-commerce.webp"
         width={656}
         height={596}
-        className="absolute left-0 top-0 object-cover shadow-one"
+        className="absolute left-0 top-0 object-cover shadow-one h-auto w-auto"
         alt="shadow"
       />
       <Image
         src="/assets/images/webp/light-yellow-shadow-e-commerce.webp"
         width={563}
         height={347}
-        className="absolute right-0 bottom-0 object-cover shadow-Two"
+        className="absolute right-0 bottom-0 object-cover shadow-Two h-auto w-auto"
         alt="shadow"
       />
       <div className="pt-[88px] max-xl:pt-0 relative z-20">

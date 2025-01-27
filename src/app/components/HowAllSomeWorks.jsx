@@ -21,7 +21,7 @@ const HowAllSomeWorks = () => {
     },
   ];
   return (
-    <div className="py-[84px] relative">
+    <div className="pt-[84px] pb-[124px] max-xl:py-20 max-md:py-16 max-sm:py-10 relative">
       <div className="!max-w-[591px] !mx-auto text-center">
         <CustomHeading
           title="How"
