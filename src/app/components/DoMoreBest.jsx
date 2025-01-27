@@ -74,8 +74,8 @@ const DoMoreBest = () => {
         alt="Picture of the author"
       />
       <div className='container max-w-[1178px] mx-auto relative z-10'>
-        <CustomHeading title="Do more of what you do best" style="!text-white text-center" />
-        <CustomDescription description="Everything you need to run your awesome e-commerce" style="!text-white opacity-80 text-center lg:pt-8 pt-6" />
+        <CustomHeading title="Do more of what you do best" styleclass="!text-white text-center" />
+        <CustomDescription description="Everything you need to run your awesome e-commerce" styleclass="!text-white opacity-80 text-center lg:pt-8 pt-6" />
         <div className='flex flex-row flex-wrap xl:gap-[22px] max-xl:justify-between xl:pt-[108px] lg:pt-20 md:pt-11 pt-9'>
           {BEST_DATA.map((obj, index) => (
             <div key={index} className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:mb-10 mb-7'>
