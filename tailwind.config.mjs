@@ -56,6 +56,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/assets/images/webp/hero-bg-img.webp')",
+        "e-commerce":"url('/assets/images/webp/e-commerce-bg.webp')"
       },
     },
   },
