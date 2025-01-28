@@ -65,6 +65,7 @@ export default {
       },
       dropShadow: {
         "custom-1": "25px -20px 60px 0px #0000001A",
+        "custom-2": "0px 15px 34px -6px #0000001A",
       },
     },
   },
