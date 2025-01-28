@@ -31,28 +31,56 @@ const TeamsAtService = () => {
         </p>
         <div className="flex items-center justify-center gap-[21px] mt-[38px]">
           <CustomButton
-            styleclass="!text-white py-[14px h-[52px] flex items-center justify-center border border-solid border-white rounded-full min-w-[172px] e-commerce-btn"
+            styleclass="!text-white py-[14px h-[52px] flex items-center justify-center border border-solid border-white rounded-full min-w-[172px] hover:bg-gradient-to-bl to-lemon via-dark-green from-green !transition-all !ease-linear !duration-300"
             title="Sign up today"
           />
           <CustomButton
-            styleclass="!text-white py-[14px] border h-[52px] flex items-center justify-center border-solid border-white rounded-full min-w-[171px] e-commerce-btn"
+            styleclass="!text-white py-[14px] border h-[52px] flex items-center justify-center border-solid border-white rounded-full min-w-[171px] hover:bg-gradient-to-bl to-lemon via-dark-green from-green !transition-all !ease-linear !duration-300"
             title="Request a demo"
           />
         </div>
       </div>
       <Image
-        src="/assets/images/webp/e-commerce-mobile-img.webp"
-        width={184}
-        height={414}
-        className="object-cover e-commerce-icons absolute right-[76px] top-[91px] max-lg:w-24 max-md:right-0"
+        src="/assets/images/webp/mobile-img.webp"
+        width={75}
+        height={95}
+        className="e-commerce-icons object-cover h-auto w-auto absolute right-[76px] top-[91px] max-xl:w-16 max-md:right-0"
         alt="mobile"
       />
       <Image
-        src="/assets/images/webp/e-commerce-shopping.webp"
-        width={192}
-        height={325}
-        className="object-cover e-commerce-icons max-lg:w-24 absolute left-[105px] top-[101px] max-md:left-0"
-        alt="shopping"
+        src="/assets/images/webp/shopeing-trole-img.webp"
+        width={75}
+        height={95}
+        className="e-commerce-icons object-cover h-auto w-auto absolute right-[166px] top-[235px] max-xl:w-16 max-md:right-0"
+        alt="mobile"
+      />
+      <Image
+        src="/assets/images/webp/male-mac-user-img.webp"
+        width={75}
+        height={95}
+        className="e-commerce-icons object-cover h-auto w-auto absolute right-[147px] bottom-[94px] max-lg:bottom-16  max-xl:w-16 max-md:right-0"
+        alt="mobile"
+      />
+      <Image
+        src="/assets/images/webp/female-mac-user-img.webp"
+        width={75}
+        height={95}
+        className="e-commerce-icons object-cover h-auto w-auto absolute left-[105px] top-[91px] max-xl:w-16 max-md:left-0"
+        alt="mobile"
+      />
+      <Image
+        src="/assets/images/webp/shopeing-bag-img.webp"
+        width={75}
+        height={95}
+        className="e-commerce-icons object-cover h-auto w-auto absolute left-[199px] top-[258px] max-xl:w-16 max-md:left-0"
+        alt="mobile"
+      />
+      <Image
+        src="/assets/images/webp/handshake-img.webp"
+        width={75}
+        height={95}
+        className="e-commerce-icons object-cover h-auto w-auto absolute left-[94px] bottom-[124px] max-xl:w-16 max-lg:bottom-16  max-lg:left-0"
+        alt="mobile"
       />
     </div>
   );
