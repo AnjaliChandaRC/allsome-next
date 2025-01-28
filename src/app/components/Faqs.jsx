@@ -15,7 +15,7 @@ const Faqs = () => {
   }
 
   return (
-    <div className='pb-6 pt-[93px] max-xl:pt-20 max-xl:pb-10 max-lg:py-[60px] max-md:py-10'>
+    <div className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-10'>
       <div className='container'>
         <CustomHeading
           title='Frequently asked questions?'
@@ -33,16 +33,16 @@ const Faqs = () => {
                   e.stopPropagation()
                   toggle(i)
                 }}
-                className={`flex sm:items-center gap-1 justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] pl-5 !pb-[15px] max-md:p-4 max-md:!pb-4 ${
+                className={`flex sm:items-center gap-2 justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] max-md:p-4 pl-5 ${
                   active === i
                     ? '!pb-[11px]'
-                    : 'pb-0 transition-all duration-300'
+                    : '!pb-[15px] transition-all duration-300'
                 }`}
               >
                 {obj.title}
                 <span
                   className={`transition-all duration-300 max-[510px]:pt-[10px] ${
-                    active === i ? 'rotate-180' : ''
+                    active === i ? 'rotate-180 ' : ''
                   }`}
                 >
                   <ArrowIcon />

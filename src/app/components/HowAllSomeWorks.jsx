@@ -5,7 +5,7 @@ import { ROADMAP_LIST } from '../utils/helper';
 const HowAllSomeWorks = () => {
  
   return (
-    <div className="pt-[84px] pb-[124px] max-xl:py-20 max-md:py-16 max-sm:py-10 relative">
+    <div className="pt-[84px] pb-[124px] max-xl:py-20 max-md:py-16 max-sm:py-10 relative max-w-[1920px] mx-auto">
       <div className="!max-w-[591px] !mx-auto text-center">
         <CustomHeading
           title="How"
@@ -16,14 +16,15 @@ const HowAllSomeWorks = () => {
           className="!max-w-[591px] !mx-auto"
         />
       </div>
+      
       <Image
         src="/assets/images/svg/line.svg"
         width={100}
         height={95}
-        className="object-cover w-full absolute max-xl:translate-y-[44px] max-md:hidden"
+        className="object-cover w-full absolute max-xl:translate-y-[44px] max-md:hidden 2xl:translate-y-[-3px] max-2xl:translate-y-0"
         alt="line"
       />
-      <div className=" container">
+      <div className="container 2xl:mt-5 max-2xl:mt-0">
         <div className="flex items-center justify-evenly relative z-10 max-md:flex-wrap">
           {ROADMAP_LIST.map((obj, i) => (
             <div
@@ -36,14 +37,14 @@ const HowAllSomeWorks = () => {
                   : "mt-[55px] max-md:mt-6"
               }`}
             >
-              <div className="lg:size-[60px] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center">
+              <div className="lg:size-[60px] shadow-[0_2px_10px_#36eb58] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center">
                 <p className="text-white font-bold text-center">{obj.numb}</p>
               </div>
               <h3 className="text-lg font-medium text-black leading-custom-8xl pb-[7px] pt-[35px] max-lg:pt-6 max-md:pt-5">
                 {obj.title}
               </h3>
               <p
-                className={`text-base font-normal leading-6 max-w-[228px] ${
+                className={`text-base font-normal leading-6 max-w-[228px] opacity-80 ${
                   i === 1 ? "max-w-[218px]" : ""
                 }`}
               >
@@ -52,7 +53,8 @@ const HowAllSomeWorks = () => {
             </div>
           ))}
         </div>
-      </div>
+        </div>
+        
     </div>
   );
 }

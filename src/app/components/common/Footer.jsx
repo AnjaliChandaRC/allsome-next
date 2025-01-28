@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link";
-import { FacebookIcon, GmailIcon, InstagramIcon, LinkedinIcon } from '@/app/utils/icons';
+import { FacebookIcon, GmailIcon, InstagramIcon, LinkedinIcon } from '../../utils/icons';
 
 const Footer = () => {
   const FOOTER_LIST = [
@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="w-full md:w-4/12 lg:w-5/12">
             <a href="/"><Image src="/assets/images/webp/footer-logo.webp" width={173} height={32} alt="logo" /></a>
             <p className='text-white/70 pt-5'>AllSome is where the logistics works</p>
-            <p className='text-white/70 pt-[38px] pb-4'>Social Media:</p>
+            <p className='text-white/70 sm:pt-[38px] pt-8 pb-4'>Social Media:</p>
             <div className="flex gap-2.5">
               {FOOTER_ICONS.map((obj, i) => (
                 <a key={i} target='blank' href={obj.link} className='p-[7.23px] bg-gradient-to-bl to-lemon via-dark-green from-green rounded-full hover:scale-110 transition-all duration-300 ease-linear relative box-shadow'>{obj.icon} </a>

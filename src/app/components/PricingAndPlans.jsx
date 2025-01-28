@@ -49,7 +49,7 @@ const PRICING_DATA_LIST = [
 
 const PricingAndPlans = () => {
   return (
-    <div className="container pb-[66px] ">
+    <div className="container sm:pb-[66px] pb-10">
       <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
       <CustomDescription styleclass="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
       <div className="flex gap-[39px] max-lg:flex-wrap justify-center">
@@ -75,7 +75,7 @@ const PricingAndPlans = () => {
                 ))}
               </ul>
               <div className="flex items-center justify-center">
-                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] ${index === 1 ? "!bg-black !text-white hover:!bg-white hover:!text-black" : ""}`} />
+                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] ${index === 1 ? "bg-black text-white" : ""}`} />
               </div>
             </div>
             <Image className={`absolute bottom-[-12%] w-full  ${index === 1 ? "block" : "hidden"} `} height={34} width={272} src="/assets/images/webp/price-table-shadow.webp" alt='table shadow' />
