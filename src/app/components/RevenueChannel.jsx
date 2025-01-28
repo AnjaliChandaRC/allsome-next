@@ -18,7 +18,7 @@ const RevenueChannel = () => {
               textTwo='#1 revenue'
               titleTwo='channel'
               styleclassTwo=''
-              styleclass='xl:max-w-[692px] font-kanit max-lg:!max-w-none max-lg:text-center'
+              styleclass='xl:max-w-[692px] !tracking-[-2px] font-kanit max-lg:!max-w-none max-lg:text-center'
             />
             <CustomDescription
               styleclass='!text-black !opacity-80 !max-w-[510px] !leading-6 !pt-[11px] sm:text-base max-lg:!max-w-none max-lg:text-center'
@@ -38,7 +38,7 @@ const RevenueChannel = () => {
             alt='revenue-chart'
             width={483}
             height={357}
-            className='object-cover pointer-events-none rounded-2xl max-w-[483px] lg:h-[357px] max-lg:max-w-[380px] max-md:max-w-[300px] w-full max-lg:pt-8 revenue-img-shadow'
+            className='object-cover pointer-events-none rounded-2xl max-w-[483px] lg:h-[357px] max-lg:max-w-[380px] max-md:max-w-[350px] w-full max-lg:pt-8 lg:revenue-img-shadow'
           />
         </div>
       </div>
