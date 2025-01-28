@@ -16,7 +16,7 @@ const HowAllSomeWorks = () => {
           className="!max-w-[591px] !mx-auto"
         />
       </div>
-      
+
       <Image
         src="/assets/images/svg/line.svg"
         width={100}
@@ -38,14 +38,16 @@ const HowAllSomeWorks = () => {
               }`}
             >
               <div className="lg:size-[60px] shadow-[0_2px_10px_#36eb58] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center">
-                <p className="text-white font-extrabold text-custom-2xl max-md:text-2xl max-sm:text-xl leading-custom-12xl font-kanit text-center ">{obj.numb}</p>
+                <p className="text-white font-extrabold text-custom-2xl max-md:text-2xl max-sm:text-xl leading-custom-12xl font-kanit text-center ">
+                  {obj.numb}
+                </p>
               </div>
               <h3 className="text-lg font-kanit font-medium text-black leading-custom-8xl pb-[7px] pt-[35px] max-lg:pt-6 max-md:pt-5">
                 {obj.title}
               </h3>
               <p
-                className={`text-base font-normal leading-6 max-w-[228px] opacity-80 ${
-                  i === 1 ? "max-w-[218px]" : ""
+                className={`text-base font-normal leading-6 opacity-80 ${
+                  i === 1 ? "max-w-[218px]" : "max-w-[228px]"
                 }`}
               >
                 {obj.description}
@@ -53,8 +55,7 @@ const HowAllSomeWorks = () => {
             </div>
           ))}
         </div>
-        </div>
-        
+      </div>
     </div>
   );
 }
