@@ -53,7 +53,7 @@ const PricingAndPlans = () => {
       <CustomDescription styleclass="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
       <div className="flex gap-[39px] max-lg:flex-wrap justify-center">
         {PRICING_DATA_LIST.map((card, index) => (
-          <div key={index} className={`w-full max-w-[303px] rounded-2xl py-[31px] bg-cover bg-center bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20"} `}>
+          <div key={index} className={`w-full max-w-[303px] rounded-2xl py-[31px] bg-cover bg-center plans-shadow transition-all duration-300 ease-linear bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20 hover:border-transparent "} `}>
             <div className="px-7">
               <h3 className="text-[13px] font-semibold uppercase pb-[3px] ">{card.title}</h3>
               <p className="text-sm mb-4 opacity-80">{card.description}</p>
