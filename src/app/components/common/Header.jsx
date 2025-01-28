@@ -71,16 +71,16 @@ const Header = () => {
           ))}
           <div className="lg:hidden max-lg:block">
             <div className="flex gap-2.5">
-              <CustomButton style='lg:!py-[8.5px] !py-1.5' title='Log in' />
-              <CustomButton style='lg:!py-[8.5px] !py-1.5' title='Start free' />
+              <CustomButton styleclass='lg:!py-[8.5px] !py-1.5' title='Log in' />
+              <CustomButton styleclass='lg:!py-[8.5px] !py-1.5' title='Start free' />
             </div>
           </div>
         </div>
 
         <div className="lg:block max-lg:hidden  ">
           <div className="flex gap-2.5 w-full">
-            <CustomButton style='lg:!py-[8.5px] !py-1.5' title='Log in' />
-            <CustomButton style='lg:!py-[8.5px] !py-1.5' title='Start free' />
+            <CustomButton styleclass='lg:!py-[8.5px] !py-1.5' title='Log in' />
+            <CustomButton styleclass='lg:!py-[8.5px] !py-1.5' title='Start free' />
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link";
-import { FacebookIcon, GmailIcon, InstagramIcon, LinkedlnIcon } from '@/app/utils/icons';
+import { FacebookIcon, GmailIcon, InstagramIcon, LinkedinIcon } from '@/app/utils/icons';
 
 const Footer = () => {
   const FOOTER_LIST = [
@@ -36,7 +36,7 @@ const Footer = () => {
     { icon: <FacebookIcon />, link: "https://www.facebook.com/" },
     { icon: <InstagramIcon />, link: "https://www.instagram.com/" },
     { icon: <GmailIcon />, link: "https://mail.google.com/" },
-    { icon: <LinkedlnIcon />, link: "https://www.linkedin.com/" }
+    { icon: <LinkedinIcon />, link: "https://www.linkedin.com/" }
   ];
 
   return (
