@@ -17,7 +17,7 @@ const SalesOpportunity = () => {
                 description="Be where your shoppers are, both online and offline. Appear to the right audience at the right time, both online and offline to generate sales for you." />
               <CustomButton styleclass="sm:mt-[25px] mt-4 !py-[10px] !px-[22px] !bg-black !text-white max-xl:mx-auto" title="Sign up" />
             </div>
-            <div className='flex xl:justify-start justify-center xl:absolute -right-16'>
+            <div className='flex xl:justify-start justify-center xl:absolute -right-16 max-xl:mt-6'>
               <Image
                 src="/assets/images/webp/sales.webp"
                 width={682}
