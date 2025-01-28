@@ -10,14 +10,14 @@ const TeamsAtService = () => {
         src="/assets/images/webp/light-green-shadow-e-commerce.webp"
         width={656}
         height={596}
-        className="absolute left-0 top-0 object-cover shadow-one h-auto w-auto"
+        className="absolute left-0 top-0 object-cover shadow-one"
         alt="shadow"
       />
       <Image
         src="/assets/images/webp/light-yellow-shadow-e-commerce.webp"
         width={563}
         height={347}
-        className="absolute right-0 bottom-0 object-cover shadow-Two h-auto w-auto"
+        className="absolute right-0 bottom-0 object-cover shadow-Two "
         alt="shadow"
       />
       <div className="pt-[88px] max-xl:pt-0 relative z-20">
@@ -31,11 +31,11 @@ const TeamsAtService = () => {
         </p>
         <div className="flex items-center justify-center gap-[21px] mt-[38px]">
           <CustomButton
-            styleclass="!text-white py-[14px h-[52px] flex items-center justify-center border border-solid border-white rounded-full min-w-[172px] hover:bg-gradient-to-bl to-lemon via-dark-green from-green !transition-all !ease-linear !duration-300"
+            styleclass="!text-white py-[14px h-[52px] flex items-center justify-center border border-solid border-white hover:border-transparent rounded-full min-w-[172px] max-sm:min-w-[140px] hover:bg-gradient-to-bl to-lemon via-dark-green from-green !transition-all !ease-linear !duration-300"
             title="Sign up today"
           />
           <CustomButton
-            styleclass="!text-white py-[14px] border h-[52px] flex items-center justify-center border-solid border-white rounded-full min-w-[171px] hover:bg-gradient-to-bl to-lemon via-dark-green from-green !transition-all !ease-linear !duration-300"
+            styleclass="!text-white py-[14px] border h-[52px] !px-0 flex items-center justify-center border-solid border-white hover:border-transparent rounded-full min-w-[171px] max-sm:min-w-[140px] hover:bg-gradient-to-bl to-lemon via-dark-green from-green !transition-all !ease-linear !duration-300"
             title="Request a demo"
           />
         </div>
@@ -44,43 +44,43 @@ const TeamsAtService = () => {
         src="/assets/images/webp/mobile-img.webp"
         width={75}
         height={95}
-        className="e-commerce-icons object-cover h-auto w-auto absolute right-[76px] top-[91px] max-xl:w-16 max-md:right-0"
+        className="floatStar pointer-events-none object-cover h-auto w-auto absolute right-[76px] top-[91px] max-xl:w-16 max-md:right-0 max-lg:right-10"
         alt="mobile"
       />
       <Image
         src="/assets/images/webp/shopeing-trole-img.webp"
         width={75}
         height={95}
-        className="e-commerce-icons object-cover h-auto w-auto absolute right-[166px] top-[235px] max-xl:w-16 max-md:right-0"
-        alt="mobile"
+        className="floatStar pointer-events-none object-cover h-auto w-auto max-md:hidden absolute right-[166px] top-[235px] max-xl:w-16 max-md:right-0 max-lg:right-14"
+        alt="shope-trolly"
       />
       <Image
         src="/assets/images/webp/male-mac-user-img.webp"
         width={75}
         height={95}
-        className="e-commerce-icons object-cover h-auto w-auto absolute right-[147px] bottom-[94px] max-lg:bottom-16  max-xl:w-16 max-md:right-0"
-        alt="mobile"
+        className="floatStar pointer-events-none object-cover h-auto w-auto absolute right-[147px] bottom-[94px] max-lg:bottom-16  max-xl:w-16 max-md:right-0 max-lg:right-14"
+        alt="user"
       />
       <Image
         src="/assets/images/webp/female-mac-user-img.webp"
         width={75}
         height={95}
-        className="e-commerce-icons object-cover h-auto w-auto absolute left-[105px] top-[91px] max-xl:w-16 max-md:left-0"
-        alt="mobile"
+        className="floatStar pointer-events-none object-cover h-auto w-auto absolute left-[105px] top-[91px] max-xl:w-16 max-md:left-0 max-lg:left-14"
+        alt="user"
       />
       <Image
         src="/assets/images/webp/shopeing-bag-img.webp"
         width={75}
         height={95}
-        className="e-commerce-icons object-cover h-auto w-auto absolute left-[199px] top-[258px] max-xl:w-16 max-md:left-0"
-        alt="mobile"
+        className="floatStar pointer-events-none object-cover h-auto w-auto absolute left-[199px] top-[258px] max-xl:w-16 max-md:top-56 max-lg:left-20 max-md:left-0"
+        alt="shope-bag"
       />
       <Image
         src="/assets/images/webp/handshake-img.webp"
         width={75}
         height={95}
-        className="e-commerce-icons object-cover h-auto w-auto absolute left-[94px] bottom-[124px] max-xl:w-16 max-lg:bottom-16  max-lg:left-0"
-        alt="mobile"
+        className="floatStar pointer-events-none object-cover h-auto w-auto absolute left-[94px] bottom-[124px] max-xl:w-16 max-lg:bottom-16  max-lg:left-0 max-md:hidden"
+        alt="handshake"
       />
     </div>
   );
