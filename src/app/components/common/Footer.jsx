@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link";
+import { FacebookIcon, GmailIcon, InstagramIcon, LinkedlnIcon } from '@/app/utils/icons';
 
 const Footer = () => {
   const FOOTER_LIST = [
@@ -30,6 +31,12 @@ const Footer = () => {
         { name: "United States", href: "#" }
       ]
     }
+  ]
+  const FOOTER_ICONS = [
+    { icon: <FacebookIcon />, link: "https://www.facebook.com/" },
+    { icon: <InstagramIcon />, link: "https://www.instagram.com/" },
+    { icon: <GmailIcon />, link: "https://mail.google.com/" },
+    { icon: <LinkedlnIcon />, link: "https://www.linkedin.com/" }
   ];
 
   return (
@@ -39,6 +46,12 @@ const Footer = () => {
           <div className="w-full lg:w-5/12">
             <a href="/"><Image src="/assets/images/webp/footer-logo.webp" width={173} height={32} alt="logo" /></a>
             <p className='text-white/70 pt-5'>AllSome is where the logistics works</p>
+            <p className='text-white/70 pt-[38px] pb-4'>Social Media:</p>
+            {FOOTER_ICONS.map((obj, i) => (
+              <a key={i} target='blank' href={obj.link} className='hover:scale-110 transition-all duration-300 ease-linear'>{obj.icon}</a>
+            ))}
+            <div className="flex items-center justify-center gap-5">
+            </div>
           </div>
           <div className="flex text-white w-full lg:w-5/12 justify-between pt-10">
             {FOOTER_LIST.map((obj, index) => (

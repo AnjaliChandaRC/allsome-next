@@ -49,8 +49,8 @@ const PRICING_DATA_LIST = [
 const PricingAndPlans = () => {
   return (
     <div className="container">
-      <CustomHeading style="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
-      <CustomDescription style="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
+      <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
+      <CustomDescription styleclass="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
       <div className="flex gap-[39px] max-lg:flex-wrap justify-center">
         {PRICING_DATA_LIST.map((card, index) => (
           <div key={index} className={`w-full max-w-[303px] rounded-2xl py-[31px] bg-cover bg-center bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20"} `}>
@@ -67,11 +67,11 @@ const PricingAndPlans = () => {
                 {card.features.map((feature, i) => (
                   <li key={i} className="flex gap-3">
                     <span className='pt-1.5 !opacity-100'> <CheckIcon />
-                    </span> <span className="opacity-80">{feature}</span></li>
+                    </span> <span className="opacity-80 text-[13px] ">{feature}</span></li>
                 ))}
               </ul>
               <div className="flex items-center justify-center">
-                <CustomButton title="Start for free" style={`!py-3 !px-[67px] ${index === 1 ? "!bg-black !text-white" : ""}`} />
+                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] ${index === 1 ? "!bg-black !text-white" : ""}`} />
               </div>
             </div>
           </div>
