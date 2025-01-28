@@ -56,6 +56,10 @@ body {
   }
 }
 
+.e-commerce-box-icon{
+   animation: floatStar 3s ease infinite;
+}
+
 .floatStar {
 .revolve {
   animation: revolve 12s ease infinite;
