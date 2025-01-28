@@ -6,8 +6,6 @@ export const metadata = {
   description: "SELL & SHIP EVERYWHERE",
   metadataBase: new URL('https://allsome-next.vercel.app'),
   openGraph: {
-    title: "Hyperleen",
-    description: "Transform Your Data into AI Insights",
     images: '/meta-image.png',
   },
 };
