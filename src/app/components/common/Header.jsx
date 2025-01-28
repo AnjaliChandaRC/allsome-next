@@ -46,15 +46,15 @@ const Header = () => {
   return (
     <div className="flex justify-between flex-col w-full">
       <div className="w-full bg-black">
-        <div className={`max-w-[1320px] flex justify-between max-md:flex-col w-full mx-auto lg:py-[13px] py-2 items-center max-xl:px-6`}>
-          <CustomDescription style="lg:!text-xs !text-[10px] lg:!leading-custom-2xl !text-white" description='AllSome is your e-commerce operation team to auto-send your sold orders.' />
+        <div className={`max-w-[1140px] flex justify-between max-md:flex-col w-full mx-auto lg:py-[13px] py-2 items-center max-xl:px-6`}>
+          <CustomDescription styleclass="lg:!text-xs !text-[10px] lg:!leading-custom-2xl !text-white" description='AllSome is your e-commerce operation team to auto-send your sold orders.' />
           <select className="bg-transparent outline-none text-white flex justify-center items-center appearance" name="Eng" id="">
             <option className="text-black" value="">Eng</option>
             <option className="text-black" value="">Hindi</option>
           </select>
         </div>
       </div>
-      <div className="max-w-[1320px] flex justify-between w-full mx-auto lg:py-[13px] py-2 items-center max-xl:px-6">
+      <div className="max-w-[1140px] flex justify-between w-full mx-auto lg:py-[13px] py-2 items-center max-xl:px-6">
         <button onClick={handleOpen} className={`hidden size-7 justify-center max-lg:absolute max-lg:right-5 relative z-[70] max-lg:flex flex-col overflow-hidden`}>
           <span className={`w-6 transition-all duration-300 min-h-[2px] max-h-[2px] mb-1 bg-black relative after:w-full after:h-full  after:absolute after:top-0 after:left-0 ${open ? "rotate-45 after:rotate-90 after:bg-white !bg-white" : ""}`}></span>
           <span className={`w-6 transition-all duration-300 min-h-[2px] max-h-[2px] mb-1 bg-black ${open ? "hidden" : ""}`}></span>
