@@ -1,3 +1,4 @@
+import BackToTopButton from "./components/common/BackToTopButton";
 import Footer from "./components/common/Footer";
 import "./globals.css";
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning>
         {children}
         <Footer />
+        <BackToTopButton />
       </body>
     </html>
   );
