@@ -13,15 +13,15 @@ const Hero = () => {
         <div className="container mx-auto ">
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:py-[114px] py-10 relative">
-              <Image className='absolute xl:-left-32 left-0 floatStar max-md:top-20 xl:max-w-40 lg:max-w-32 md:max-w-24 max-w-20 opacity-80 w-full' src='/assets/images/webp/hero-ellipse-img-1.webp' width={213} height={230} alt='ellipse-img-1' />
+              <Image className='absolute xl:-left-32 left-0 e-commerce-box-icon max-md:top-20 xl:max-w-40 lg:max-w-32 md:max-w-24 max-w-20 opacity-80 w-full' src='/assets/images/webp/hero-ellipse-img-1.webp' width={213} height={230} alt='ellipse-img-1' />
               <Image className='absolute lg:right-28 md:right-20 right-12 top-4 revolve xl:max-w-24 lg:max-w-20 max-w-16 opacity-80 w-full' src='/assets/images/webp/hero-ellipse-img-2.webp' width={213} height={230} alt='ellipse-img-1' />
-              <Image className='absolute lg:right-[36%]  md:right-14 right-7 bottom-6 bounce xl:max-w-24 lg:max-w-20 max-w-16 opacity-80 w-full' src='/assets/images/webp/hero-ellipse-img-3.webp' width={213} height={230} alt='ellipse-img-1' />
+              <Image className='absolute lg:right-[36%] md:right-14 right-7 bottom-6 bounce xl:max-w-24 lg:max-w-20 max-w-16 opacity-80 w-full' src='/assets/images/webp/hero-ellipse-img-3.webp' width={213} height={230} alt='ellipse-img-1' />
               <div className="relative z-20">
                 <h1 className='uppercase lg:mb-2.5 mb-1.5 font-kanit text-black font-extrabold xl:text-custom-6xl lg:text-custom-5xl md:text-custom-4xl sm:text-custom-3xl text-custom-2xl max-w-[579px] !leading-[100%] text-start'>SELL & SHIP EVERYWHERE</h1>
                 <CustomDescription styleclass="xl:mb-[34px] lg:mb-7 md:mb-5 mb-4 max-w-[450px] lg:!text-lg !text-base" description="Turn your inventory into sales channel. Sell more stuff everywhere" />
                 <div className="flex gap-2">
                   <CustomButton styleclass='xl:!py-[14.5px] lg:!py-3 !py-2 xl:!px-[34.5px] !bg-black text-white hover:!bg-transparent hover:text-black' title='Sign up for free' />
-                  <CustomButton styleclass='xl:!py-[14.5px] lg:!py-3 !py-2 xl:!px-[25px] group' styleclassTwo='!block icon' icon={<WhatsAppLogo />} title='Whatsapp us' />
+                  <CustomButton styleclass='xl:!py-[14.5px] lg:!py-3 !py-2 xl:!px-[25px] group' styleclassTwo='!block' icon={<WhatsAppLogo />} title='Whatsapp us' />
                 </div>
               </div>
             </div>
