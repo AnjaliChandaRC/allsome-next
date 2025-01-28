@@ -8,6 +8,12 @@
 body {
   font-family: 'Inter', serif;
 }
+.group:hover .icon svg path {
+  fill: white;
+}
+.group:hover .icon svg path.logo {
+  fill: green !important;
+}
 
 .e-commerce-btn {
   background: transparent;
