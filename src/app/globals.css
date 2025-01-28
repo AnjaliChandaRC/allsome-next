@@ -9,15 +9,6 @@ body {
   font-family: 'Inter', serif;
 }
 
-.e-commerce-btn {
-  background: transparent;
-  transition: all ease-in-out 0.3s;
-}
-
-.e-commerce-btn:hover {
-  background: linear-gradient(94.55deg, #C7FF51 -14.37%, #00C934 49.67%, #51FFC0 111.65%);
-  border: transparent;
-}
 
 .green-gradient {
   background: linear-gradient(94.55deg, #C7FF51 -14.37%, #00C934 49.67%, #51FFC0 111.65%);
