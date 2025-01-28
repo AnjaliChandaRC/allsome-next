@@ -1,6 +1,6 @@
 import { Channels, Commerce, CustomizableOperations, DataInsights, Exchange, GiveAway, InventoryReports, Maps, Purchase, ShipFast } from '../utils/icons';
 
-export  const ROADMAP_LIST = [
+export const ROADMAP_LIST = [
   {
     numb: 1,
     title: "Connect store",
@@ -19,7 +19,7 @@ export  const ROADMAP_LIST = [
   },
 ];
 
-export  const OPERATIONS_LIST = [
+export const OPERATIONS_LIST = [
   {
     cardIcon: "/assets/images/webp/frock-img.webp",
     title: "Fashion & Apparel",
@@ -53,88 +53,140 @@ export  const OPERATIONS_LIST = [
 ]
 
 export const BEST_DATA = [
-    {
-        cardSvg: <Channels />,
-        title: "Multiple channels",
-        description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
-    },
-    {
-        cardSvg: <ShipFast />,
-        title: "Ship fast",
-        description: "Domestic, international, Cash on Delivery (COD), standard, same day, one hour or self pick up.",
-    },
-    {
-        cardSvg: <Commerce />,
-        title: "E-commerce malls",
-        description: "Free access to 3,000+ locations. Be next to your shopper to make the experience real.",
-    },
-    {
-        cardSvg: <Maps />,
-        title: "Shareable maps",
-        description: "Get discovered through world maps, share with single click and welcome shoppers.",
-    },
-    {
-        cardSvg: <Purchase />,
-        title: "Try before purchase",
-        description: "Let shoppers find and order the most suitable one, they will definitely return again!",
-    },
-    {
-        cardSvg: <Exchange />,
-        title: "Return & exchange",
-        description: "Return to store and exchange same day. Free shipping and 10x faster return experience.",
-    },
-    {
-        cardSvg: <CustomizableOperations />,
-        title: "Customizable operations",
-        description: "Share your e-commerce procedures and outlets execute as instructed. Take control and work from anywhere.",
-    },
-    {
-        cardSvg: <InventoryReports />,
-        title: "Inventory reports",
-        description: "Clean & report for inbound, in-store and shipped SKUs. By orders, locations and dates.",
-    },
-    {
-        cardSvg: <GiveAway />,
-        title: "Giveaway & samples",
-        description: "Reach more shoppers with your trial sets and let the products sell for themselves!",
-    },
-    {
-        cardSvg: <DataInsights />,
-        title: "Data insights",
-        description: "Get actionable insights and know how your shoppers interact with your products in real life.",
-    },
+  {
+    cardSvg: <Channels />,
+    title: "Multiple channels",
+    description: "Integrate seamlessly, AllSome Open API, bulk upload and place single order through portal.",
+  },
+  {
+    cardSvg: <ShipFast />,
+    title: "Ship fast",
+    description: "Domestic, international, Cash on Delivery (COD), standard, same day, one hour or self pick up.",
+  },
+  {
+    cardSvg: <Commerce />,
+    title: "E-commerce malls",
+    description: "Free access to 3,000+ locations. Be next to your shopper to make the experience real.",
+  },
+  {
+    cardSvg: <Maps />,
+    title: "Shareable maps",
+    description: "Get discovered through world maps, share with single click and welcome shoppers.",
+  },
+  {
+    cardSvg: <Purchase />,
+    title: "Try before purchase",
+    description: "Let shoppers find and order the most suitable one, they will definitely return again!",
+  },
+  {
+    cardSvg: <Exchange />,
+    title: "Return & exchange",
+    description: "Return to store and exchange same day. Free shipping and 10x faster return experience.",
+  },
+  {
+    cardSvg: <CustomizableOperations />,
+    title: "Customizable operations",
+    description: "Share your e-commerce procedures and outlets execute as instructed. Take control and work from anywhere.",
+  },
+  {
+    cardSvg: <InventoryReports />,
+    title: "Inventory reports",
+    description: "Clean & report for inbound, in-store and shipped SKUs. By orders, locations and dates.",
+  },
+  {
+    cardSvg: <GiveAway />,
+    title: "Giveaway & samples",
+    description: "Reach more shoppers with your trial sets and let the products sell for themselves!",
+  },
+  {
+    cardSvg: <DataInsights />,
+    title: "Data insights",
+    description: "Get actionable insights and know how your shoppers interact with your products in real life.",
+  },
 ];
 
 export const OVERFLOW_SWIPER_DATA_LIST = [
-    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
-    { image: "/assets/images/webp/brightland.webp", width: 45, height: 32 },
-    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 32 },
-    { image: "/assets/images/webp/crossnet.webp", width: 91.92, height: 32 },
-    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 32 },
-    { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 32 },
-    { image: "/assets/images/webp/death-wish.webp", width: 87, height: 32 },
-    { image: "/assets/images/webp/native.webp", width: 91.59, height: 32 },
+  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 32 },
+  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 32 },
+  { image: "/assets/images/webp/crossnet.webp", width: 91.92, height: 32 },
+  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 32 },
+  { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 32 },
+  { image: "/assets/images/webp/death-wish.webp", width: 87, height: 32 },
+  { image: "/assets/images/webp/native.webp", width: 91.59, height: 32 },
 ]
 
 export const OPPOSITESIDE_ONE_DATA_LIST = [
-    { image: "/assets/images/webp/native.webp", width: 91.59, height: 32 },
-    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 8 },
-    { image: "/assets/images/webp/brightland.webp", width: 45, height: 33 },
-    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33 },
-    { image: "/assets/images/webp/crossnet.webp", width: 91.92, height: 33 },
-    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33 },
-    { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 23 },
-    { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29 },
-    { image: "/assets/images/webp/native.webp", width: 91.59, height: 33 },
+  { image: "/assets/images/webp/native.webp", width: 91.59, height: 32 },
+  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 8 },
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 33 },
+  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33 },
+  { image: "/assets/images/webp/crossnet.webp", width: 91.92, height: 33 },
+  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33 },
+  { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 23 },
+  { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29 },
+  { image: "/assets/images/webp/native.webp", width: 91.59, height: 33 },
 ]
 
 export const TRUST_LIST = [
-    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
-    { image: "/assets/images/webp/brightland.webp", width: 45, height: 32 },
-    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 32 },
-    { image: "/assets/images/webp/crossnet.webp", width: 91.92, height: 32 },
-    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 32 },
-    { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 32 },
-    { image: "/assets/images/webp/death-wish.webp", width: 87, height: 32 },
-    { image: "/assets/images/webp/native.webp", width: 91.59, height: 32 },
+  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 32 },
+  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 32 },
+  { image: "/assets/images/webp/crossnet.webp", width: 91.92, height: 32 },
+  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 32 },
+  { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 32 },
+  { image: "/assets/images/webp/death-wish.webp", width: 87, height: 32 },
+  { image: "/assets/images/webp/native.webp", width: 91.59, height: 32 },
+]
+
+
+export const FAQ_LIST = [
+  {
+    title: 'How can my shoppers try my products at outlets?',
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  },
+  {
+    title: "I'm selling in Shopee, what is the total fee to ship an order?",
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  },
+  {
+    title: 'I sell in multiple e-commerce platform, can I still use AllSome?',
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  },
+  {
+    title: 'How can I pass AllSome the order details & instructions?',
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  },
+  {
+    title: 'Can AllSome supports return & exchange?',
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  },
+  {
+    title: 'Can I use AllSome to collect Cash On Delivery (COD)?',
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  },
+  {
+    title: 'How storage fee is calculated?',
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  },
+  {
+    title: 'What if I stored more than 30 meter cubes per month?',
+    description:
+      'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
+    secondDescription: 'Contact us to learn more'
+  }
 ]

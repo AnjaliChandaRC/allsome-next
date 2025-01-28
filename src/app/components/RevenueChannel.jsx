@@ -6,7 +6,7 @@ import CustomDescription from './common/CustomDescription'
 
 const RevenueChannel = () => {
   return (
-    <div className='bg-light-green rounded-[40px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:py-[60px] max-md:py-10 overflow-hidden'>
+    <div className='bg-light-green rounded-[40px] max-md:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:py-[60px] max-md:py-10 overflow-hidden'>
       <div className='container'>
         <div className='flex items-center justify-between xl:gap-10 max-lg:flex-wrap max-lg:justify-center'>
           <div className='flex flex-col'>
