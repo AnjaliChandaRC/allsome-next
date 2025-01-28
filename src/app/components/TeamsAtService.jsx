@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const TeamsAtService = () => {
   return (
-    <div className="bg-cover bg-no-repeat bg-center h-[606px] max-xl:h-full max-xl:p-24 max-lg:p-20 max-md:p-16 max-sm:p-12 rounded-[40px] bg-e-commerce relative overflow-hidden">
+    <div className="bg-cover bg-no-repeat bg-center h-[606px] max-xl:h-full max-xl:p-24 max-lg:p-20 max-md:rounded-[20px] max-md:p-16 max-sm:p-12 rounded-[40px] bg-e-commerce relative overflow-hidden">
       <Image
         src="/assets/images/webp/light-green-shadow-e-commerce.webp"
         width={656}

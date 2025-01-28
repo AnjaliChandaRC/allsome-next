@@ -5,11 +5,12 @@ import CustomButton from './common/CustomButton';
 import { OPERATIONS_LIST } from '../utils/helper';
 const DrivesOperations = () => {
   return (
-    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16 max-lg:py-12 max-md:py-10">
+    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16 max-lg:py-12 max-md:py-10 max-md:rounded-[20px]">
       <div className="container">
         <CustomHeading
           styleclass="max-w-[915px] mx-auto text-center"
-          text="AllSome" styleclassOne=''
+          text="AllSome"
+          styleclassOne=""
           title="drives operations for every e-commerce businesses"
         />
         <p className="text-center pt-[22px] opacity-80 font-normal text-base leading-6 pb-[49px] max-xl:py-6">
@@ -20,7 +21,7 @@ const DrivesOperations = () => {
           {OPERATIONS_LIST.map((obj, i) => (
             <div
               key={i}
-              className="bg-white rounded-lg pt-[31px] pb-[17px] h-[284px] shadow-[0px_5px_12px_0px_#D1EFE9] min-w-[212px] flex items-center justify-center flex-col"
+              className="bg-white plans-shadow transition-all ease-linear duration-300 rounded-lg pt-[31px] pb-[17px] h-[284px] shadow-[0px_5px_12px_0px_#D1EFE9] min-w-[212px] flex items-center justify-center flex-col"
             >
               <Image
                 src={obj.cardIcon}
@@ -45,7 +46,10 @@ const DrivesOperations = () => {
             </div>
           ))}
         </div>
-        <CustomButton title="Meet our customers" styleclass="mt-[44px] max-lg:mt-10 max-md:mt-7 max-sm:mt-5 mx-auto px-[33px] max-md:min-w-[170px] max-md:px-0  min-w-[222px] h-[52px] flex items-center justify-center"/>
+        <CustomButton
+          title="Meet our customers"
+          styleclass="mt-[44px] max-lg:mt-10 max-md:mt-7 max-sm:mt-5 mx-auto px-[33px] max-md:min-w-[170px] max-md:px-0  min-w-[222px] h-[52px] flex items-center justify-center"
+        />
       </div>
     </div>
   );
