@@ -3,10 +3,12 @@ import CustomHeading from './common/CustomHeading'
 import Image from 'next/image'
 import CustomDescription from './common/CustomDescription'
 import CustomButton from './common/CustomButton'
+import CustomBrandsLayout from './common/CustomBrandsLayout'
 
 const SuccessFulfillments = () => {
   return (
     <div className='lg:pt-[77px] md:pt-12 lg:pb-[34px] sm:pb-7 py-6'>
+       <CustomBrandsLayout />
       <div className='container'>
         <CustomHeading styleclass="max-w-[843px] mx-auto text-center font-kanit" title="Everything your brands needs for" textTwo="success" styleclassTwo="" titleTwo="with fulfillment" />
         <div className='lg:flex-row flex lg:pt-[167px] md:pt-14 sm:pt-10  pt-8 lg:gap-[145px] flex-col gap-7'>
@@ -31,3 +33,6 @@ const SuccessFulfillments = () => {
 }
 
 export default SuccessFulfillments
+
+
+// 
