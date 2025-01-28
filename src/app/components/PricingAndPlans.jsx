@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image'
 import CustomButton from './common/CustomButton';
 import CustomHeading from './common/CustomHeading';
 import CustomDescription from './common/CustomDescription';
@@ -48,12 +49,12 @@ const PRICING_DATA_LIST = [
 
 const PricingAndPlans = () => {
   return (
-    <div className="container">
+    <div className="container pb-[66px] ">
       <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
       <CustomDescription styleclass="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
       <div className="flex gap-[39px] max-lg:flex-wrap justify-center">
         {PRICING_DATA_LIST.map((card, index) => (
-          <div key={index} className={`w-full max-w-[303px] rounded-2xl py-[31px] bg-cover bg-center plans-shadow transition-all duration-300 ease-linear bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20 hover:border-transparent "} `}>
+          <div key={index} className={`w-full relative max-w-[303px] rounded-2xl py-[31px] bg-cover bg-center plans-shadow transition-all duration-300 ease-linear bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20 hover:border-transparent "} `}>
             <div className="px-7">
               <h3 className="text-[13px] font-semibold uppercase pb-[3px] ">{card.title}</h3>
               <p className="text-sm mb-4 opacity-80">{card.description}</p>
@@ -65,15 +66,19 @@ const PricingAndPlans = () => {
             <div className="px-7">
               <ul className="space-y-[7px] pt-3 pb-[35px] text-left">
                 {card.features.map((feature, i) => (
-                  <li key={i} className="flex gap-3">
-                    <span className='pt-1.5 !opacity-100'> <CheckIcon />
-                    </span> <span className="opacity-80 text-[13px] ">{feature}</span></li>
+                  <li key={i} className={`flex gap-3`}>
+                    <span className={`pt-1.5 ${index === 1 ? "icon" : ""}`}>
+                      <CheckIcon />
+                    </span>
+                    <span className="opacity-80 text-[13px]">{feature}</span>
+                  </li>
                 ))}
               </ul>
               <div className="flex items-center justify-center">
-                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] ${index === 1 ? "!bg-black !text-white" : ""}`} />
+                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] ${index === 1 ? "!bg-black !text-white hover:!bg-white hover:!text-black" : ""}`} />
               </div>
             </div>
+            <Image className={`absolute bottom-[-12%] w-full  ${index === 1 ? "block" : "hidden"} `} height={34} width={272} src="/assets/images/webp/price-table-shadow.webp" alt='table shadow' />
           </div>
         ))}
       </div>
@@ -81,4 +86,4 @@ const PricingAndPlans = () => {
   )
 }
 
-export default PricingAndPlans
+export default PricingAndPlans;
