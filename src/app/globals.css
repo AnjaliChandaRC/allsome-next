@@ -30,8 +30,17 @@ body {
 }
 
 .plans-shadow:hover {
-  box-shadow: 0 4px 10px #36eb58;
+  box-shadow: 0 4px 10px #36EB58;
 }
+
+.icon svg path {
+  fill: black;
+}
+
+.form-box-shadow {
+  box-shadow: 26px 31px 50px 0px #0000001A;
+}
+
 
 @keyframes floatStar {
   0% {

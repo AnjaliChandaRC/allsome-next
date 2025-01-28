@@ -28,6 +28,8 @@ export default {
         "deep-green": "#00E765",
         green: "#51FFAB",
         "ghost-white": "#F9F9F9",
+        "minty-green": "#06FF88",
+        "vivid-green": "#05ED38",
       },
       fontSize: {
         "custom-2xl": "32px",
