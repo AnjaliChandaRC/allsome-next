@@ -5,9 +5,9 @@ import CustomButton from './common/CustomButton'
 
 const Shoppers = () => {
   return (
-    <div className='py-0 max-lg:py-[60px] overflow-hidden'>
+    <div className='pt-6 pb-[120px] max-xl:py-[60px] max-md:py-10 overflow-hidden'>
       <div className='container'>
-        <div className='flex items-center justify-between max-lg:flex-wrap max-lg:justify-center w-full'>
+        <div className='flex items-center justify-between xl:gap-10 max-lg:flex-wrap max-lg:justify-center w-full'>
           <div className='max-lg:text-center w-full'>
             <p className='font-kanit text-xl font-semibold leading-5 text-dark-green pb-[7px]'>
               Know where are your shoppers
@@ -30,13 +30,13 @@ const Shoppers = () => {
               />
             </div>
           </div>
-          <div className='w-full flex justify-center'>
+          <div className='w-full max-lg:flex max-lg:justify-center max-lg:pt-8'>
             <Image
               src='/assets/images/webp/shoppers-earth.webp'
               alt='revenue-chart'
               width={503}
               height={490}
-              className='object-cover pointer-events-none max-w-[503px] h-[490px] max-[1023px]:max-w-[460px] block max-lg:max-w-80 max-md:max-w-80'
+              className='pointer-events-none max-w-[480px] h-[450px] max-xl:max-w-[460px] max-lg:h-[420px] block max-md:!max-w-[350px] max-md:h-[330px]'
             />
           </div>
         </div>
