@@ -35,7 +35,7 @@ const TeamsAtService = () => {
             title="Sign up today"
           />
           <CustomButton
-            styleclass="text-white border border-solid border-white !min-w-[172px] !h-[52px] flex items-center justify-center"
+            styleclass="text-white border border-solid border-white !min-w-[172px] !h-[52px] flex items-center justify-center max-sm:!min-w-[140px]"
             title="Request a demo"
           />
         </div>
