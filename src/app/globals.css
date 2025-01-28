@@ -4,43 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   font-family: 'Inter', serif;
 }
 
-.group:hover .icon svg path {
-  fill: white;
-}
-
-.group:hover .icon svg path.logo {
-  fill: green !important;
+.line{
+  content: '';
 }
 
 .green-gradient {
-  background: linear-gradient(
-    94.55deg,
-    #c7ff51 -14.37%,
-    #00c934 49.67%,
-    #51ffc0 111.65%
-  );
+  background: linear-gradient(94.55deg, #C7FF51 -14.37%, #00C934 49.67%, #51FFC0 111.65%);
 }
 
 .box-shadow {
-  box-shadow: 0 2px 10px #36eb58;
+  box-shadow: 0 2px 10px #36EB58;
 }
 
 .plans-shadow:hover {
   box-shadow: 0 4px 10px #36EB58;
 }
-
-.icon svg path {
-  fill: black;
-}
-
-.form-box-shadow {
-  box-shadow: 26px 31px 50px 0px #0000001A;
-}
-
 
 @keyframes floatStar {
   0% {
@@ -56,10 +39,8 @@ body {
   }
 }
 
-.floatStar {
 .revolve {
   animation: revolve 12s ease infinite;
-}
 }
 
 @keyframes revolve {
@@ -93,7 +74,6 @@ body {
 }
 
 
-
 @keyframes bounce {
 
   0%,
@@ -124,45 +104,3 @@ body {
 .linear-slider .swiper-wrapper {
   transition-timing-function: linear !important;
 }
-
-.revenue-img-shadow {
-  box-shadow: 17px 20px 36px 0px #c6f0e7 !important;
-}
- @keyframes zoomAnimation {
-   0% {
-     transform: scale(1);
-     opacity: 1;
-   }
-
-   50% {
-     transform: scale(1.2);
-     opacity: 0.5;
-   }
-
-   100% {
-     transform: scale(1);
-     opacity: 1;
-   }
- }
-    @keyframes zoomOutAnimation {
-      0% {
-        transform: scale(1);
-        opacity: 0.5;
-      }
-  
-      50% {
-        transform: scale(1.2);
-        opacity: 1;
-      }
-  
-      100% {
-        transform: scale(1);
-        opacity: 0.5;
-      }
-    }
- .ninja{
-    animation: zoomAnimation 3s infinite alternate ease-in-out;
- }
-    .shopify {
-      animation: zoomOutAnimation 3s infinite alternate ease-in-out;
-    }
