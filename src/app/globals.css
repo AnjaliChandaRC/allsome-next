@@ -4,29 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   font-family: 'Inter', serif;
 }
 
-.group:hover .icon svg path {
-  fill: white;
-}
-
-.group:hover .icon svg path.logo {
-  fill: green !important;
+.line {
+  content: '';
 }
 
 .green-gradient {
-  background: linear-gradient(
-    94.55deg,
-    #c7ff51 -14.37%,
-    #00c934 49.67%,
-    #51ffc0 111.65%
-  );
+  background: linear-gradient(94.55deg, #C7FF51 -14.37%, #00C934 49.67%, #51FFC0 111.65%);
 }
 
 .box-shadow {
-  box-shadow: 0 2px 10px #36eb58;
+  box-shadow: 0 2px 10px #36EB58;
 }
 
 .plans-shadow:hover {
@@ -40,6 +32,7 @@ body {
 .form-box-shadow {
   box-shadow: 26px 31px 50px 0px #0000001A;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -65,10 +58,8 @@ input[type=number] {
   }
 }
 
-.floatStar {
 .revolve {
   animation: revolve 12s ease infinite;
-}
 }
 
 @keyframes revolve {
@@ -100,7 +91,6 @@ input[type=number] {
 .bounce {
   animation: bounce 4s ease infinite;
 }
-
 
 
 @keyframes bounce {
@@ -137,41 +127,45 @@ input[type=number] {
 .revenue-img-shadow {
   box-shadow: 17px 20px 36px 0px #c6f0e7 !important;
 }
- @keyframes zoomAnimation {
-   0% {
-     transform: scale(1);
-     opacity: 1;
-   }
 
-   50% {
-     transform: scale(1.2);
-     opacity: 0.5;
-   }
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
 
-   100% {
-     transform: scale(1);
-     opacity: 1;
-   }
- }
-    @keyframes zoomOutAnimation {
-      0% {
-        transform: scale(1);
-        opacity: 0.5;
-      }
-  
-      50% {
-        transform: scale(1.2);
-        opacity: 1;
-      }
-  
-      100% {
-        transform: scale(1);
-        opacity: 0.5;
-      }
-    }
- .ninja-logo{
-    animation: zoomAnimation 3s infinite alternate ease-in-out;
- }
-    .shopify-logo {
-      animation: zoomOutAnimation 3s infinite alternate ease-in-out;
-    }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomOutAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+}
+
+.ninja-logo {
+  animation: zoomAnimation 3s infinite alternate ease-in-out;
+}
+
+.shopify-logo {
+  animation: zoomOutAnimation 3s infinite alternate ease-in-out;
+}

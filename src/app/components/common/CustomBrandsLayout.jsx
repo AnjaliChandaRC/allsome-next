@@ -11,6 +11,7 @@ const CustomBrandsLayout = ({ title, description, buttonText, reverse, myImage ,
                 <Image src={myImage}
                     width={400}
                     height={400}
+                    alt='image'
                 />
                 </div>
                 <div className="max-w-[400px]">
