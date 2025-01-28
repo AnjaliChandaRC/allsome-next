@@ -8,9 +8,11 @@
 body {
   font-family: 'Inter', serif;
 }
+
 .group:hover .icon svg path {
   fill: white;
 }
+
 .group:hover .icon svg path.logo {
   fill: green !important;
 }
@@ -25,7 +27,7 @@ body {
 }
 
 .plans-shadow:hover {
-  box-shadow:0 4px 10px #36EB58;
+  box-shadow: 0 4px 10px #36EB58;
 }
 
 @keyframes floatStar {
@@ -48,8 +50,4 @@ body {
 
 .change-direction {
   direction: rtl;
-}
-
-.linear-slider .swiper-wrapper {
-  transition-timing-function: linear !important;
 }
