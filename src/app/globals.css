@@ -83,33 +83,7 @@ body {
   animation: bounce 4s ease infinite;
 }
 
-.bounce-in-right {
-  animation: bounce-in-right 5s ease infinite;
-}
 
-@keyframes bounce-in-right {
-  0% {
-    opacity: 0;
-    transform: translateX(2000px);
-  }
-
-  30% {
-    opacity: 1;
-    transform: translateX(-30px);
-  }
-
-  50% {
-    transform: translateX(-40px);
-  }
-
-  50% {
-    transform: translateX(40px);
-  }
-
-  100% {
-    transform: translateX(2000px);
-  }
-}
 
 @keyframes bounce {
 
