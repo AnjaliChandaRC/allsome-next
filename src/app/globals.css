@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   font-family: 'Inter', serif;
 }
@@ -17,17 +16,21 @@ body {
   fill: green !important;
 }
 
-
 .green-gradient {
-  background: linear-gradient(94.55deg, #C7FF51 -14.37%, #00C934 49.67%, #51FFC0 111.65%);
+  background: linear-gradient(
+    94.55deg,
+    #c7ff51 -14.37%,
+    #00c934 49.67%,
+    #51ffc0 111.65%
+  );
 }
 
 .box-shadow {
-  box-shadow: 0 2px 10px #36EB58;
+  box-shadow: 0 2px 10px #36eb58;
 }
 
 .plans-shadow:hover {
-  box-shadow: 0 4px 10px #36EB58;
+  box-shadow: 0 4px 10px #36eb58;
 }
 
 @keyframes floatStar {
@@ -137,4 +140,8 @@ body {
 
 .linear-slider .swiper-wrapper {
   transition-timing-function: linear !important;
+}
+
+.revenue-img-shadow {
+  box-shadow: 17px 20px 36px 0px #c6f0e7 !important;
 }

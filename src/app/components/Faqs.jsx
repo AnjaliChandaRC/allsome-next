@@ -64,7 +64,7 @@ const Faqs = () => {
   }
 
   return (
-    <div className='py-[93px] max-xl:py-20 max-lg:py-[60px]'>
+    <div className='py-[93px] max-xl:py-20 max-lg:py-[60px] max-md:py-10'>
       <div className='container'>
         <CustomHeading
           title='Frequently asked questions?'
@@ -82,8 +82,8 @@ const Faqs = () => {
                   e.stopPropagation()
                   toggle(i)
                 }}
-                className={`flex items-center justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] pl-5 !pb-[15px] max-sm:p-4 max-sm:!pb-4 ${active === i
-                  ? '!pb-[11px] max-sm:!pb-[11px]'
+                className={`flex items-center justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] pl-5 !pb-[15px] max-md:p-4 max-md:!pb-4 ${active === i
+                  ? 'max-[1920px]:!pb-[11px]'
                   : 'pb-0 transition-all duration-300'
                   }`}
               >
@@ -96,13 +96,13 @@ const Faqs = () => {
                 </span>
               </button>
               <div
-                className={`text-black transition-all duration-300 overflow-hidden pl-5 pr-[18px] max-sm:px-4 ${active === i ? 'pb-[20px] max-sm:pb-4 max-h-40' : 'max-h-0'
+                className={`text-black transition-all duration-300 overflow-hidden pl-5 pr-[18px] max-md:px-4 ${active === i ? 'pb-[20px] max-md:pb-4 max-h-40' : 'max-h-0'
                   }`}
               >
-                <p className='text-black leading-6 !max-md:text-sm max-md:leading-6 max-sm:text-sm pb-[9px] max-md:pb-1 max-w-[716px]'>
+                <p className='text-black leading-6 max-md:text-sm max-md:leading-5 pb-[9px] max-md:pb-1 max-w-[716px]'>
                   {obj.description}
                 </p>
-                <a href='/' className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-6 max-sm:text-sm hover:text-blue-400 transition-all duration-300'>
+                <a href='/' className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-5  hover:text-blue-400 transition-all duration-300'>
                   {obj.secondDescription}
                 </a>
               </div>

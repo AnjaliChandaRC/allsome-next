@@ -5,15 +5,18 @@ import CustomButton from './common/CustomButton'
 
 const Shoppers = () => {
   return (
-    <div className='py-0 overflow-hidden'>
+    <div className='py-0 max-lg:py-[60px] overflow-hidden'>
       <div className='container'>
         <div className='flex items-center justify-between max-lg:flex-wrap max-lg:justify-center w-full'>
-          <div className='max-lg:text-center'>
+          <div className='max-lg:text-center w-full'>
             <p className='font-kanit text-xl font-semibold leading-5 text-dark-green pb-[7px]'>
               Know where are your shoppers
             </p>
             <CustomHeading
-              title='Be where your shoppers are'
+              title='Be where your'
+              textTwo='shoppers'
+              titleTwo='are'
+              styleclassTwo=''
               styleclass='font-kanit max-w-[487px] max-lg:max-w-none'
             />
             <div className='flex items-center gap-3 pt-10 max-lg:justify-center max-lg:pt-5'>
@@ -27,13 +30,15 @@ const Shoppers = () => {
               />
             </div>
           </div>
-          <Image
-            src='/assets/images/webp/shoppers-earth.webp'
-            alt='revenue-chart'
-            width={510}
-            height={490}
-            className='object-cover pointer-events-none max-w-[503px] h-[490px] w-full max-lg:pt-5 max-lg:w-[400px]'
-          />
+          <div className='w-full flex justify-center'>
+            <Image
+              src='/assets/images/webp/shoppers-earth.webp'
+              alt='revenue-chart'
+              width={503}
+              height={490}
+              className='object-cover pointer-events-none max-w-[503px] h-[490px] max-[1023px]:max-w-[460px] block max-lg:max-w-80 max-md:max-w-80'
+            />
+          </div>
         </div>
       </div>
     </div>
