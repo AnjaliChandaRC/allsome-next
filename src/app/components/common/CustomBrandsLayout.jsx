@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 
-const CustomBrandsLayout = ({ title, description, buttonText, reverse, myImage ,bgColor = "bg-white" }) => {
+const CustomBrandsLayout = ({ title, description, buttonText, reverse, myImage ,bgColor = "" }) => {
     return (
             <div
                 className={`p-6 rounded-xl flex items-center justify-between gap-4 ${bgColor} ${reverse ? "flex-row-reverse" : "flex-row"
