@@ -6,7 +6,7 @@ import CustomButton from './common/CustomButton'
 
 const ApiIntegrations = () => {
   return (
-    <div className='lg:pt-[100px] lg:pb-[34px] py-12'>
+    <div className='lg:pt-[100px] xl:pb-[224px] pb-[455px] py-12 overflow-hidden'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto relative'>
           <div className='xl:flex-row flex flex-col gap-7'>
@@ -17,21 +17,84 @@ const ApiIntegrations = () => {
                 description="Connect AllSome to your e-commerce stores, delivery partners, service providers and more." />
               <CustomButton styleclass="!py-[10px] !px-[22px] !bg-black !text-white max-xl:mx-auto" title="Sign up" />
             </div>
-            <div className='max-w-[773px] w-full xl:absolute -right-12 max-xl:flex justify-center'>
-              <div className="shadow-custom-2 flex justify-between relative">
+            <div className='max-w-[773px] w-full xl:absolute -right-12 max-xl:mx-auto max-xl:grid'>
+              <div className="shadow-custom-2 relative">
                   <Image
                   src="/assets/images/webp/ninjavan.webp"
                     width={231}
-                    height={81}
-                    className='object-cover max-w-[231px] lg:h-[81px] w-full shadow-custom-2 xl:absolute right-[427px] shopify'
+                    height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute right-[390px] shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
                   alt="ninja"
                 />
                 <Image
                   src="/assets/images/webp/shopify.webp"
                   width={231}
-                  height={81}
-                  className='object-cover drop-drop-shadow-custom-2 max-w-[231px] lg:h-[81px] w-full xl:absolute right-0 ninja'
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute -right-0 ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
                   alt="shopify"
+                />
+                <Image
+                  src="/assets/images/webp/grab.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[70px] left-[188px] ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
+                  alt="grab"
+                />
+                <Image
+                  src="/assets/images/webp/woo-logo.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[70px] shopify-logo right-[139px] rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
+                  alt="woo"
+                />
+                <Image
+                  src="/assets/images/webp/aramex-logo.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[130px] left-[228px] shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
+                  alt="aramex"
+                />
+                <Image
+                  src="/assets/images/webp/integration-shopline-logo.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[160px] right-[119px] shopify-logo rounded-[27px]'
+                  alt="shopline"
+                />
+                <Image
+                  src="/assets/images/webp/integration-shopee.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[180px] left-[62px] shopify-logo rounded-[27px]'
+                  alt="shopee"
+                />
+                <Image
+                  src="/assets/images/webp/integration-lazada-logo.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[237px] left-[155px] shopify-logo rounded-[27px]'
+                  alt="lazada"
+                />
+                <Image
+                  src="/assets/images/webp/lalamove-logo.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[229px] right-[149px] shopify-logo rounded-[27px]'
+                  alt="lalamove"
+                />
+                <Image
+                  src="/assets/images/webp/integration-tiktok-logo.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[202px] right-3 ninja-logo rounded-[27px]'
+                  alt="tiktok"
+                />
+                <Image
+                  src="/assets/images/webp/dhl-logo.webp"
+                  width={231}
+                  height={84}
+                  className='object-cover max-w-[231px] lg:h-[84px] w-full absolute top-[307px] right-[72px] ninja-logo rounded-[27px]'
+                  alt="dhl"
                 />
               </div>
 
