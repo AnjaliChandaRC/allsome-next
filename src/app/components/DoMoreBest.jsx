@@ -63,14 +63,14 @@ const DoMoreBest = () => {
         src="/assets/images/webp/best-left-ellipse.webp"
         width={656}
         height={596}
-        className='object-cover absolute top-0 left-0 rounded-tl-[40px] lg:max-w-[656px] sm:max-w-[456px] max-w-[400px]'
+        className='object-cover absolute top-0 left-0 rounded-tl-[40px] lg:max-w-[656px] sm:max-w-[456px] max-w-[400px] sm:block hidden'
         alt="Picture of the author"
       />
       <Image
         src="/assets/images/webp/best-right-ellipse.webp"
         width={563}
         height={347}
-        className='object-cover absolute bottom-0 right-0 rounded-br-[40px] lg:max-w-[563px] max-w-[400px]'
+        className='object-cover absolute bottom-0 right-0 rounded-br-[40px] lg:max-w-[563px] max-w-[400px] sm:block hidden'
         alt="Picture of the author"
       />
       <div className='container max-w-[1178px] mx-auto relative z-10'>
