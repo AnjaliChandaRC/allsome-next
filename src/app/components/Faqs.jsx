@@ -64,8 +64,8 @@ const Faqs = () => {
   }
 
   return (
-    <div className='pt-[93px] pb-[137px] max-lg:py-20 max-md:py-[60px]'>
-      <div className='max-w-[1172px] mx-auto px-4'>
+    <div className='py-[93px] max-xl:py-20 max-lg:py-[60px]'>
+      <div className='container'>
         <CustomHeading
           title='Frequently asked questions?'
           styleclass='text-center font-kanit max-w-[734px] mx-auto leading-16xl'
