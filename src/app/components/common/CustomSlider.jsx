@@ -6,7 +6,7 @@ import $ from 'jquery';
 import 'slick-carousel';
 import Image from 'next/image';
 
-const CustomSlider = ({ dataList, classStyle = '', slidesToShow = 7, rtl = false }) => {
+const CustomSlider = ({ dataList, classStyle = '', slidesToShow = 7, rtl = false, customClassStyle }) => {
   const sliderRef = useRef(null);
 
   useEffect(() => {
@@ -41,20 +41,14 @@ const CustomSlider = ({ dataList, classStyle = '', slidesToShow = 7, rtl = false
   }, [slidesToShow]);
 
   return (
-    <div className={`companies-slider !flex !justify-center !items-center ${classStyle}`} ref = { sliderRef } >
-    {
-      dataList.map((obj, index) => (
-        <div key={index} className="slide-item !flex !justify-center !items-center">
-          <Image
-            width={obj.width}
-            height={obj.height}
-            className="object-cover h-auto w-auto"
-            src={obj.image}
-            alt={obj.alt}
-          />
-        </div>
-      ))
-    }
+    <div className={`companies-slider !flex !justify-center !items-center ${classStyle}`} ref={sliderRef} >
+      {
+        dataList.map((obj, index) => (
+          <div key={index} className="slide-item !flex !justify-center !items-center">
+            <Image width={obj.width} height={obj.height} className={`${customClassStyle} "object-cover h-auto w-auto"`} src={obj.image} alt="img" />
+          </div>
+        ))
+      }
     </div >
   );
 };
