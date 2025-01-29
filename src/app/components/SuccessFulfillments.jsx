@@ -6,7 +6,7 @@ import Image from 'next/image';
 const SuccessFulfillments = () => {
   return (
     <>
-      <div className="lg:pt-[77px] md:pt-12 lg:pb-[68px] pb-10">
+      <div className="lg:pt-[77px] md:pt-[30px] lg:pb-[68px] pb-[60px] max-sm:pt-[22px]">
          <div className='container'>
         <CustomHeading styleclass="lg:max-w-[843px] mx-auto text-center font-kanit w-full" title="Everything your brands needs for " textTwo="success" styleclassTwo="" titleTwo=" with fulfillment" />
         <div className='lg:flex-row max-lg:flex-col-reverse flex lg:pt-[167px] md:pt-12 sm:pt-10 pt-8 lg:gap-[145px] flex-col gap-7'>

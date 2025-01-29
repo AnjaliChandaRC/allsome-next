@@ -7,7 +7,7 @@ const AutomateYourOperations = () => {
   return (
     <div className='bg-light-green lg:rounded-[40px] rounded-[20px]'>
       <div className='container lg:max-w-[1109px] mx-auto'>
-        <div className='lg:flex-row flex lg:py-[112px] sm:py-12 py-10 justify-between flex-col gap-7'>
+        <div className='lg:flex-row flex lg:py-[112px] py-[60px] justify-between flex-col gap-7'>
           <div className='flex lg:justify-start justify-center'>
             <Image
               src="/assets/images/webp/automate-image.webp"
