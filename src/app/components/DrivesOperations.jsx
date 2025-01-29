@@ -48,7 +48,7 @@ const DrivesOperations = () => {
         </div>
         <CustomButton
           title="Meet our customers"
-          styleclass="mt-[44px] max-lg:mt-10 max-md:mt-7 max-sm:mt-5 mx-auto px-[33px] max-md:min-w-[170px] max-md:px-0  min-w-[222px] h-[52px] flex items-center justify-center"
+          styleclass="mt-[44px] max-lg:mt-10 max-md:mt-7 max-sm:mt-5 before:!bg-black hover:!text-white mx-auto px-[33px] max-md:min-w-[170px] max-md:px-0  min-w-[222px] h-[52px] flex items-center justify-center"
         />
       </div>
     </div>

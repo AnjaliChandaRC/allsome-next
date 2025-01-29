@@ -15,7 +15,7 @@ const ApiIntegrations = () => {
                 title={'API & '} textTwo={'Integrations'} styleclassTwo='' />
               <CustomDescription styleclass="xl:max-w-[438px] !text-black w-full sm:!text-base sm:!leading-6 text-sm opacity-80 font-normal max-xl:text-center md:py-8 py-6"
                 description="Connect AllSome to your e-commerce stores, delivery partners, service providers and more." />
-              <CustomButton styleclass="!py-[10px] !px-[22px] !bg-black !text-white max-xl:mx-auto" title="View integration guide" />
+              <CustomButton styleclass="!py-[10px] !px-[22px] !bg-black text-white !max-w-[223px] !w-full max-xl:mx-auto" title="View integration guide" />
             </div>
             <div className='max-w-[773px] w-full xl:absolute -right-12 max-xl:mx-auto max-xl:grid'>
               <div className="shadow-custom-2 relative">

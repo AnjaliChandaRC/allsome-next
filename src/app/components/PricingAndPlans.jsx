@@ -75,7 +75,7 @@ const PricingAndPlans = () => {
                 ))}
               </ul>
               <div className="flex items-center justify-center">
-                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] !w-full hover:!bg-black ${index === 1 ? "bg-black text-white" : ""}`} />
+                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] !w-full before:!bg-black hover:text-white ${index === 1 ? "before:!bg-white bg-black text-white hover:!text-black" : ""}`} />
               </div>
             </div>
             <Image className={`absolute bottom-[-12%]   ${index === 1 ? "block" : "hidden"} `} height={34} width={272} src="/assets/images/webp/price-table-shadow.webp" alt='table shadow' />
