@@ -23,77 +23,77 @@ const ApiIntegrations = () => {
                   src="/assets/images/webp/ninjavan.webp"
                     width={231}
                     height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:right-[390px] sm:right-[356px] right-[220px] shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] ninjavan-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:right-[390px] sm:right-[356px] right-[220px] shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] ninjavan-logo'
                   alt="ninja"
                 />
                 <Image
                   src="/assets/images/webp/shopify.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:-right-0 right-7 ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:-right-0 right-7 ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
                   alt="shopify"
                 />
                 <Image
                   src="/assets/images/webp/grab.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[70px] sm:top-14 top-8 md:left-[188px] sm:left-[120px] left-12 ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] grab-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[70px] sm:top-14 top-8 md:left-[188px] sm:left-[120px] left-12 ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] grab-logo'
                   alt="grab"
                 />
                 <Image
                   src="/assets/images/webp/woo-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[70px] sm:top-12 top-7 shopify-logo md:right-[139px] sm:right-28 right-16 rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] woo-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[70px] sm:top-12 top-7 shopify-logo md:right-[139px] sm:right-28 right-16 rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] woo-logo'
                   alt="woo"
                 />
                 <Image
                   src="/assets/images/webp/aramex-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[130px] sm:top-28 top-16 md:left-[228px] sm:left-[190px] left-16 shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] aremax-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[130px] sm:top-28 top-16 md:left-[228px] sm:left-[190px] left-16 shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] aremax-logo'
                   alt="aramex"
                 />
                 <Image
                   src="/assets/images/webp/integration-shopline-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[160px] sm:top-28 top-16 md:right-[119px] sm:right-24 right-12 shopify-logo rounded-[27px] shopline-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[160px] sm:top-28 top-16 md:right-[119px] sm:right-24 right-12 shopify-logo rounded-[27px] shopline-logo'
                   alt="shopline"
                 />
                 <Image
                   src="/assets/images/webp/integration-shopee.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[180px] sm:top-36 top-24 sm:left-[62px] left-0 shopify-logo rounded-[27px] shopee-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[180px] sm:top-36 top-24 sm:left-[62px] left-0 shopify-logo rounded-[27px] shopee-logo'
                   alt="shopee"
                 />
                 <Image
                   src="/assets/images/webp/integration-lazada-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[237px] sm:top-48 top-[128px] md:left-[155px] sm:left-32 left-12 ninja-logo rounded-[27px] lazada-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[237px] sm:top-48 top-[128px] md:left-[155px] sm:left-32 left-12 ninja-logo rounded-[27px] lazada-logo'
                   alt="lazada"
                 />
                 <Image
                   src="/assets/images/webp/lalamove-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[229px] sm:top-44 top-24 xl:right-[193px] right-[120px] shopify-logo rounded-[27px] lalamove-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[229px] sm:top-44 top-24 xl:right-[193px] right-[120px] shopify-logo rounded-[27px] lalamove-logo'
                   alt="lalamove"
                 />
                 <Image
                   src="/assets/images/webp/integration-tiktok-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[202px] sm:top-36 top-[90px] right-3 ninja-logo rounded-[27px]'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[202px] sm:top-36 top-[90px] right-3 ninja-logo rounded-[27px]'
                   alt="tiktok"
                 />
                 <Image
                   src="/assets/images/webp/dhl-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[307px] sm:top-[215px] top-[128px] sm:right-[72px] right-10 ninja-logo rounded-[27px] dhl-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[307px] sm:top-[215px] top-[128px] sm:right-[72px] right-10 ninja-logo rounded-[27px] dhl-logo'
                   alt="dhl"
                 />
               </div>
