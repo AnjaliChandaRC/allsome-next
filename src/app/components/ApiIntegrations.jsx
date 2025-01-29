@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
@@ -6,12 +5,12 @@ import CustomButton from './common/CustomButton'
 
 const ApiIntegrations = () => {
   return (
-    <div className='xl:pt-[100px] lg:pt-[60px] xl:pb-[224px] md:pb-[455px] sm:pb-[365px] pb-[200px] pt-12 overflow-hidden'>
+    <div className='xl:pt-[130px] pt-[60px] xl:pb-[196gpx] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto relative'>
           <div className='xl:flex-row flex flex-col gap-7'>
             <div className='xl:max-w-[560px] w-full flex flex-col xl:items-start items-center justify-center xl:pt-10'>
-              <CustomHeading styleclass="xl:!text-custom-5xl leading-[100%] lg:text-5xl md:text-4xl text-2xl font-kanit font-semibold max-xl:text-center max-w-[501px]"
+              <CustomHeading styleclass="xl:!text-custom-5xl lg:text-5xl md:text-4xl text-2xl font-kanit font-semibold max-xl:text-center max-w-[501px]"
                 title={'API & '} textTwo={'Integrations'} styleclassTwo='' />
               <CustomDescription styleclass="xl:max-w-[438px] !text-black w-full sm:!text-base sm:!leading-6 text-sm opacity-80 font-normal max-xl:text-center md:py-8 py-6"
                 description="Connect AllSome to your e-commerce stores, delivery partners, service providers and more." />
