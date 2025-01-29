@@ -31,9 +31,22 @@ body {
   box-shadow: 0px 1px 5px 5px #36eb58;
 }
 
+.shadow-custom-1 {
+  box-shadow: 25px -20px 60px 0px #0000001A;
+}
+
 .icon svg path {
   fill: black;
 }
+
+button:hover .whatsapp-icon svg path {
+  fill: white;
+}
+
+button:hover .whatsapp-icon svg path.logo {
+  fill: #25d366;
+}
+
 
 .form-box-shadow {
   box-shadow: 26px 31px 50px 0px #0000001a;
