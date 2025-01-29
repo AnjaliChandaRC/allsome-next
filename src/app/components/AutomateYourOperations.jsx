@@ -14,7 +14,7 @@ const AutomateYourOperations = () => {
               src="/assets/images/webp/automate-image.webp"
               width={435}
               height={443}
-              className='object-cover lg:max-w-[435px] max-w-[335px] lg:h-[443px] w-full pointer-events-none'
+              className='object-cover lg:max-w-[435px] sm:max-w-[335px] max-w-[300px] lg:h-[443px] w-full pointer-events-none'
               alt="automate-image"
             />
           </div>
