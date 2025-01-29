@@ -4,52 +4,12 @@ import CustomButton from './common/CustomButton';
 import CustomHeading from './common/CustomHeading';
 import CustomDescription from './common/CustomDescription';
 import { CheckIcon } from '../utils/icons';
-
-const PRICING_DATA_LIST = [
-  {
-    title: "Storage",
-    description: "ipsum dolor sit amet, consectetur adipiscing. Rdum at et elit.",
-    price: "FREE",
-    period: "Per day",
-    features: [
-      "Free 30 meter cube / month",
-      "Sed odio sed non sagittis.",
-      "At ac nunc nunc semper. Tincidunt pharetra lacus non.",
-      "Egestas eu ut hendrerit nunc.",
-      "Posuere vestibulum fringilla mattis sed interdum cras nec."
-    ]
-  },
-  {
-    title: "Handling",
-    description: "ipsum dolor sit amet, consectetur adipiscing. Rdum at et elit.",
-    price: "2.00 MYR",
-    period: "Per Order (2 items)",
-    features: [
-      "MYR1.00 / extra item",
-      "Sed odio sed non sagittis.",
-      "At ac nunc nunc semper. Tincidunt pharetra lacus non.",
-      "Egestas eu ut hendrerit nunc.",
-      "Posuere vestibulum fringilla mattis sed interdum cras nec."
-    ]
-  },
-  {
-    title: "Delivery",
-    description: "ipsum dolor sit amet, consectetur adipiscing. Rdum at et elit.",
-    price: "FREE",
-    period: "Domestic",
-    features: [
-      "Free for Shopee & Lazada",
-      "Sed odio sed non sagittis.",
-      "At ac nunc nunc semper. Tincidunt pharetra lacus non.",
-      "Egestas eu ut hendrerit nunc.",
-      "Posuere vestibulum fringilla mattis sed interdum cras nec."
-    ]
-  },
-];
+import { PRICING_DATA_LIST } from '../utils/helper'
 
 const PricingAndPlans = () => {
+
   return (
-    <div id='price' className="container sm:pb-[66px] pb-10">
+    <div id='pricing' className="container sm:pb-[66px] max-sm:py-10 max-xl:pt-20 max-lg:pt-16">
       <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
       <CustomDescription styleclass="text-center sm:pb-9 !pb-5" description="Free access to outlets, pay-as-you-go." />
       <div className="flex xl:gap-[39px] gap-4 max-lg:flex-wrap justify-center">
@@ -75,7 +35,7 @@ const PricingAndPlans = () => {
                 ))}
               </ul>
               <div className="flex items-center justify-center">
-                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] !w-full hover:!bg-black ${index === 1 ? "bg-black text-white" : ""}`} />
+                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] !w-full hover:!bg-black hover:text-white before:!bg-black ${index === 1 ? "bg-black text-white hover:!text-black hover:!bg-white before:!bg-white" : ""}`} />
               </div>
             </div>
             <Image className={`absolute bottom-[-12%]   ${index === 1 ? "block" : "hidden"} `} height={34} width={272} src="/assets/images/webp/price-table-shadow.webp" alt='table shadow' />
