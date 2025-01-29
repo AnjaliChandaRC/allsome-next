@@ -6,7 +6,7 @@ import CustomButton from './common/CustomButton'
 
 const SalesOpportunity = () => {
   return (
-    <div className='xl:pt-[100px] xl:pb-40 lg:py-16 py-12'>
+    <div className='xl:pt-[79px] xl:pb-40 lg:py-16 py-12'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto'>
           <div className='xl:flex-row flex flex-col relative max-xl:flex-col-reverse gap-7'>
