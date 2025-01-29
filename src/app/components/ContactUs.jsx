@@ -53,7 +53,6 @@ const ContactUs = () => {
     }
   };
 
-
   return (
     <div id='contact' className="overflow-hidden">
       <div className='container xl:pt-[67px]'>

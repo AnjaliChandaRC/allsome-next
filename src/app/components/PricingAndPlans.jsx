@@ -4,11 +4,10 @@ import CustomButton from './common/CustomButton';
 import CustomHeading from './common/CustomHeading';
 import CustomDescription from './common/CustomDescription';
 import { CheckIcon } from '../utils/icons';
-import {PRICING_DATA_LIST} from '../utils/helper'
-
-
+import { PRICING_DATA_LIST } from '../utils/helper'
 
 const PricingAndPlans = () => {
+
   return (
     <div id='pricing' className="container sm:pb-[66px] max-sm:py-10 max-xl:pt-20 max-lg:pt-16">
       <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
