@@ -11,14 +11,14 @@ const DoMoreBest = () => {
         src="/assets/images/webp/best-left-ellipse.webp"
         width={656}
         height={596}
-        className='object-cover ellipse-image pointer-events-none h-auto w-auto absolute top-0 left-0 lg:rounded-tl-[40px] rounded-tl-[20px] lg:max-w-[656px] sm:max-w-[456px] max-w-[400px] sm:block hidden'
+        className='object-cover pointer-events-none h-auto w-auto absolute top-0 left-0 lg:rounded-tl-[40px] rounded-tl-[20px] lg:max-w-[656px] sm:max-w-[456px] max-w-[400px] sm:block hidden'
         alt="left-ellipse"
       />
       <Image
         src="/assets/images/webp/best-right-ellipse.webp"
         width={563}
         height={347}
-        className='object-cover ellipse-image pointer-events-none h-auto w-auto absolute bottom-0 right-0 lg:rounded-br-[40px] rounded-br-[20px] lg:max-w-[563px] max-w-[400px] sm:block hidden'
+        className='object-cover pointer-events-none h-auto w-auto absolute bottom-0 right-0 lg:rounded-br-[40px] rounded-br-[20px] lg:max-w-[563px] max-w-[400px] sm:block hidden'
         alt="right-ellipse"
       />
       <div className='container max-w-[1178px] mx-auto relative z-10'>
