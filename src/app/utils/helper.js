@@ -115,7 +115,7 @@ export const OPERATIONS_LIST = [
     },
 ]
 
-export const BEST_DATA = [
+export const DO_MORE_BEST_DATA = [
     {
         cardSvg: <Channels />,
         title: "Multiple channels",

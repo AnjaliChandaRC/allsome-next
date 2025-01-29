@@ -427,11 +427,6 @@ input[type=number] {
   animation: zoomin 2s infinite alternate ease-in-out;
 }
 
-.ellipse-image {
-  height: auto !important;
-  width: auto !important;
-}
-
 .slick-track {
   display: flex !important;
   align-items: center !important;

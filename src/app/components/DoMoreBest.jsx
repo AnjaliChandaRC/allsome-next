@@ -1,32 +1,31 @@
-import React from 'react'
 import Image from 'next/image';
 import CustomHeading from '../components/common/CustomHeading'
 import CustomDescription from './common/CustomDescription';
-import { BEST_DATA } from '../utils/helper';
+import { DO_MORE_BEST_DATA } from '../utils/helper';
 
 const DoMoreBest = () => {
  
   return (
-    <div className='bg-black lg:rounded-[40px] rounded-[20px] lg:py-[60px] xl:pb-[94px] py-10 relative' id='features'>
+    <div className='bg-black lg:rounded-[40px] rounded-[20px] lg:py-[60px] py-10 relative' id='features'>
       <Image
         src="/assets/images/webp/best-left-ellipse.webp"
         width={656}
         height={596}
         className='object-cover ellipse-image pointer-events-none absolute top-0 left-0 lg:rounded-tl-[40px] rounded-tl-[20px] lg:max-w-[656px] sm:max-w-[456px] max-w-[400px] sm:block hidden'
-        alt="Picture of the author"
+        alt="left-ellipse"
       />
       <Image
         src="/assets/images/webp/best-right-ellipse.webp"
         width={563}
         height={347}
         className='object-cover ellipse-image pointer-events-none absolute bottom-0 right-0 lg:rounded-br-[40px] rounded-br-[20px] lg:max-w-[563px] max-w-[400px] sm:block hidden'
-        alt="Picture of the author"
+        alt="right-ellipse"
       />
       <div className='container max-w-[1178px] mx-auto relative z-10'>
-        <CustomHeading title="Do more of what you do best" styleclass="!text-white text-center lg:!text-custom-4xl md:!text-5xl sm:!text-4xl !text-3xl leading-[100%]" />
-        <CustomDescription description="Everything you need to run your awesome e-commerce" styleclass="!text-white opacity-80 text-center lg:pt-8 md:pt-6 pt-5" />
+        <CustomHeading title="Do more of what you do best" styleclass="!text-white text-center lg:!text-custom-4xl md:!text-5xl sm:!text-4xl !text-3xl !font-bold" />
+        <CustomDescription description="Everything you need to run your awesome e-commerce" styleclass="!text-white !font-normal opacity-80 text-center lg:pt-8 md:pt-6 pt-5" />
         <div className='flex flex-row flex-wrap xl:gap-[22px] max-xl:justify-between xl:pt-[108px] lg:pt-20 md:pt-11 pt-9'>
-          {BEST_DATA.map((obj, index) => (
+          {DO_MORE_BEST_DATA.map((obj, index) => (
             <div key={index} className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:mb-10 mb-7 best-card duration-500'>
               <div className='lg:size-[60px] bg-circle size-12 zoom-in rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center !curser-pointer shadow-[0_2px_28px_#36eb58] justify-center'>
                 <span styleclass="max-lg:!size-6 !width-3 !height-3">{obj.cardSvg}</span>
