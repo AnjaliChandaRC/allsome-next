@@ -45,7 +45,7 @@ const CustomSlider = ({ dataList, classStyle = '', slidesToShow = 7, rtl = false
       {
         dataList.map((obj, index) => (
           <div key={index} className="slide-item !flex !justify-center !items-center">
-            <Image width={obj.width} height={obj.height} className={`${customClassStyle} "object-cover h-auto w-auto"`} src={obj.image} alt="img" />
+            <Image width={obj.width} height={obj.height} className={`${customClassStyle} "object-cover"`} src={obj.image} alt="img" />
           </div>
         ))
       }

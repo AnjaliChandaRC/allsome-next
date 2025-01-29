@@ -7,7 +7,7 @@ import { SHOPPERS_CARDS_LIST } from '../utils/helper'
 
 const SellToShoppers = () => {
   return (
-    <div className='bg-cover w-full flex flex-col items-center justify-center relative xl:pb-[110px] lg:pb-[70px] max-lg:pb-12'>
+    <div className='bg-cover w-full flex flex-col items-center justify-center relative xl:pb-[110px] lg:pb-20 md:pb-[60px] pb-[30px]'>
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center items-center">
           <div className="xl:w-4/12 w-full">
@@ -17,16 +17,16 @@ const SellToShoppers = () => {
               <CustomButton styleclass='hover:!bg-transparent xl:!px-8 xl:!py-[12.5px] !bg-black hover:!text-black !text-white' title='Sign up today' />
             </div>
           </div>
-          <div className="xl:w-8/12 w-full xl:pt-0 pt-10 lg:pl-8 mx-auto max-xl:justify-center flex items-center">
+          <div className="xl:w-8/12 w-full xl:pt-0 md:pt-10 pt-7 lg:pl-8 mx-auto max-xl:justify-center flex items-center">
             <div className="flex xl:gap-x-[36px] lg:gap-x-36 md:gap-x-10 max-xl:justify-center items-center lg:gap-y-[68px] md:gap-y-14 sm:gap-y-12 gap-y-10 flex-wrap">
               {SHOPPERS_CARDS_LIST.map((item, index) => (
                 <div className="max-w-[323px] w-full gap-4 flex" key={index}>
                   <div className='w-auto'>
-                    <Image className={`lg:min-w-[80px] min-w-[60px] h-auto pointer-events-none ${index === 2 ? "min-w-[62px] max-w-[62px]" : ""}${index === 3 ? "min-w-[65px] max-w-[65px]" : ""}`} src={item.cardImg} width={item.width} height={item.height} alt={item.alt} />
+                    <Image className={`lg:min-w-[80px] sm:min-w-[60px] max-sm:!max-w-[60px] h-auto pointer-events-none ${index === 2 ? "sm:min-w-[62px] max-w-[62px]" : ""}${index === 3 ? "sm:min-w-[65px] max-w-[65px]" : ""}`} src={item.cardImg} width={item.width} height={item.height} alt={item.alt} />
                   </div>
                   <div>
                     <h4 className='font-medium lg:text-lg md:text-base text-sm mb-1 leading-[150%] text-black'>{item.title}</h4>
-                    <p className={` ${index === 1 ? "xl:min-w-[260px]" : ""}  ${index === 3 ? "xl:min-w-[260px]" : ""} text-black w-full opacity-80 lg:text-base md:text-sm text-xs`}>{item.description}</p>
+                    <p className={`${index === 0 ? "" : "xl:min-w-[260px]"} text-black w-full opacity-80 lg:text-base md:text-sm text-xs`}>{item.description}</p>
                   </div>
                 </div>
               ))}
