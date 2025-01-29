@@ -19,19 +19,11 @@ body {
       #51ffc0 111.65%);
 }
 
-.box-shadow {
-  box-shadow: 0 2px 10px #36eb58;
-}
-
-.plans-shadow:hover {
-  box-shadow: 0px 1px 5px 5px #36eb58;
-}
-
 .shadow-custom-1 {
   box-shadow: 25px -20px 60px 0px #0000001A;
 }
 
-.icon svg path {
+.check-icon svg path {
   fill: black;
 }
 
@@ -41,11 +33,6 @@ button:hover .whatsapp-icon svg path {
 
 button:hover .whatsapp-icon svg path.logo {
   fill: #25d366;
-}
-
-
-.form-box-shadow {
-  box-shadow: 26px 31px 50px 0px #0000001a;
 }
 
 input::-webkit-outer-spin-button,

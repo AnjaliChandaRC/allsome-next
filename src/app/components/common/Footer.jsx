@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { FOOTER_ICONS, FOOTER_LIST } from '../../utils/helper';
 
 const Footer = () => {
-  const newYear = new Date().getFullYear();
 
   return (
     <div className="bg-black lg:rounded-t-[40px] rounded-t-[20px] relative overflow-hidden">
@@ -16,7 +15,7 @@ const Footer = () => {
             <p className='text-white/70 sm:pt-[38px] pt-7 pb-4'>Social Media:</p>
             <div className="flex gap-2.5">
               {FOOTER_ICONS.map((obj, i) => (
-                <a key={i} target='blank' href={obj.link} className='size-[28.91px] flex items-center justify-center bg-gradient-to-bl to-lemon via-dark-green from-green rounded-full transition-all duration-300 ease-linear relative box-shadow hover:scale-110 hover:shadow-xl hover:to-yellow-400 hover:via-orange-500 hover:from-teal-500'>{obj.icon} </a>
+                <a key={i} target='blank' href={obj.link} className='size-[28.91px] flex items-center justify-center bg-gradient-to-bl to-lemon via-dark-green from-green rounded-full transition-all duration-300 ease-linear relative shadow-[0_2px_10px_#36eb58] hover:scale-110 hover:shadow-xl hover:to-yellow-400 hover:via-orange-500 hover:from-teal-500'>{obj.icon} </a>
               ))}
             </div>
             <div className="flex items-center justify-center gap-5">
@@ -25,7 +24,7 @@ const Footer = () => {
           <div className="flex text-white w-full md:w-7/12 lg:w-5/12 min-[]: justify-between pt-10 max-sm:gap-x-12 gap-y-8 max-sm:flex-wrap">
             {FOOTER_LIST.map((obj, index) => (
               <div key={index}>
-                <p className='text-white/50 text-[13px] pb-2.5'>{obj.title}</p>
+                <p className='text-white/50 text-sm pb-2.5'>{obj.title}</p>
                 <ul className="space-y-2">
                   {obj.links.map((items, i) => (
                     <li key={i}>
@@ -40,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="mt-9 border-t border-white/10"></div>
       <div className="container flex justify-between items-center sm:pt-[22px] sm:pb-[33px] py-5 max-[480px]:flex-col-reverse min-[480px]:gap-y-5 gap-3">
-        <p className='text-white/50 text-[13px] leading-custom-3xl'> (c) {newYear} ALLSOME. All Right Reserved.</p>
+        <p className='text-white/50 text-sm leading-custom-3xl'>(c) {new Date().getFullYear()} ALLSOME. All Right Reserved.</p>
         <div className="flex items-center gap-[26px] text-white">
           <a href="#contact" className='hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Sign up</a>
           <a href="#contact" className='hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Log in</a>
