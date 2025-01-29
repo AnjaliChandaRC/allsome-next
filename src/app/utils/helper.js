@@ -266,7 +266,7 @@ export const FOOTER_LIST = [
     links: [
       { name: "Features", link: "#features" },
       { name: "Pricing", link: "#pricing" },
-      { name: "Features", link: "#Features" }
+      { name: "Tutorial", link: "#tutorial" }
     ]
   },
   {

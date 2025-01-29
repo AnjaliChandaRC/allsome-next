@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { FOOTER_ICONS, FOOTER_LIST } from '../../utils/helper';
 
 const Footer = () => {
+  const newYear = new Date().getFullYear();
 
   return (
     <div className="bg-black lg:rounded-t-[40px] rounded-t-[20px] relative overflow-hidden">
@@ -38,11 +39,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-9 border-t border-white/10"></div>
-      <div className="container flex justify-between items-center pt-[22px] pb-[33px] max-[480px]:flex-col-reverse gap-y-5">
-        <p className='text-white/50 text-[13px] '> (c) 2022 ALLSOME. All Right Reserved.</p>
+      <div className="container flex justify-between items-center sm:pt-[22px] sm:pb-[33px] py-5 max-[480px]:flex-col-reverse min-[480px]:gap-y-5 gap-3">
+        <p className='text-white/50 text-[13px] leading-custom-3xl'> (c) {newYear} ALLSOME. All Right Reserved.</p>
         <div className="flex items-center gap-[26px] text-white">
-          <a href="/" className='hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-alld'>Sign up</a>
-          <a href="/" className='hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-alld'>Log in</a>
+          <a href="#contact" className='hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Sign up</a>
+          <a href="#contact" className='hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Log in</a>
         </div>
       </div>
       <Image className='w-full h-auto absolute pointer-events-none right-0 bottom-0 max-xl:bottom-[-20%] max-md:bottom-0 ' src="/assets/images/webp/footer-bottom-layer.webp" width={551} height={340} alt="footer bottom layer" />
