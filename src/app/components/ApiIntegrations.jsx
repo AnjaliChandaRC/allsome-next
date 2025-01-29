@@ -5,7 +5,7 @@ import CustomButton from './common/CustomButton'
 
 const ApiIntegrations = () => {
   return (
-    <div className='xl:pt-[130px] lg:pt-[60px] xl:pb-[196gpx] md:pb-[445px] sm:pb-[330px] pb-[200px] pt-12 overflow-hidden'>
+    <div className='xl:pt-[130px] pt-[60px] xl:pb-[196gpx] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto relative'>
           <div className='xl:flex-row flex flex-col gap-7'>
