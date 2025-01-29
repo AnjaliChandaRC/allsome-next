@@ -1,4 +1,3 @@
-import React from 'react'
 import CustomSlider from './common/CustomSlider'
 import CustomHeading from './common/CustomHeading'
 import { OVERFLOW_SWIPER_DATA_LIST, OPPOSITESIDE_ONE_DATA_LIST, TRUST_LIST } from '../utils/helper'
