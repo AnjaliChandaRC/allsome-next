@@ -17,7 +17,15 @@ import SuccessFulfillments from "./components/SuccessFulfillments";
 import TeamsAtService from "./components/TeamsAtService";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
   return (
+    
     <>
       <Hero />
       <IconsSlider />
