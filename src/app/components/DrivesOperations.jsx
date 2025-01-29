@@ -5,7 +5,7 @@ import CustomButton from './common/CustomButton';
 import { OPERATIONS_LIST } from '../utils/helper';
 const DrivesOperations = () => {
   return (
-    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16  max-lg:py-[60px] max-md:py-[30px] max-lg:rounded-[20px]">
+    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16  max-lg:py-[40px] max-md:my-[30px]  max-lg:rounded-[20px]">
       <div className="container">
         <CustomHeading
           styleclass="max-w-[915px] mx-auto text-center"

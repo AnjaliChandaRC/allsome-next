@@ -7,7 +7,7 @@ const TeamsAtService = () => {
   return (
     <div
       id="awesome"
-      className="bg-e-commerce bg-cover bg-no-repeat bg-center rounded-[40px] max-w-[1920px] mx-auto max-lg:rounded-[20px] relative overflow-hidden h-[606px] max-xl:h-full"
+      className="bg-e-commerce bg-cover max-lg:my-[30px] bg-no-repeat bg-center rounded-[40px] max-w-[1920px] mx-auto max-lg:rounded-[20px] relative overflow-hidden h-[606px] max-xl:h-full"
     >
       <Image
         src="/assets/images/webp/light-green-shadow-e-commerce.webp"
@@ -23,7 +23,7 @@ const TeamsAtService = () => {
         className="absolute right-0 bottom-0 object-cover shadow-Two"
         alt="shadow"
       />
-      <div className="max-xl:p-24 max-lg:p-20 max-lg:rounded-[20px] max-md:p-16 max-sm:p-12">
+      <div className="max-xl:p-24 max-lg:p-10 max-lg:rounded-[20px]">
         <div className="pt-[88px] max-xl:pt-0 relative z-20">
           <CustomHeading
             title="“Your e-commerce tech operation teams at service”"
