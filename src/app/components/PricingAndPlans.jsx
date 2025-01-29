@@ -20,7 +20,7 @@ const PricingAndPlans = () => {
               <p className="text-sm mb-4 opacity-80">{card.description}</p>
             </div>
             <div className={`sm:px-7 px-5 bg-ghost-white ${index === 1 ? "bg-white/20" : ""}`}>
-              <p className='md:text-custom-3xl sm:text-4xl text-3xl font-kanit font-black leading-custom-13xl'>{card.price}</p>
+              <p className='md:text-custom-3xl sm:text-4xl text-3xl font-kanit font-black md:leading-custom-13xl leading-custom-11xl'>{card.price}</p>
               <p className="text-xs pb-[9px] opacity-80">{card.period}</p>
             </div>
             <div className="sm:px-7 px-5">
