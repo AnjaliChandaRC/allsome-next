@@ -120,7 +120,7 @@ export const OPPOSITESIDE_ONE_DATA_LIST = [
     { image: "/assets/images/webp/toewr-records.webp", width: 92, height: 34 },
     { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
     { image: "/assets/images/webp/soft-serve.webp", width: 45, height: 33 },
-    { image: "/assets/images/webp/brightland.webp", width: 90.92, height: 33 },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
     { image: "/assets/images/webp/kopari.webp", width: 91.92, height: 33 },
     { image: "/assets/images/webp/crossnet.webp", width: 90.92, height: 33 },
     { image: "/assets/images/webp/fly-by-jing.webp", width: 91.92, height: 23 },
@@ -135,7 +135,7 @@ export const TRUST_LIST = [
     { image: "/assets/images/webp/toewr-records.webp", width: 92, height: 34 },
     { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
     { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
-    { image: "/assets/images/webp/brightland.webp", width: 90.92, height: 33 },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
     { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33 },
    
 ]
