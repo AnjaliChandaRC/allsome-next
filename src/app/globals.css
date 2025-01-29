@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   font-family: 'Inter', serif;
 }
@@ -14,15 +13,20 @@ body {
 }
 
 .green-gradient {
-  background: linear-gradient(94.55deg, #C7FF51 -14.37%, #00C934 49.67%, #51FFC0 111.65%);
+  background: linear-gradient(
+    94.55deg,
+    #c7ff51 -14.37%,
+    #00c934 49.67%,
+    #51ffc0 111.65%
+  );
 }
 
 .box-shadow {
-  box-shadow: 0 2px 10px #36EB58;
+  box-shadow: 0 2px 10px #36eb58;
 }
 
 .plans-shadow:hover {
-  box-shadow: 0px 1px 5px 5px #36EB58;
+  box-shadow: 0px 1px 5px 5px #36eb58;
 }
 
 .icon svg path {
@@ -30,7 +34,7 @@ body {
 }
 
 .form-box-shadow {
-  box-shadow: 26px 31px 50px 0px #0000001A;
+  box-shadow: 26px 31px 50px 0px #0000001a;
 }
 
 input::-webkit-outer-spin-button,
@@ -57,15 +61,14 @@ input[type=number] {
   }
 }
 
-.e-commerce-box-icon{
-   animation: floatStar 3s ease infinite;
+.e-commerce-box-icon {
+  animation: floatStar 3s ease infinite;
 }
 
  
 .revolve {
   animation: revolve 12s ease infinite;
 }
-
 
 @keyframes revolve {
   30% {
@@ -97,9 +100,7 @@ input[type=number] {
   animation: bounce 4s ease infinite;
 }
 
-
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -174,3 +175,17 @@ input[type=number] {
 .shopify-logo {
   animation: zoomOutAnimation 3s infinite alternate ease-in-out;
 }
+
+.earth-animation {
+  animation: earth 40s linear infinite ;
+}
+
+@keyframes earth {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

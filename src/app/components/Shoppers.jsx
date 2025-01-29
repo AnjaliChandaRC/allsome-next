@@ -5,7 +5,7 @@ import CustomButton from './common/CustomButton'
 
 const Shoppers = () => {
   return (
-    <div className='pt-6 pb-[120px] max-xl:py-[60px] max-md:py-10 overflow-hidden'>
+    <div className='pt-6 pb-[120px] max-xl:py-20 max-lg:py-[60px] max-md:py-10 overflow-hidden'>
       <div className='container'>
         <div className='flex items-center justify-between xl:gap-10 max-lg:flex-wrap max-lg:justify-center w-full'>
           <div className='max-lg:text-center w-full'>
@@ -22,11 +22,11 @@ const Shoppers = () => {
             <div className='flex items-center gap-3 pt-10 max-lg:justify-center max-lg:pt-5'>
               <CustomButton
                 title='Start for free'
-                styleclass='!py-[12.5px] !px-[32.5px] bg-black text-white hover:!text-black hover:bg-white'
+                styleclass='!w-[166px] h-[52px] max-lg:h-[48px] max-lg:!w-[140px] bg-black text-white hover:!text-black hover:bg-white'
               />
               <CustomButton
                 title='Request demo'
-                styleclass='!py-[12.5px] !px-[22.5px]'
+                styleclass='w-[158px] h-[52px] max-lg:h-[48px] max-lg:!w-[140px] hover:!bg-black hover:text-white before:!bg-black'
               />
             </div>
           </div>
@@ -36,7 +36,7 @@ const Shoppers = () => {
               alt='revenue-chart'
               width={503}
               height={490}
-              className='pointer-events-none max-w-[480px] h-[450px] max-xl:max-w-[460px] max-lg:h-[420px] block max-md:!max-w-[350px] max-md:h-[330px]'
+              className='pointer-events-none max-w-[480px] h-[450px] max-xl:max-w-[460px] max-lg:h-[420px] block max-md:!max-w-[350px] max-md:h-[330px] earth-animation'
             />
           </div>
         </div>
