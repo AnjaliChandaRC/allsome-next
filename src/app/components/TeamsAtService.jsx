@@ -20,7 +20,7 @@ const TeamsAtService = () => {
         src="/assets/images/webp/light-yellow-shadow-e-commerce.webp"
         width={563}
         height={347}
-        className="absolute right-0 bottom-0 object-cover shadow-Two "
+        className="absolute right-0 bottom-0 object-cover shadow-Two"
         alt="shadow"
       />
       <div className="max-xl:p-24 max-lg:p-20 max-lg:rounded-[20px] max-md:p-16 max-sm:p-12">
@@ -52,38 +52,38 @@ const TeamsAtService = () => {
           alt="mobile"
         />
         <Image
-          src="/assets/images/webp/shopeing-trole-img.webp"
+          src="/assets/images/webp/shopping-trolley-img.webp"
           width={75}
           height={95}
-          className="e-commerce-box-icon-Two icon-animation-lg pointer-events-none object-cover h-auto w-auto max-md:hidden absolute right-[166px] top-[235px] max-xl:w-16 max-md:right-0 max-lg:right-14"
+          className="e-commerce-box-icon-two icon-animation-lg pointer-events-none object-cover h-auto w-auto max-md:hidden absolute right-[166px] top-[235px] max-xl:w-16 max-md:right-0 max-lg:right-14"
           alt="shope-trolly"
         />
         <Image
           src="/assets/images/webp/male-mac-user-img.webp"
           width={75}
           height={95}
-          className="e-commerce-box-icon-Three icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute right-[147px] bottom-[94px] max-lg:bottom-16  max-xl:w-16 max-md:right-0 max-lg:right-14"
+          className="e-commerce-box-icon-three icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute right-[147px] bottom-[94px] max-lg:bottom-16  max-xl:w-16 max-md:right-0 max-lg:right-14"
           alt="user"
         />
         <Image
           src="/assets/images/webp/female-mac-user-img.webp"
           width={75}
           height={95}
-          className="e-commerce-box-icon-Four icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[105px] top-[91px] max-xl:w-16 max-md:left-0 max-lg:left-14"
+          className="e-commerce-box-icon-four icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[105px] top-[91px] max-xl:w-16 max-md:left-0 max-lg:left-14"
           alt="user"
         />
         <Image
-          src="/assets/images/webp/shopeing-bag-img.webp"
+          src="/assets/images/webp/shopping-bag-img.webp"
           width={75}
           height={95}
-          className="e-commerce-box-icon-Five icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[199px] top-[258px] max-xl:w-16 max-md:top-56 max-lg:left-20 max-md:left-0"
+          className="e-commerce-box-icon-five icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[199px] top-[258px] max-xl:w-16 max-md:top-56 max-lg:left-20 max-md:left-0"
           alt="shope-bag"
         />
         <Image
           src="/assets/images/webp/handshake-img.webp"
           width={75}
           height={95}
-          className="e-commerce-box-icon-Six icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[94px] bottom-[124px] max-xl:w-16 max-lg:bottom-16  max-lg:left-0 max-md:hidden"
+          className="e-commerce-box-icon-six icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[94px] bottom-[124px] max-xl:w-16 max-lg:bottom-16  max-lg:left-0 max-md:hidden"
           alt="handshake"
         />
       </div>

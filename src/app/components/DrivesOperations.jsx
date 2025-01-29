@@ -5,12 +5,11 @@ import CustomButton from './common/CustomButton';
 import { OPERATIONS_LIST } from '../utils/helper';
 const DrivesOperations = () => {
   return (
-    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16 max-lg:py-12 max-md:py-10 max-lg:rounded-[20px]">
+    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16  max-lg:py-[60px] max-md:py-[30px] max-lg:rounded-[20px]">
       <div className="container">
         <CustomHeading
           styleclass="max-w-[915px] mx-auto text-center"
-          text="AllSome"
-          styleclassOne=""
+          text="AllSome "
           title=" drives operations for every e-commerce businesses"
         />
         <p className="text-center pt-[22px] opacity-80 font-normal text-base leading-6 pb-[49px] max-xl:py-6">
@@ -21,7 +20,7 @@ const DrivesOperations = () => {
           {OPERATIONS_LIST.map((obj, i) => (
             <div
               key={i}
-              className="bg-white plans-shadow transition-all ease-linear duration-300 rounded-lg pt-[31px] pb-[17px] h-[284px] shadow-[0px_5px_12px_0px_#D1EFE9] min-w-[212px] flex items-center justify-center flex-col"
+              className="bg-white hover:!shadow-[0px_1px_5px_5px_#36eb58] transition-all ease-linear duration-300 rounded-lg pt-[31px] pb-[17px] h-[284px] shadow-[0px_5px_12px_0px_#D1EFE9] min-w-[212px] flex items-center justify-center flex-col"
             >
               <Image
                 src={obj.cardIcon}
@@ -40,8 +39,15 @@ const DrivesOperations = () => {
               >
                 {obj.description}
               </p>
-              <button className="text-base font-semibold leading-6 text-center text-dark-green mx-auto hover:text-blue-500 transition-all ease-linear duration-300">
-                {obj.btn}
+              <button className="flex items-center gap-[3px] text-base font-semibold leading-6 text-center text-dark-green mx-auto hover:text-blue-500 transition-all ease-linear duration-300">
+                Learn more{" "}
+                <Image
+                  src="/assets/images/svg/green-arrow.svg"
+                  width={18}
+                  height={20}
+                  alt="arrow"
+                  className="w-auto h-auto"
+                />
               </button>
             </div>
           ))}
