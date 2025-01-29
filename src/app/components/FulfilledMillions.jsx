@@ -27,6 +27,7 @@ const FulfilledMillions = () => {
         <div className='py-[7px]'>
           <CustomSlider
             dataList={OVERFLOW_SWIPER_DATA_LIST}
+            classStyle=''
           />
        </div>
         <div className='py-[7px] lg:mt-[18px] mt-4'>
