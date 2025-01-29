@@ -1,4 +1,4 @@
-import { Channels, Commerce, CustomizableOperations, DataInsights, Exchange, GiveAway, InventoryReports, Maps, Purchase, ShipFast } from '../utils/icons';
+import { Channels, Commerce, CustomizableOperations, DataInsights, Exchange, GiveAway, InventoryReports, Maps, Purchase, ShipFast, EmailUsIcon, VisitUsIcon, WhatsappIcon, FacebookIcon, GmailIcon, InstagramIcon, LinkedinIcon } from '../utils/icons';
 
 export const ROADMAP_LIST = [
   {
@@ -117,27 +117,27 @@ export const OVERFLOW_SWIPER_DATA_LIST = [
 ]
 
 export const OPPOSITESIDE_ONE_DATA_LIST = [
-    { image: "/assets/images/webp/toewr-records.webp", width: 92, height: 34 },
-    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
-    { image: "/assets/images/webp/soft-serve.webp", width: 45, height: 33 },
-    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
-    { image: "/assets/images/webp/kopari.webp", width: 91.92, height: 33 },
-    { image: "/assets/images/webp/crossnet.webp", width: 90.92, height: 33 },
-    { image: "/assets/images/webp/fly-by-jing.webp", width: 91.92, height: 23 },
-    { image: "/assets/images/webp/squatch.webp", width: 87, height: 29 },
-    { image: "/assets/images/webp/native.webp", width: 91.59, height: 33 },
+  { image: "/assets/images/webp/toewr-records.webp", width: 92, height: 34 },
+  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
+  { image: "/assets/images/webp/soft-serve.webp", width: 45, height: 33 },
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
+  { image: "/assets/images/webp/kopari.webp", width: 91.92, height: 33 },
+  { image: "/assets/images/webp/crossnet.webp", width: 90.92, height: 33 },
+  { image: "/assets/images/webp/fly-by-jing.webp", width: 91.92, height: 23 },
+  { image: "/assets/images/webp/squatch.webp", width: 87, height: 29 },
+  { image: "/assets/images/webp/native.webp", width: 91.59, height: 33 },
 ]
 
 export const TRUST_LIST = [
-    { image: "/assets/images/webp/homesick.webp", width: 133, height: 48 },
-    { image: "/assets/images/webp/three-ships.webp", width: 41, height: 32},
-    { image: "/assets/images/webp/spikebell.webp", width: 90, height: 32 },
-    { image: "/assets/images/webp/toewr-records.webp", width: 92, height: 34 },
-    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
-    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
-    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
-    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33 },
-   
+  { image: "/assets/images/webp/homesick.webp", width: 133, height: 48 },
+  { image: "/assets/images/webp/three-ships.webp", width: 41, height: 32 },
+  { image: "/assets/images/webp/spikebell.webp", width: 90, height: 32 },
+  { image: "/assets/images/webp/toewr-records.webp", width: 92, height: 34 },
+  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
+  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
+  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33 },
+
   { image: "/assets/images/webp/native.webp", width: 91.59, height: 32 },
   { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 8 },
   { image: "/assets/images/webp/brightland.webp", width: 45, height: 33 },
@@ -199,3 +199,101 @@ export const FAQ_LIST = [
     secondDescription: 'Contact us to learn more'
   }
 ]
+
+export const PRICING_DATA_LIST = [
+  {
+    title: "Storage",
+    description: "ipsum dolor sit amet, consectetur adipiscing. Rdum at et elit.",
+    price: "FREE",
+    period: "Per day",
+    features: [
+      "Free 30 meter cube / month",
+      "Sed odio sed non sagittis.",
+      "At ac nunc nunc semper. Tincidunt pharetra lacus non.",
+      "Egestas eu ut hendrerit nunc.",
+      "Posuere vestibulum fringilla mattis sed interdum cras nec."
+    ]
+  },
+  {
+    title: "Handling",
+    description: "ipsum dolor sit amet, consectetur adipiscing. Rdum at et elit.",
+    price: "2.00 MYR",
+    period: "Per Order (2 items)",
+    features: [
+      "MYR1.00 / extra item",
+      "Sed odio sed non sagittis.",
+      "At ac nunc nunc semper. Tincidunt pharetra lacus non.",
+      "Egestas eu ut hendrerit nunc.",
+      "Posuere vestibulum fringilla mattis sed interdum cras nec."
+    ]
+  },
+  {
+    title: "Delivery",
+    description: "ipsum dolor sit amet, consectetur adipiscing. Rdum at et elit.",
+    price: "FREE",
+    period: "Domestic",
+    features: [
+      "Free for Shopee & Lazada",
+      "Sed odio sed non sagittis.",
+      "At ac nunc nunc semper. Tincidunt pharetra lacus non.",
+      "Egestas eu ut hendrerit nunc.",
+      "Posuere vestibulum fringilla mattis sed interdum cras nec."
+    ]
+  },
+];
+
+export const CONTACT_DATA_LIST = [
+  {
+    title: "Whatsapp Us",
+    description: "(+60)11-51624248",
+    icon: <WhatsappIcon />,
+    link: "tel:+6011-51624248"
+  },
+  {
+    title: "Email Us",
+    description: "Support@allsome.my",
+    icon: <EmailUsIcon />,
+    link: "mailto:-Support@allsome.my"
+  },
+  {
+    title: "Visit Us",
+    description: "LEVEL4, Block 9, Hap Seng Business Park, Persiaran Perusahaan, Kawasan Miel 40300, Shah Alam, Selangor, Malaysia.",
+    icon: <VisitUsIcon />
+  }
+];
+
+export const FOOTER_LIST = [
+  {
+    title: "ALLSOME",
+    links: [
+      { name: "Contact us", link: "#contact" },
+      { name: "Blog", link: "#blog" },
+      { name: "Become Partner", link: "#partner" }
+    ]
+  },
+  {
+    title: "PRODUCT",
+    links: [
+      { name: "Features", link: "#features" },
+      { name: "Pricing", link: "#pricing" },
+      { name: "Features", link: "#Features" }
+    ]
+  },
+  {
+    title: "REGION",
+    links: [
+      { name: "China", link: "/" },
+      { name: "Hong Kong", link: "/" },
+      { name: "Malaysia", link: "/" },
+      { name: "Australia", link: "/" },
+      { name: "United States", link: "/" }
+    ]
+  }
+];
+
+export const FOOTER_ICONS = [
+  { icon: <FacebookIcon />, link: "https://www.facebook.com/" },
+  { icon: <InstagramIcon />, link: "https://www.instagram.com/" },
+  { icon: <GmailIcon />, link: "https://mail.google.com/" },
+  { icon: <LinkedinIcon />, link: "https://www.linkedin.com/" }
+];

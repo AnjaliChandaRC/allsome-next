@@ -8,6 +8,10 @@ body {
   font-family: 'Inter', serif;
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 .line {
   content: '';
 }

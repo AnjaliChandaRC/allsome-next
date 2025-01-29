@@ -1,43 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from "next/link";
-import { FacebookIcon, GmailIcon, InstagramIcon, LinkedinIcon } from '../../utils/icons';
+import { FOOTER_ICONS, FOOTER_LIST } from '../../utils/helper';
 
 const Footer = () => {
-  const FOOTER_LIST = [
-    {
-      title: "ALLSOME",
-      links: [
-        { name: "Contact us", href: "#" },
-        { name: "Blog", href: "#" },
-        { name: "Become Partner", href: "#" }
-      ]
-    },
-    {
-      title: "PRODUCT",
-      links: [
-        { name: "Features", href: "#" },
-        { name: "Pricing", href: "#" },
-        { name: "Tutorial", href: "#" }
-      ]
-    },
-    {
-      title: "REGION",
-      links: [
-        { name: "China", href: "#" },
-        { name: "Hong Kong", href: "#" },
-        { name: "Malaysia", href: "#" },
-        { name: "Australia", href: "#" },
-        { name: "United States", href: "#" }
-      ]
-    }
-  ]
-  const FOOTER_ICONS = [
-    { icon: <FacebookIcon />, link: "https://www.facebook.com/" },
-    { icon: <InstagramIcon />, link: "https://www.instagram.com/" },
-    { icon: <GmailIcon />, link: "https://mail.google.com/" },
-    { icon: <LinkedinIcon />, link: "https://www.linkedin.com/" }
-  ];
+
 
   return (
     <div className="bg-black lg:rounded-t-[40px] rounded-t-[20px] relative overflow-hidden">
@@ -50,7 +16,7 @@ const Footer = () => {
             <p className='text-white/70 sm:pt-[38px] pt-7 pb-4'>Social Media:</p>
             <div className="flex gap-2.5">
               {FOOTER_ICONS.map((obj, i) => (
-                <a key={i} target='blank' href={obj.link} className='p-[7.23px] bg-gradient-to-bl to-lemon via-dark-green from-green rounded-full transition-all duration-300 ease-linear relative box-shadow hover:scale-110 hover:shadow-xl hover:to-yellow-400 hover:via-orange-500 hover:from-teal-500'>{obj.icon} </a>
+                <a key={i} target='blank' href={obj.link} className='size-[28.91px] flex items-center justify-center bg-gradient-to-bl to-lemon via-dark-green from-green rounded-full transition-all duration-300 ease-linear relative box-shadow hover:scale-110 hover:shadow-xl hover:to-yellow-400 hover:via-orange-500 hover:from-teal-500'>{obj.icon} </a>
               ))}
             </div>
             <div className="flex items-center justify-center gap-5">
@@ -62,8 +28,8 @@ const Footer = () => {
                 <p className='text-white/50 text-[13px] pb-2.5'>{obj.title}</p>
                 <ul className="space-y-2">
                   {obj.links.map((items, i) => (
-                    <li key={i} >
-                      <Link href="/" className="hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-alld">{items.name} </Link>
+                    <li key={i}>
+                      <a href={items.link} className="hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-alld">{items.name}</a>
                     </li>
                   ))}
                 </ul>
