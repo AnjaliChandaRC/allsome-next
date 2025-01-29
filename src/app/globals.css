@@ -39,7 +39,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
@@ -62,11 +61,11 @@ input[type=number] {
    animation: floatStar 3s ease infinite;
 }
 
-.floatStar {
+ 
 .revolve {
   animation: revolve 12s ease infinite;
 }
-}
+
 
 @keyframes revolve {
   30% {
