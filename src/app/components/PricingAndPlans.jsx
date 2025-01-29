@@ -49,22 +49,22 @@ const PRICING_DATA_LIST = [
 
 const PricingAndPlans = () => {
   return (
-    <div className="container sm:pb-[66px] pb-10">
+    <div id='price' className="container sm:pb-[66px] pb-10">
       <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center" title="Pricing & Plans" />
-      <CustomDescription styleclass="text-center pb-9" description="Free access to outlets, pay-as-you-go." />
-      <div className="flex gap-[39px] max-lg:flex-wrap justify-center">
+      <CustomDescription styleclass="text-center sm:pb-9 !pb-5" description="Free access to outlets, pay-as-you-go." />
+      <div className="flex xl:gap-[39px] gap-4 max-lg:flex-wrap justify-center">
         {PRICING_DATA_LIST.map((card, index) => (
-          <div key={index} className={`w-full relative max-w-[303px] rounded-2xl py-[31px] bg-cover bg-center plans-shadow transition-all duration-300 ease-linear bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20 hover:border-transparent "} `}>
-            <div className="px-7">
+          <div key={index} className={`w-full relative max-w-[303px] rounded-2xl sm:py-[31px] py-5 bg-cover bg-center plans-shadow transition-all duration-300 ease-linear bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20 hover:border-transparent "} `}>
+            <div className="sm:px-7 px-5">
               <h3 className="text-[13px] font-semibold uppercase pb-[3px] ">{card.title}</h3>
               <p className="text-sm mb-4 opacity-80">{card.description}</p>
             </div>
-            <div className={`px-7 bg-ghost-white ${index === 1 ? "bg-white/20" : ""}`}>
-              <p className='text-custom-3xl font-kanit font-black'>{card.price}</p>
+            <div className={`sm:px-7 px-5 bg-ghost-white ${index === 1 ? "bg-white/20" : ""}`}>
+              <p className='md:text-custom-3xl sm:text-4xl text-3xl font-kanit font-black leading-custom-13xl'>{card.price}</p>
               <p className="text-xs pb-[9px] opacity-80">{card.period}</p>
             </div>
-            <div className="px-7">
-              <ul className="space-y-[7px] pt-3 pb-[35px] text-left">
+            <div className="sm:px-7 px-5">
+              <ul className="space-y-[7px] pt-3 sm:pb-[35px] pb-4 text-left">
                 {card.features.map((feature, i) => (
                   <li key={i} className={`flex gap-3`}>
                     <span className={`pt-1.5 ${index === 1 ? "icon" : ""}`}>
@@ -75,10 +75,10 @@ const PricingAndPlans = () => {
                 ))}
               </ul>
               <div className="flex items-center justify-center">
-                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] ${index === 1 ? "bg-black text-white" : ""}`} />
+                <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] !w-full hover:!bg-black ${index === 1 ? "bg-black text-white" : ""}`} />
               </div>
             </div>
-            <Image className={`absolute bottom-[-12%] w-full  ${index === 1 ? "block" : "hidden"} `} height={34} width={272} src="/assets/images/webp/price-table-shadow.webp" alt='table shadow' />
+            <Image className={`absolute bottom-[-12%]   ${index === 1 ? "block" : "hidden"} `} height={34} width={272} src="/assets/images/webp/price-table-shadow.webp" alt='table shadow' />
           </div>
         ))}
       </div>
