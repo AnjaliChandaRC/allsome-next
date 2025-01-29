@@ -472,3 +472,8 @@ input[type=number] {
     animation: iconAnimationsLg 3s ease infinite;
   }
 }
+
+.slick-track{
+  display: flex !important;
+  align-items: center !important;
+}
