@@ -8,12 +8,8 @@ body {
   font-family: 'Inter', serif;
 }
 
-*{
+* {
   scroll-behavior: smooth;
-}
-
-.line {
-  content: '';
 }
 
 .green-gradient {
@@ -85,32 +81,32 @@ input[type=number] {
 @keyframes floatStarTwo {
   0% {
     transform: translateY(30px) translateX(40px);
-    
+
   }
 
   20% {
     transform: translateY(-20px) translateX(60px);
-    
+
   }
 
   40% {
     transform: translateY(-50px) translateX(-30px);
-    
+
   }
 
   60% {
     transform: translateY(10px) translateX(-60px);
-    
+
   }
 
   80% {
     transform: translateY(40px) translateX(50px);
-    
+
   }
 
   100% {
     transform: translateY(30px) translateX(40px);
-    
+
   }
 }
 
@@ -121,27 +117,27 @@ input[type=number] {
 @keyframes floatStarThree {
   0% {
     transform: translateY(30px) translateX(40px) scale(1);
-    
+
   }
 
   25% {
     transform: translateY(-10px) translateX(70px) scale(1.1);
-    
+
   }
 
   50% {
     transform: translateY(-40px) translateX(-50px) scale(0.95);
-    
+
   }
 
   75% {
     transform: translateY(20px) translateX(-80px) scale(1.05);
-    
+
   }
 
   100% {
     transform: translateY(30px) translateX(40px) scale(1);
-    
+
   }
 }
 
@@ -152,27 +148,27 @@ input[type=number] {
 @keyframes floatStarFour {
   0% {
     transform: translateY(30px) translateX(40px) scale(1);
-    
+
   }
 
   25% {
     transform: translateY(-10px) translateX(70px) scale(1.1);
-    
+
   }
 
   50% {
     transform: translateY(-40px) translateX(-50px) scale(0.95);
-    
+
   }
 
   75% {
     transform: translateY(20px) translateX(-80px) scale(1.05);
-    
+
   }
 
   100% {
     transform: translateY(30px) translateX(40px) scale(1);
-    
+
   }
 }
 
@@ -183,42 +179,42 @@ input[type=number] {
 @keyframes floatStarFive {
   0% {
     transform: translateY(30px) translateX(5px) scale(1);
-    
+
   }
 
   10% {
     transform: translateY(25px) translateX(8px) scale(1.05);
-   
+
   }
 
   25% {
     transform: translateY(-20px) translateX(-4px) scale(1);
-    
+
   }
 
   40% {
     transform: translateY(15px) translateX(6px) scale(1.05);
-    
+
   }
 
   55% {
     transform: translateY(-10px) translateX(-3px) scale(0.95);
-    
+
   }
 
   70% {
     transform: translateY(5px) translateX(4px) scale(1.05);
-    
+
   }
 
   85% {
     transform: translateY(-5px) translateX(-6px) scale(1);
-    
+
   }
 
   100% {
     transform: translateY(30px) translateX(5px) scale(1);
-    
+
   }
 }
 
@@ -230,57 +226,57 @@ input[type=number] {
 @keyframes floatStarSix {
   0% {
     transform: translateY(30px) translateX(5px) scale(1);
-    
+
   }
 
   7% {
     transform: translateY(28px) translateX(6px) scale(1.05);
-    
+
   }
 
   14% {
     transform: translateY(15px) translateX(12px) scale(1.1);
-    
+
   }
 
   22% {
     transform: translateY(-25px) translateX(-8px) scale(0.95);
-    
+
   }
 
   30% {
     transform: translateY(8px) translateX(5px) scale(1.05);
-    
+
   }
 
   42% {
     transform: translateY(10px) translateX(-6px) scale(0.98);
-    
+
   }
 
   55% {
     transform: translateY(0px) translateX(3px) scale(1.12);
-    
+
   }
 
   68% {
     transform: translateY(-15px) translateX(-10px) scale(1);
-    
+
   }
 
   78% {
     transform: translateY(5px) translateX(4px) scale(1.05);
-    
+
   }
 
   90% {
     transform: translateY(-10px) translateX(8px) scale(1.05);
-    
+
   }
 
   100% {
     transform: translateY(30px) translateX(5px) scale(1);
-    
+
   }
 }
 
@@ -340,10 +336,6 @@ input[type=number] {
   60% {
     transform: translateY(-15px);
   }
-}
-
-.e-commerce-icons {
-  animation: floatStar 4s ease-in-out infinite;
 }
 
 .change-direction {
@@ -413,6 +405,7 @@ input[type=number] {
     transform: rotate(360deg);
   }
 }
+
 @keyframes zoomin {
   0% {
     transform: scale(1);
@@ -433,9 +426,15 @@ input[type=number] {
 .best-card:hover .zoom-in {
   animation: zoomin 2s infinite alternate ease-in-out;
 }
-.ellipse-image{
+
+.ellipse-image {
   height: auto !important;
   width: auto !important;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center !important;
 }
 
 @media(min-width:510px) and (max-width:639.98px) {
@@ -477,7 +476,7 @@ input[type=number] {
 }
 
 /*-------------- Responsive-------- */
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
   @keyframes iconAnimationsLg {
     0% {
       transform: translateY(0px);
@@ -495,9 +494,4 @@ input[type=number] {
   .icon-animation-lg {
     animation: iconAnimationsLg 3s ease infinite;
   }
-}
-
-.slick-track{
-  display: flex !important;
-  align-items: center !important;
 }

@@ -18,7 +18,7 @@ const ApiIntegrations = () => {
               <CustomButton styleclass="!py-[10px] !px-[22px] !bg-black text-white !max-w-[223px] !w-full max-xl:mx-auto" title="View integration guide" />
             </div>
             <div className='max-w-[773px] w-full xl:absolute -right-12 max-xl:mx-auto max-xl:grid'>
-              <div className="shadow-custom-2 relative">
+              <div className="relative">
                   <Image
                   src="/assets/images/webp/ninjavan.webp"
                     width={231}
