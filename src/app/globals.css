@@ -13,12 +13,10 @@ body {
 }
 
 .green-gradient {
-  background: linear-gradient(
-    94.55deg,
-    #c7ff51 -14.37%,
-    #00c934 49.67%,
-    #51ffc0 111.65%
-  );
+  background: linear-gradient(94.55deg,
+      #c7ff51 -14.37%,
+      #00c934 49.67%,
+      #51ffc0 111.65%);
 }
 
 .box-shadow {
@@ -65,7 +63,7 @@ input[type=number] {
   animation: floatStar 3s ease infinite;
 }
 
- 
+
 .revolve {
   animation: revolve 12s ease infinite;
 }
@@ -101,6 +99,7 @@ input[type=number] {
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
@@ -177,15 +176,53 @@ input[type=number] {
 }
 
 .earth-animation {
-  animation: earth 40s linear infinite ;
+  animation: earth 40s linear infinite;
 }
 
 @keyframes earth {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
+@media(min-width:510px) and (max-width:639.98px) {
+  .ninjavan-logo {
+    right: 285px !important;
+  }
+
+  .grab-logo {
+    left: 144px !important;
+  }
+
+  .woo-logo {
+    right: 112px !important;
+  }
+
+  .aremax-logo {
+    left: 96px !important;
+  }
+
+  .shpline-logo {
+    right: 96px !important;
+  }
+
+  .shopee-logo {
+    left: 40px !important;
+  }
+
+  .lazada-logo {
+    left: 112px !important;
+  }
+
+  .lalamove-logo {
+    right: 180px !important;
+  }
+
+  .dhl-logo {
+    right: 80px !important;
+  }
+}

@@ -28,7 +28,7 @@ const DoMoreBest = () => {
         <div className='flex flex-row flex-wrap xl:gap-[22px] max-xl:justify-between xl:pt-[108px] lg:pt-20 md:pt-11 pt-9'>
           {BEST_DATA.map((obj, index) => (
             <div key={index} className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:mb-10 mb-7'>
-              <div className='lg:size-[60px] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center'>
+              <div className='lg:size-[60px] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center shadow-[0_2px_28px_#36eb58] justify-center'>
                 <span styleclass="max-lg:!size-6">{obj.cardSvg}</span>
               </div>
               <h3 className="font-kanit font-medium lg:text-lg text-base lg:leading-custom-8xl text-white lg:pt-[19px] pt-4 pb-[11px]">
