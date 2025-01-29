@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 
 const SuccessFulfillments = () => {
   return (
-    <>
       <div className="lg:pt-[77px] md:pt-[30px] lg:pb-[68px] pb-[60px] max-sm:pt-[22px]">
          <div className='container'>
         <CustomHeading styleclass="lg:max-w-[843px] mx-auto text-center font-kanit w-full" title="Everything your brands needs for " textTwo="success" styleclassTwo="" titleTwo=" with fulfillment" />
@@ -28,9 +27,6 @@ const SuccessFulfillments = () => {
         </div>
       </div>
     </div>
-  
-    </>
-
   );
 };
 

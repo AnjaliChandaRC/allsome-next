@@ -4,7 +4,6 @@ import { MILLIONS_LIST_ONE, MILLIONS_LIST_TWO, MILLIONS_LIST_THREE } from '../ut
 import Image from 'next/image'
 
 const FulfilledMillions = () => {
-
   return (
     <div className='lg:pt-[89px] lg:pb-[76px] md:py-14 py-12 max-w-[1920px] mx-auto relative'>
       <Image
