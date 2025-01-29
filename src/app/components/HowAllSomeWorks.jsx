@@ -11,6 +11,7 @@ const HowAllSomeWorks = () => {
       once: false,
     });
   }, []);
+  
   return (
     <div className="pt-[84px] pb-[124px] max-xl:py-20 max-lg:py-[60px] max-md:py-[30px] relative max-w-[1920px] mx-auto">
       <div className="!max-w-[591px] !mx-auto text-center">
