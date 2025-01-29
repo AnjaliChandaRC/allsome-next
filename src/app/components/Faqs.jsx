@@ -15,7 +15,7 @@ const Faqs = () => {
   }
 
   return (
-    <div className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-10'>
+    <div id='about' className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-10'>
       <div className='container'>
         <CustomHeading
           title='Frequently asked questions?'

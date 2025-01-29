@@ -13,11 +13,11 @@ const Shoppers = () => {
               Know where are your shoppers
             </p>
             <CustomHeading
-              title='Be where your'
-              textTwo='shoppers'
+              title='Be where your '
+              textTwo='shoppers ' 
               titleTwo='are'
               styleclassTwo=''
-              styleclass='font-kanit max-w-[487px] max-lg:max-w-none'
+              styleclass='max-w-[487px] max-lg:max-w-none'
             />
             <div className='flex items-center gap-3 pt-10 max-lg:justify-center max-lg:pt-5'>
               <CustomButton
