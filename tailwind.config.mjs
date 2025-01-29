@@ -30,6 +30,7 @@ export default {
         "ghost-white": "#F9F9F9",
         "minty-green": "#06FF88",
         "vivid-green": "#05ED38",
+        "davy-gray": "#5A5A5A",
       },
       fontSize: {
         "custom-2xl": "32px",

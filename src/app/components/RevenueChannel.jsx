@@ -6,7 +6,7 @@ import CustomDescription from './common/CustomDescription'
 
 const RevenueChannel = () => {
   return (
-    <div className='bg-light-green rounded-[40px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:py-[60px] max-md:py-10 overflow-hidden'>
+    <div className='bg-light-green rounded-[40px] max-md:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:pb-8 max-lg:py-[60px] max-md:py-10 max-md:pb-4 overflow-hidden'>
       <div className='container'>
         <div className='flex items-center justify-between xl:gap-10 max-lg:flex-wrap max-lg:justify-center'>
           <div className='flex flex-col'>
@@ -26,10 +26,10 @@ const RevenueChannel = () => {
               heights. AllSome customers achieve 340% growth overtime with auto
               run e-commerce post purchase operations.'
             />
-            <div className='max-lg:flex max-lg:justify-center'>
+            <div className='max-lg:flex max-lg:justify-center mt-[23px] max-md:mt-5'>
               <CustomButton
                 title='Chat with our fulfillment experts'
-                styleclass='!mt-[23px] !py-[10.5px] !px-6 max-lg:!mt-5'
+                styleclass='!w-[298px] max-lg:!w-[250px] hover:before:h-40 hover:before:w-[298px] hover:bg-black hover:text-white before:bg-black'
               />
             </div>
           </div>

@@ -1,70 +1,21 @@
 'use client'
 import React, { useState } from 'react'
+import { FAQ_LIST } from '../utils/helper'
 import { ArrowIcon } from '../utils/icons'
 import CustomHeading from './common/CustomHeading'
 
 const Faqs = () => {
-  const FAQ_LIST = [
-    {
-      title: 'How can my shoppers try my products at outlets?',
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    },
-    {
-      title: "I'm selling in Shopee, what is the total fee to ship an order?",
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    },
-    {
-      title: 'I sell in multiple e-commerce platform, can I still use AllSome?',
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    },
-    {
-      title: 'How can I pass AllSome the order details & instructions?',
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    },
-    {
-      title: 'Can AllSome supports return & exchange?',
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    },
-    {
-      title: 'Can I use AllSome to collect Cash On Delivery (COD)?',
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    },
-    {
-      title: 'How storage fee is calculated?',
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    },
-    {
-      title: 'What if I stored more than 30 meter cubes per month?',
-      description:
-        'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-      secondDescription: 'Contact us to learn more'
-    }
-  ]
   const [active, setActive] = useState(0)
   const toggle = i => {
     setActive(active === i ? null : i)
   }
 
-  const handleParentClick = (i) => {
+  const handleParentClick = i => {
     toggle(i)
   }
 
   return (
-    <div className='pb-6 pt-[93px] max-xl:pt-20 max-xl:pb-10 max-lg:py-[60px] max-md:py-10'>
+    <div className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-10'>
       <div className='container'>
         <CustomHeading
           title='Frequently asked questions?'
@@ -82,27 +33,33 @@ const Faqs = () => {
                   e.stopPropagation()
                   toggle(i)
                 }}
-                className={`flex items-center justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] pl-5 !pb-[15px] max-md:p-4 max-md:!pb-4 ${active === i
-                  ? 'max-[1920px]:!pb-[11px]'
-                  : 'pb-0 transition-all duration-300'
-                  }`}
+                className={`flex sm:items-center gap-2 justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] max-md:p-4 pl-5 ${
+                  active === i
+                    ? '!pb-[11px]'
+                    : '!pb-[15px] transition-all duration-300'
+                }`}
               >
                 {obj.title}
                 <span
-                  className={`transition-all duration-300 ${active === i ? 'rotate-180' : ''
-                    }`}
+                  className={`transition-all duration-300 max-[510px]:pt-[10px] ${
+                    active === i ? 'rotate-180 ' : ''
+                  }`}
                 >
                   <ArrowIcon />
                 </span>
               </button>
               <div
-                className={`text-black transition-all duration-300 overflow-hidden pl-5 pr-[18px] max-md:px-4 ${active === i ? 'pb-[20px] max-md:pb-4 max-h-40' : 'max-h-0'
-                  }`}
+                className={`text-black transition-all duration-300 overflow-hidden pl-5 pr-[18px] max-md:px-4 ${
+                  active === i ? 'pb-[20px] max-md:pb-4 max-h-40' : 'max-h-0'
+                }`}
               >
                 <p className='text-black leading-6 max-md:text-sm max-md:leading-5 pb-[9px] max-md:pb-1 max-w-[716px]'>
                   {obj.description}
                 </p>
-                <a href='/' className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-5  hover:text-blue-400 transition-all duration-300'>
+                <a
+                  href='/'
+                  className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-5  hover:text-blue-400 transition-all duration-300'
+                >
                   {obj.secondDescription}
                 </a>
               </div>
