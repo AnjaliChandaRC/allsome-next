@@ -48,9 +48,9 @@ const CustomSlider = ({ dataList, classStyle = '', slidesToShow = 7, rtl = false
           <Image
             width={obj.width}
             height={obj.height}
-            className="object-cover "
+            className="object-cover h-auto w-auto"
             src={obj.image}
-            alt="img"
+            alt={obj.alt}
           />
         </div>
       ))

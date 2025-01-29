@@ -106,36 +106,36 @@ export const BEST_DATA = [
 ];
 
 export const OVERFLOW_SWIPER_DATA_LIST = [
-  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
-  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
-  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33 },
-  { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33 },
-  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33 },
-  { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 33 },
-  { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29 },
-  { image: "/assets/images/webp/native.webp", width: 91.59, height: 33 },
+  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32,alt:"soft-image"},
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image"},
+  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+  { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
+  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
+  { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 33, alt: "squatch-image" },
+  { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29, alt: "wish-image" },
+  { image: "/assets/images/webp/native.webp", width: 91.59, height: 33, alt: "native-image" },
 ]
 
 export const OPPOSITESIDE_ONE_DATA_LIST = [
-    { image: "/assets/images/webp/toewr-records.webp", width: 92.48, height: 34 },
-    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
-    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
-    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
-    { image: "/assets/images/webp/kopari.webp", width: 91.92, height: 33 },
-    { image: "/assets/images/webp/crossnet.webp", width: 90.59, height: 33 },
-    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33 },
-    { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33 },
+  { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
+  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt:"olipop-image" },
+  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+  { image: "/assets/images/webp/kopari.webp", width: 91.92, height: 33, alt: "kopari-image" },
+  { image: "/assets/images/webp/crossnet.webp", width: 90.59, height: 33, alt: "cross-image" },
+  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
+  { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
 ]
 
 export const TRUST_LIST = [
-    { image: "/assets/images/webp/homesick.webp", width: 133.5, height: 48 },
-    { image: "/assets/images/webp/three-ships.webp", width: 41.33, height: 32},
-    { image: "/assets/images/webp/spikebell.webp", width: 90.67, height: 32 },
-    { image: "/assets/images/webp/toewr-records.webp", width: 92.48, height: 34 },
-    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48 },
-    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32 },
-    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8 },
-    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33 },
+  { image: "/assets/images/webp/homesick.webp", width: 133.5, height: 48, alt: "kopari-image" },
+  { image: "/assets/images/webp/three-ships.webp", width: 41.33, height: 32, alt: "ships-image" },
+  { image: "/assets/images/webp/spikebell.webp", width: 90.67, height: 32, alt: "spike-image" },
+  { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
+  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt: "olipop-image" },
+  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "softi-image" },
+  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
    
 ]
 
