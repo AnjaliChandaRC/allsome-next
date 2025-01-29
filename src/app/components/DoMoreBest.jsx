@@ -2,6 +2,7 @@ import Image from 'next/image';
 import CustomHeading from '../components/common/CustomHeading'
 import CustomDescription from './common/CustomDescription';
 import { DO_MORE_BEST_DATA } from '../utils/helper';
+import 'aos/dist/aos.css';
 
 const DoMoreBest = () => {
  
