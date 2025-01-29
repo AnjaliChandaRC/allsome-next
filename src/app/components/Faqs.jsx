@@ -15,7 +15,10 @@ const Faqs = () => {
   }
 
   return (
-    <div id='about' className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-10'>
+    <div
+      id='about'
+      className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-[30px]'
+    >
       <div className='container'>
         <CustomHeading
           title='Frequently asked questions?'
@@ -39,7 +42,7 @@ const Faqs = () => {
                     : '!pb-[15px] transition-all duration-300'
                 }`}
               >
-                {obj.title}
+                {obj.question}
                 <span
                   className={`transition-all duration-300 max-[510px]:pt-[10px] ${
                     active === i ? 'rotate-180 ' : ''
@@ -54,13 +57,13 @@ const Faqs = () => {
                 }`}
               >
                 <p className='text-black leading-6 max-md:text-sm max-md:leading-5 pb-[9px] max-md:pb-1 max-w-[716px]'>
-                  {obj.description}
+                  {obj.answer}
                 </p>
                 <a
                   href='/'
-                  className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-5  hover:text-blue-400 transition-all duration-300'
+                  className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-5 hover:text-blue-400 transition-all duration-300'
                 >
-                  {obj.secondDescription}
+                  Contact us to learn more
                 </a>
               </div>
             </div>

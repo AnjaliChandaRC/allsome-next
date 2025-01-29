@@ -346,10 +346,6 @@ input[type=number] {
   transition-timing-function: linear !important;
 }
 
-.revenue-img-shadow {
-  box-shadow: 17px 20px 36px 0px #c6f0e7 !important;
-}
-
 @keyframes zoomAnimation {
   0% {
     transform: scale(1);
