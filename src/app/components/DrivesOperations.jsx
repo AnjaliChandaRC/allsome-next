@@ -30,7 +30,7 @@ const DrivesOperations = () => {
                 className="object-cover h-auto w-auto mx-auto pointer-events-none"
                 alt="icons"
               />
-              <h4 className="text-center font-medium text-lg leading-custom-8xl pt-5">
+              <h4 className="text-center font-medium text-lg leading-custom-8xl pt-5 font-kanit">
                 {obj.title}
               </h4>
               <p
