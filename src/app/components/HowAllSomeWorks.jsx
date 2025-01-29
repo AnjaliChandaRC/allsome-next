@@ -5,7 +5,7 @@ import { ROADMAP_LIST } from '../utils/helper';
 const HowAllSomeWorks = () => {
  
   return (
-    <div className="pt-[84px] pb-[124px] max-xl:py-20 max-md:py-16 max-sm:py-10 relative max-w-[1920px] mx-auto">
+    <div className="pt-[84px] pb-[124px] max-xl:py-20 max-lg:py-[60px] max-md:py-[30px] relative max-w-[1920px] mx-auto">
       <div className="!max-w-[591px] !mx-auto text-center">
         <CustomHeading
           title="How "
