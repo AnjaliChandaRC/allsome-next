@@ -5,7 +5,10 @@ import Image from 'next/image';
 
 const TeamsAtService = () => {
   return (
-    <div className="bg-cover bg-no-repeat bg-center h-[606px] max-xl:h-full max-xl:p-24 max-lg:p-20 max-md:rounded-[20px] max-md:p-16 max-sm:p-12 rounded-[40px] bg-e-commerce relative overflow-hidden">
+    <div
+      id="awesome"
+      className="bg-e-commerce bg-cover bg-no-repeat bg-center rounded-[40px] max-w-[1920px] mx-auto max-lg:rounded-[20px] relative overflow-hidden h-[606px] max-xl:h-full"
+    >
       <Image
         src="/assets/images/webp/light-green-shadow-e-commerce.webp"
         width={656}
@@ -20,68 +23,70 @@ const TeamsAtService = () => {
         className="absolute right-0 bottom-0 object-cover shadow-Two "
         alt="shadow"
       />
-      <div className="pt-[88px] max-xl:pt-0 relative z-20">
-        <CustomHeading
-          title="“Your e-commerce tech operation teams at service”"
-          styleclass="!text-white text-center max-w-[761px] mx-auto"
-        />
-        <p className="text-center pt-[19px] text-white max-w-[445px] mx-auto text-base leading-6 opacity-80">
-          Fulfillment is perfect for brands looking to get more traffic, build
-          real connection with customers and grow revenue.
-        </p>
-        <div className="flex items-center justify-center gap-[21px] mt-[38px]">
-          <CustomButton
-            styleclass="!text-white py-[14px] h-[52px] flex items-center justify-center rounded-full min-w-[172px] max-sm:min-w-[140px] bg-gradient-to-bl to-lemon via-dark-green from-green hover:!bg-white hover:!text-black"
-            title="Sign up today"
+      <div className="max-xl:p-24 max-lg:p-20 max-lg:rounded-[20px] max-md:p-16 max-sm:p-12">
+        <div className="pt-[88px] max-xl:pt-0 relative z-20">
+          <CustomHeading
+            title="“Your e-commerce tech operation teams at service”"
+            styleclass="!text-white text-center max-w-[761px] mx-auto"
           />
-          <CustomButton
-            styleclass="text-white border border-solid border-white !min-w-[172px] !h-[52px] flex items-center justify-center max-sm:!min-w-[140px]"
-            title="Request a demo"
-          />
+          <p className="text-center pt-[19px] text-white max-w-[445px] mx-auto text-base leading-6 opacity-80">
+            Fulfillment is perfect for brands looking to get more traffic, build
+            real connection with customers and grow revenue.
+          </p>
+          <div className="flex items-center justify-center gap-[21px] mt-[38px]">
+            <CustomButton
+              styleclass="!text-white py-[14px] h-[52px] flex items-center justify-center rounded-full min-w-[172px] max-sm:min-w-[140px] bg-gradient-to-bl to-lemon via-dark-green from-green hover:!bg-white hover:!text-black"
+              title="Sign up today"
+            />
+            <CustomButton
+              styleclass="text-white border border-solid border-white !min-w-[172px] !h-[52px] flex items-center justify-center max-sm:!min-w-[140px]"
+              title="Request a demo"
+            />
+          </div>
         </div>
+        <Image
+          src="/assets/images/webp/mobile-img.webp"
+          width={75}
+          height={95}
+          className="e-commerce-box-icon-one icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute right-[76px] top-[91px] max-xl:w-16 max-md:right-0 max-lg:right-10"
+          alt="mobile"
+        />
+        <Image
+          src="/assets/images/webp/shopeing-trole-img.webp"
+          width={75}
+          height={95}
+          className="e-commerce-box-icon-Two icon-animation-lg pointer-events-none object-cover h-auto w-auto max-md:hidden absolute right-[166px] top-[235px] max-xl:w-16 max-md:right-0 max-lg:right-14"
+          alt="shope-trolly"
+        />
+        <Image
+          src="/assets/images/webp/male-mac-user-img.webp"
+          width={75}
+          height={95}
+          className="e-commerce-box-icon-Three icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute right-[147px] bottom-[94px] max-lg:bottom-16  max-xl:w-16 max-md:right-0 max-lg:right-14"
+          alt="user"
+        />
+        <Image
+          src="/assets/images/webp/female-mac-user-img.webp"
+          width={75}
+          height={95}
+          className="e-commerce-box-icon-Four icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[105px] top-[91px] max-xl:w-16 max-md:left-0 max-lg:left-14"
+          alt="user"
+        />
+        <Image
+          src="/assets/images/webp/shopeing-bag-img.webp"
+          width={75}
+          height={95}
+          className="e-commerce-box-icon-Five icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[199px] top-[258px] max-xl:w-16 max-md:top-56 max-lg:left-20 max-md:left-0"
+          alt="shope-bag"
+        />
+        <Image
+          src="/assets/images/webp/handshake-img.webp"
+          width={75}
+          height={95}
+          className="e-commerce-box-icon-Six icon-animation-lg pointer-events-none object-cover h-auto w-auto absolute left-[94px] bottom-[124px] max-xl:w-16 max-lg:bottom-16  max-lg:left-0 max-md:hidden"
+          alt="handshake"
+        />
       </div>
-      <Image
-        src="/assets/images/webp/mobile-img.webp"
-        width={75}
-        height={95}
-        className="e-commerce-box-icon pointer-events-none object-cover h-auto w-auto absolute right-[76px] top-[91px] max-xl:w-16 max-md:right-0 max-lg:right-10"
-        alt="mobile"
-      />
-      <Image
-        src="/assets/images/webp/shopeing-trole-img.webp"
-        width={75}
-        height={95}
-        className="e-commerce-box-icon pointer-events-none object-cover h-auto w-auto max-md:hidden absolute right-[166px] top-[235px] max-xl:w-16 max-md:right-0 max-lg:right-14"
-        alt="shope-trolly"
-      />
-      <Image
-        src="/assets/images/webp/male-mac-user-img.webp"
-        width={75}
-        height={95}
-        className="e-commerce-box-icon pointer-events-none object-cover h-auto w-auto absolute right-[147px] bottom-[94px] max-lg:bottom-16  max-xl:w-16 max-md:right-0 max-lg:right-14"
-        alt="user"
-      />
-      <Image
-        src="/assets/images/webp/female-mac-user-img.webp"
-        width={75}
-        height={95}
-        className="e-commerce-box-icon pointer-events-none object-cover h-auto w-auto absolute left-[105px] top-[91px] max-xl:w-16 max-md:left-0 max-lg:left-14"
-        alt="user"
-      />
-      <Image
-        src="/assets/images/webp/shopeing-bag-img.webp"
-        width={75}
-        height={95}
-        className="e-commerce-box-icon pointer-events-none object-cover h-auto w-auto absolute left-[199px] top-[258px] max-xl:w-16 max-md:top-56 max-lg:left-20 max-md:left-0"
-        alt="shope-bag"
-      />
-      <Image
-        src="/assets/images/webp/handshake-img.webp"
-        width={75}
-        height={95}
-        className="e-commerce-box-icon pointer-events-none object-cover h-auto w-auto absolute left-[94px] bottom-[124px] max-xl:w-16 max-lg:bottom-16  max-lg:left-0 max-md:hidden"
-        alt="handshake"
-      />
     </div>
   );
 }

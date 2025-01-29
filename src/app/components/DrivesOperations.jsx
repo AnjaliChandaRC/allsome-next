@@ -5,13 +5,13 @@ import CustomButton from './common/CustomButton';
 import { OPERATIONS_LIST } from '../utils/helper';
 const DrivesOperations = () => {
   return (
-    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16 max-lg:py-12 max-md:py-10 max-md:rounded-[20px]">
+    <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16 max-lg:py-12 max-md:py-10 max-lg:rounded-[20px]">
       <div className="container">
         <CustomHeading
           styleclass="max-w-[915px] mx-auto text-center"
           text="AllSome"
           styleclassOne=""
-          title="drives operations for every e-commerce businesses"
+          title=" drives operations for every e-commerce businesses"
         />
         <p className="text-center pt-[22px] opacity-80 font-normal text-base leading-6 pb-[49px] max-xl:py-6">
           Our customers come from all e-commerce space and we have moved

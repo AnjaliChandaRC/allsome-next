@@ -8,7 +8,7 @@ const HowAllSomeWorks = () => {
     <div className="pt-[84px] pb-[124px] max-xl:py-20 max-md:py-16 max-sm:py-10 relative max-w-[1920px] mx-auto">
       <div className="!max-w-[591px] !mx-auto text-center">
         <CustomHeading
-          title="How"
+          title="How "
           styleTwo="text-dark-green"
           textTwo="AllSome "
           styleclassTwo=""
@@ -34,7 +34,7 @@ const HowAllSomeWorks = () => {
                   ? "mt-[52px] max-md:mt-6"
                   : i === 2
                   ? "mt-[25px] max-md:mt-6"
-                  : "mt-[55px] max-md:mt-6"
+                  : "mt-[55px] max-lg:mt-[30px] max-md:mt-6"
               }`}
             >
               <div className="lg:size-[60px] shadow-[0_2px_10px_#36eb58] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center">
