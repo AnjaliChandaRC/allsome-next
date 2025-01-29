@@ -6,7 +6,7 @@ import CustomDescription from './common/CustomDescription'
 
 const RevenueChannel = () => {
   return (
-    <div className='bg-light-green rounded-[40px] max-md:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:pb-8 max-lg:py-[60px] max-md:py-10 max-md:pb-4 overflow-hidden'>
+    <div className='bg-light-green rounded-[40px] max-md:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:pb-7 max-lg:py-[60px] max-md:py-10 max-md:pb-3 overflow-hidden'>
       <div className='container'>
         <div className='flex items-center justify-between xl:gap-10 max-lg:flex-wrap max-lg:justify-center'>
           <div className='flex flex-col'>
@@ -18,7 +18,7 @@ const RevenueChannel = () => {
               textTwo='#1 revenue'
               titleTwo='channel'
               styleclassTwo=''
-              styleclass='xl:max-w-[692px] !tracking-[-2px] font-kanit max-lg:!max-w-none max-lg:text-center'
+              styleclass='xl:max-w-[652px] !tracking-[-2px] font-kanit max-lg:!max-w-none max-lg:text-center'
             />
             <CustomDescription
               styleclass='!text-black !opacity-80 !max-w-[510px] !leading-6 !pt-[11px] sm:text-base max-lg:!max-w-none max-lg:text-center'
