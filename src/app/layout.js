@@ -16,9 +16,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        {children}
-        <Footer />
-        <BackToTopButton />
+        <div className="overflow-hidden">
+          {children}
+          <Footer />
+          <BackToTopButton />
+       </div>
       </body>
     </html>
   );

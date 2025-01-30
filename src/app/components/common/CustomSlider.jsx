@@ -32,7 +32,6 @@ const CustomSlider = ({ dataList, classStyle = '', slidesToShow = 7, rtl = false
         ],
       });
     }
-
     return () => {
       if (sliderRef.current) {
         $(sliderRef.current).slick('unslick');

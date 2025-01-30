@@ -9,7 +9,7 @@ const SalesOpportunity = () => {
     <div className='xl:pt-[79px] xl:pb-[125px] lg:py-16 py-[60px]'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto'>
-          <div className='lg:flex-row flex flex-col relative max-lg:flex-col-reverse gap-7'>
+          <div className='lg:flex-row flex flex-col relative max-lg:flex-col-reverse'>
             <div data-aos="fade-left" className='xl:max-w-[560px] lg:max-w-[450px] w-full flex flex-col lg:items-start items-center justify-center xl:pt-10'>
               <CustomHeading styleclass="xl:!text-custom-5xl xl:!leading-custom-14xl lg:!text-custom-3xl md:!text-4xl !text-2xl font-kanit font-semibold max-lg:text-center sm:pb-[21px] pb-4 md:max-w-[550px] lg:max-w-[420px] xl:max-w-[560px] w-full max-lg:mx-auto"
                 title={'Maximize sales opportunity with ready inventory'} />
@@ -22,7 +22,7 @@ const SalesOpportunity = () => {
                 src="/assets/images/webp/sales-image.webp"
                 width={682}
                 height={468}
-                className='object-cover xl:max-w-[682px] max-w-[550px] xl:h-[468px] lg:h-[368px] w-full pointer-events-none'
+                className='object-cover xl:max-w-[682px] max-w-[550px] xl:h-[468px] lg:h-[368px] h-[245px] sm:h-[330px] w-full pointer-events-none'
                 alt="sales opportunity"
               />
             </div>
