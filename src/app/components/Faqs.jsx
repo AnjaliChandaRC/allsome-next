@@ -18,7 +18,7 @@ const Faqs = () => {
   return (
     <div
       id='about'
-      className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-[30px]'
+      className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-[30px] overflow-hidden'
     >
       <div className='container'>
         <CustomHeading
@@ -39,7 +39,7 @@ const Faqs = () => {
                   e.stopPropagation()
                   toggle(i)
                 }}
-                className={`flex sm:items-center gap-2 justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] max-md:p-4 pl-5 ${
+                className={`flex sm:items-center gap-2 justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:!leading-6 pt-[17px] pr-[18px] max-md:p-4 pl-5 ${
                   active === i
                     ? '!pb-[11px]'
                     : '!pb-[16px] transition-all duration-300'
