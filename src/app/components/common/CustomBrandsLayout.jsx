@@ -14,7 +14,7 @@ const CustomBrandsLayout = ({
                     width={imageWidth}
                     height={imageHeight}
                     alt='image'
-                    className={`${imageSize}`}
+                    className={`pointer-events-none object-cover h-auto w-auto${imageSize}`}
                 />
             </div>
             <div className={`lg:w-1/2 w-full flex flex-col lg:justify-start justify-center lg:items-start items-center ${contentSize}`}>
