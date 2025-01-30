@@ -54,7 +54,7 @@ const Header = () => {
         </div>
         <div className="lg:block max-lg:hidden  ">
           <div className="flex gap-2.5 w-full">
-            <a href="#contact"><CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !py-1.5 hover:!bg-black before:!bg-black hover:text-white  !px-0 max-w-24' title='Log in' /></a>
+            <a href="#contact"><CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !py-1.5 xl:!max-w-[95px] hover:!bg-black before:!bg-black hover:text-white !px-0 max-w-24' title='Log in' /></a>
             <CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !py-1.5 max-w-[122px] !bg-black text-white hover:!bg-transparent hover:text-black' title='Start free' />
           </div>
         </div>
