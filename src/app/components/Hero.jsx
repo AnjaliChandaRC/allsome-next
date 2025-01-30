@@ -22,7 +22,7 @@ const Hero = () => {
                 <CustomDescription styleclass="xl:mb-[34px] lg:mb-7 md:mb-5 mb-4 max-lg:text-center max-lg:mx-auto max-w-[450px] xl:!text-xl lg:!text-lg md:!text-base !text-sm" description="Turn your inventory into sales channel. Sell more stuff everywhere" />
                 <div className="flex gap-2 max-lg:justify-center">
                   <CustomButton styleclass='xl:!py-[16.5px] xl:!h-14 xl:!max-w-[185px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[34.5px] !bg-black text-white hover:!bg-transparent hover:text-black' title='Sign up for free' />
-                  <CustomButton styleclass='xl:!py-[14.5px] xl:!h-14 xl:!max-w-[170px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[25px] hover:!bg-black before:!bg-black hover:text-white group' styleclassTwo='!block whatsapp-icon transiction-all ease-in-out duration-300' icon={<WhatsAppLogo />} title='Whatsapp us' />
+                  <a href="https://web.whatsapp.com/" target='_blank'> <CustomButton styleclass='xl:!py-[14.5px] xl:!h-14 xl:!max-w-[170px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[25px] hover:!bg-black before:!bg-black hover:text-white group' styleclassTwo='!block whatsapp-icon transiction-all ease-in-out duration-300' icon={<WhatsAppLogo />} title='Whatsapp us' /></a>
                 </div>
               </div>
             </div>
