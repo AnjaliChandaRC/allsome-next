@@ -19,19 +19,11 @@ body {
       #51ffc0 111.65%);
 }
 
-.box-shadow {
-  box-shadow: 0 2px 10px #36eb58;
-}
-
-.plans-shadow:hover {
-  box-shadow: 0px 1px 5px 5px #36eb58;
-}
-
 .shadow-custom-1 {
   box-shadow: 25px -20px 60px 0px #0000001A;
 }
 
-.icon svg path {
+.check-icon svg path {
   fill: black;
 }
 
@@ -41,11 +33,6 @@ button:hover .whatsapp-icon svg path {
 
 button:hover .whatsapp-icon svg path.logo {
   fill: #25d366;
-}
-
-
-.form-box-shadow {
-  box-shadow: 26px 31px 50px 0px #0000001a;
 }
 
 input::-webkit-outer-spin-button,
@@ -110,7 +97,7 @@ input[type=number] {
   }
 }
 
-.e-commerce-box-icon-Two {
+.e-commerce-box-icon-two {
   animation: floatStarTwo 15s ease-in-out infinite;
 }
 
@@ -141,7 +128,7 @@ input[type=number] {
   }
 }
 
-.e-commerce-box-icon-Three {
+.e-commerce-box-icon-three {
   animation: floatStarThree 14s ease-in-out infinite;
 }
 
@@ -172,7 +159,7 @@ input[type=number] {
   }
 }
 
-.e-commerce-box-icon-Four {
+.e-commerce-box-icon-four {
   animation: floatStarFour 13s ease-in-out infinite;
 }
 
@@ -218,7 +205,7 @@ input[type=number] {
   }
 }
 
-.e-commerce-box-icon-Five {
+.e-commerce-box-icon-five {
   animation: floatStarFive 12s ease-in-out infinite;
 }
 
@@ -280,7 +267,7 @@ input[type=number] {
   }
 }
 
-.e-commerce-box-icon-Six {
+.e-commerce-box-icon-six {
   animation: floatStarSix 14s ease-in-out infinite;
 }
 
@@ -291,52 +278,61 @@ input[type=number] {
 
 @keyframes revolve {
   30% {
-    transform: translateY(-10px) translateX(0px);
+    transform: translateY(-30%) translateX(0%);
   }
 
   45% {
-    transform: translateY(20px) translateX(20px);
+    transform: translateY(250%) translateX(50%);
   }
 
   60% {
-    transform: translateY(-20px) translateX(-20px);
+    transform: translateY(-50%) translateX(-250%);
   }
 
   50% {
-    transform: translateY(20px) translateX(-10px);
+    transform: translateY(150%) translateX(-240%);
   }
 
   70% {
-    transform: translateY(-20px) translateX(-20px);
+    transform: translateY(-100%) translateX(-90%);
   }
 
   100% {
-    transform: translateY(0px) translateX(0px);
+    transform: translateY(0%) translateX(0%);
   }
 }
 
 .bounce {
-  animation: bounce 4s ease infinite;
+  animation: bounce 14s ease infinite;
 }
 
 @keyframes bounce {
-
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
+  0% {
+    transform: translate(0, 0);
   }
-
-  40% {
-    transform: translateY(-30px);
+  15% {
+    transform: translate(-80%, -60%);
   }
-
+  30% {
+    transform: translate(-90%, -170%);
+  }
+  45% {
+    transform: translate(200%, -100%);
+  }
   60% {
-    transform: translateY(-15px);
+    transform: translate(-110%, -190%);
+  }
+  75% {
+    transform: translate(-140%, -120%);
+  }
+  90% {
+    transform: translate(-150%, -130%);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
+
 
 .change-direction {
   direction: rtl;
@@ -344,10 +340,6 @@ input[type=number] {
 
 .linear-slider .swiper-wrapper {
   transition-timing-function: linear !important;
-}
-
-.revenue-img-shadow {
-  box-shadow: 17px 20px 36px 0px #c6f0e7 !important;
 }
 
 @keyframes zoomAnimation {

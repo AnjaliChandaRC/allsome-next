@@ -1,3 +1,5 @@
+"use client"
+import { useEffect } from "react";
 import ApiIntegrations from "./components/ApiIntegrations";
 import AutomateYourOperations from "./components/AutomateYourOperations";
 import ContactUs from "./components/ContactUs";
@@ -15,9 +17,18 @@ import SellToShoppers from "./components/SellToShoppers";
 import Shoppers from "./components/Shoppers";
 import SuccessFulfillments from "./components/SuccessFulfillments";
 import TeamsAtService from "./components/TeamsAtService";
+import AOS from "aos"
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
   return (
+    
     <>
       <Hero />
       <IconsSlider />

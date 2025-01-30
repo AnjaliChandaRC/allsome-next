@@ -1,11 +1,19 @@
-import React from 'react'
-import Image from 'next/image';
-import CustomHeading from './common/CustomHeading';
-import { ROADMAP_LIST } from '../utils/helper';
+import React, { useEffect } from "react";
+import Image from "next/image";
+import CustomHeading from "./common/CustomHeading";
+import { ROADMAP_LIST } from "../utils/helper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const HowAllSomeWorks = () => {
- 
+  useEffect(() => {
+    AOS.init({
+      duration: 100,
+      once: false,
+    });
+  }, []);
+  
   return (
-    <div className="pt-[84px] pb-[124px] max-xl:py-20 max-md:py-16 max-sm:py-10 relative max-w-[1920px] mx-auto">
+    <div className="pt-[84px] pb-[124px] max-xl:py-20 max-lg:py-[60px] max-md:py-[30px] relative max-w-[1920px] mx-auto">
       <div className="!max-w-[591px] !mx-auto text-center">
         <CustomHeading
           title="How "
@@ -25,21 +33,31 @@ const HowAllSomeWorks = () => {
         alt="line"
       />
       <div className="container 2xl:mt-5 max-2xl:mt-0">
-        <div className="flex items-center justify-evenly relative z-10 max-md:flex-wrap max-md:pt-10">
+        <div className="flex items-center justify-evenly relative z-10 max-md:flex-wrap max-md:pt-6">
           {ROADMAP_LIST.map((obj, i) => (
             <div
               key={i}
+              data-aos="fade-right"
+              data-aos-delay={
+                i === 0
+                  ? "100"
+                  : i === 1
+                  ? "300"
+                  : i === 2
+                  ? "500"
+                  : "200"
+              }
               className={`${
                 i === 1
-                  ? "mt-[52px] max-md:mt-6"
+                  ? "mt-[52px]"
                   : i === 2
-                  ? "mt-[25px] max-md:mt-6"
-                  : "mt-[55px] max-lg:mt-[30px] max-md:mt-6"
-              }`}
+                  ? "mt-[25px]"
+                  : "mt-[55px] max-lg:mt-[30px]"
+              } max-md:mt-6`}
             >
               <div className="lg:size-[60px] shadow-[0_2px_10px_#36eb58] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center">
                 <p className="text-white font-extrabold text-custom-2xl max-md:text-2xl max-sm:text-xl leading-custom-12xl font-kanit text-center ">
-                  {obj.numb}
+                  {obj.number}
                 </p>
               </div>
               <h3 className="text-lg font-kanit font-medium text-black leading-custom-8xl pb-[7px] pt-[35px] max-lg:pt-6 max-md:pt-5">
@@ -58,6 +76,6 @@ const HowAllSomeWorks = () => {
       </div>
     </div>
   );
-}
+};
 
-export default HowAllSomeWorks
+export default HowAllSomeWorks;

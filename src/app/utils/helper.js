@@ -65,18 +65,18 @@ export const ICON_SLIDER_LIST = [
 
 export const ROADMAP_LIST = [
     {
-        numb: 1,
+        number: 1,
         title: "Connect store",
         description:
             "Send AllSome your inventory and online your preferred outlets",
     },
     {
-        numb: 2,
+        number: 2,
         title: "Autorun operations",
         description: "Auto sync paid orders and wake teams to ship the orders",
     },
     {
-        numb: 3,
+        number: 3,
         title: "Happy buyers",
         description: "Self-service post purchase needs anytime, everywhere",
     },
@@ -87,31 +87,26 @@ export const OPERATIONS_LIST = [
         cardIcon: "/assets/images/webp/frock-img.webp",
         title: "Fashion & Apparel",
         description: "Branded apparels, shoes & bags",
-        btn: "Learn more >>",
     },
     {
         cardIcon: "/assets/images/webp/lipstick-img.webp",
         title: "Beauty & Cosmetics",
         description: "Imported from Korea & Japan",
-        btn: "Learn more >>",
     },
     {
         cardIcon: "/assets/images/webp/mother-img.webp",
         title: "Mothers & Babies",
         description: "Number 1 Motherhood platform",
-        btn: "Learn more >>",
     },
     {
         cardIcon: "/assets/images/webp/health-img.webp",
         title: "Health & Wellness",
         description: "Healthy life and happy life",
-        btn: "Learn more >>",
     },
     {
         cardIcon: "/assets/images/webp/lifestyle-img.webp",
         title: "Lifestyle & home",
         description: "Appliances to hobbies",
-        btn: "Learn more >>",
     },
 ]
 
@@ -168,29 +163,29 @@ export const DO_MORE_BEST_DATA = [
     },
 ];
 
-export const OVERFLOW_SWIPER_DATA_LIST = [
+export const MILLIONS_LIST_ONE = [
   { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32,alt:"soft-image"},
   { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image"},
   { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
   { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
   { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
-  { image: "/assets/images/webp/squatch.webp", width: 91.92, height: 33, alt: "squatch-image" },
+  { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
   { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29, alt: "wish-image" },
   { image: "/assets/images/webp/native.webp", width: 91.59, height: 33, alt: "native-image" },
 ]
 
-export const OPPOSITESIDE_ONE_DATA_LIST = [
+export const MILLIONS_LIST_TWO = [
   { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
   { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt:"olipop-image" },
   { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
   { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
-  { image: "/assets/images/webp/kopari.webp", width: 91.92, height: 33, alt: "kopari-image" },
-  { image: "/assets/images/webp/crossnet.webp", width: 90.59, height: 33, alt: "cross-image" },
+  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+  { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
   { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
   { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
 ]
 
-export const TRUST_LIST = [
+export const MILLIONS_LIST_THREE = [
   { image: "/assets/images/webp/homesick.webp", width: 133.5, height: 48, alt: "kopari-image" },
   { image: "/assets/images/webp/three-ships.webp", width: 41.33, height: 32, alt: "ships-image" },
   { image: "/assets/images/webp/spikebell.webp", width: 90.67, height: 32, alt: "spike-image" },
@@ -204,52 +199,51 @@ export const TRUST_LIST = [
 
 export const FAQ_LIST = [
     {
-        title: 'How can my shoppers try my products at outlets?',
-        description:
+        question: 'How can my shoppers try my products at outlets?',
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
+
     },
     {
-        title: "I'm selling in Shopee, what is the total fee to ship an order?",
-        description:
+        question: "I'm selling in Shopee, what is the total fee to ship an order?",
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
+
     },
     {
-        title: 'I sell in multiple e-commerce platform, can I still use AllSome?',
-        description:
+        question: 'I sell in multiple e-commerce platform, can I still use AllSome?',
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
+
     },
     {
-        title: 'How can I pass AllSome the order details & instructions?',
-        description:
+        question: 'How can I pass AllSome the order details & instructions?',
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
+
     },
     {
-        title: 'Can AllSome supports return & exchange?',
-        description:
+        question: 'Can AllSome supports return & exchange?',
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
+
     },
     {
-        title: 'Can I use AllSome to collect Cash On Delivery (COD)?',
-        description:
+        question: 'Can I use AllSome to collect Cash On Delivery (COD)?',
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
+
     },
     {
-        title: 'How storage fee is calculated?',
-        description:
+        question: 'How storage fee is calculated?',
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
+
     },
     {
-        title: 'What if I stored more than 30 meter cubes per month?',
-        description:
+        question: 'What if I stored more than 30 meter cubes per month?',
+        answer:
             'Share your outlet links to your shoppers, shoppers can book the experience and walk in to try as wanted!',
-        secondDescription: 'Contact us to learn more'
     }
 ]
 
@@ -316,32 +310,32 @@ export const CONTACT_DATA_LIST = [
 ];
 
 export const FOOTER_LIST = [
-  {
-    title: "ALLSOME",
-    links: [
-      { name: "Contact us", link: "#contact" },
-      { name: "Blog", link: "#blog" },
-      { name: "Become Partner", link: "#partner" }
-    ]
-  },
-  {
-    title: "PRODUCT",
-    links: [
-      { name: "Features", link: "#features" },
-      { name: "Pricing", link: "#pricing" },
-      { name: "Tutorial", link: "#tutorial" }
-    ]
-  },
-  {
-    title: "REGION",
-    links: [
-      { name: "China", link: "/" },
-      { name: "Hong Kong", link: "/" },
-      { name: "Malaysia", link: "/" },
-      { name: "Australia", link: "/" },
-      { name: "United States", link: "/" }
-    ]
-  }
+    {
+        title: "ALLSOME",
+        links: [
+            { name: "Contact us", link: "#contact" },
+            { name: "Blog", link: "#blog" },
+            { name: "Become Partner", link: "#partner" }
+        ]
+    },
+    {
+        title: "PRODUCT",
+        links: [
+            { name: "Features", link: "#features" },
+            { name: "Pricing", link: "#pricing" },
+            { name: "Tutorial", link: "#tutorial" }
+        ]
+    },
+    {
+        title: "REGION",
+        links: [
+            { name: "China", link: "/" },
+            { name: "Hong Kong", link: "/" },
+            { name: "Malaysia", link: "/" },
+            { name: "Australia", link: "/" },
+            { name: "United States", link: "/" }
+        ]
+    }
 ];
 
 export const FOOTER_ICONS = [
