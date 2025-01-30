@@ -9,7 +9,8 @@ const SuccessFulfillments = () => {
         <CustomHeading styleclass="max-w-[843px] mx-auto text-center font-kanit xl:pb-[167px] md:pb-20 sm:pb-10 pb-8" title="Everything your brands needs for " textTwo="success" styleclassTwo="" titleTwo=" with fulfillment" />
         <CustomBrandsLayout
           myImage={'/assets/images/webp/build-image.webp'}
-          contentSize='xl:!w-[38%] lg:!w-[43%]'
+          imageSize='lg:max-w-[455px] max-w-[300px] sm:max-w-[350px] lg:h-[467px] w-full'
+          contentSize='xl:!w-[38%] lg:!w-[41%]'
           imageWidth={455}
           imageHeight={467} 
           colSize='lg:!w-[48.66%]'
@@ -21,6 +22,7 @@ const SuccessFulfillments = () => {
       <div className="bg-light-green lg:rounded-[40px] rounded-[20px] lg:py-[112px] py-10 md:py-[60px]">
         <div className='container'>
           <CustomBrandsLayout
+            imageSize='object-cover lg:max-w-[435px] sm:max-w-[335px] max-w-[300px] lg:h-[443px] w-full'
             imageWidth={435}
             imageHeight={443} 
             contentSize='lg:!w-[41%]'
@@ -36,7 +38,7 @@ const SuccessFulfillments = () => {
           <div className='container mx-auto relative'>
             <CustomBrandsLayout
               colSize='xl:!w-[54%] lg:!w-[54.66%]'
-              contentSize='xl:!w-[44%] lg:!w-[43%]'
+              contentSize='xl:!w-[44%] lg:!w-[43%] max-lg:!-mt-[50px] max-sm:!-mt-[30px]'
               imageSize='!max-w-[682px] w-full xl:!absolute -right-20 -top-5'
               myImage={'/assets/images/webp/sales.webp'}
               imageWidth={682}

@@ -7,14 +7,14 @@ import CustomButton from './CustomButton';
 const CustomBrandsLayout = ({
     title, description, buttonText, reverse, myImage, bgColor, colSize, contentSize,imageSize = "",imageWidth = auto,imageHeight = auto}) => {
     return (
-        <div className={`flex items-center !justify-center flex-wrap lg:!justify-between gap-5 relative ${bgColor} ${reverse ? "flex-row-reverse" : "flex-row"}`}>
+        <div className={`flex items-center !justify-center flex-wrap lg:!justify-between gap-7 relative ${bgColor} ${reverse ? "flex-row-reverse" : "flex-row"}`}>
             <div className={`lg:w-[41.66%] w-full flex justify-center ${colSize}`}>
                 <Image
                     src={myImage}
                     width={imageWidth}
                     height={imageHeight}
                     alt='image'
-                    className={`${imageSize}`}
+                    className={`pointer-events-none object-cover h-auto w-auto${imageSize}`}
                 />
             </div>
             <div className={`lg:w-1/2 w-full flex flex-col lg:justify-start justify-center lg:items-start items-center ${contentSize}`}>
@@ -23,7 +23,7 @@ const CustomBrandsLayout = ({
                     title={title}
                 />
                 <CustomDescription
-                    styleclass={'lg:max-w-[462px] !text-black w-full sm:!text-base sm:!leading-6 text-sm opacity-80 font-normal max-lg:text-center'}
+                    styleclass={'lg:max-w-[462px] max-w-[570px] !text-black w-full sm:!text-base sm:!leading-6 text-sm opacity-80 font-normal max-lg:text-center'}
                     description={description}
                 />
                 <CustomButton
