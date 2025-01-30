@@ -10,7 +10,7 @@ const DrivesOperations = () => {
       <div className="container">
         <CustomHeading
           styleclass="max-w-[915px] mx-auto text-center"
-          text="AllSome "
+          text="AllSome"
           title=" drives operations for every e-commerce business"
         />
         <p className="text-center pt-[22px] opacity-80 font-normal text-base leading-6 pb-[49px] max-xl:py-6">
