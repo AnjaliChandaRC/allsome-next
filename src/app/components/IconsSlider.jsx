@@ -5,13 +5,13 @@ import Image from 'next/image'
 
 const IconsSlider = () => {
   return (
-    <div className='max-3xl:bg-white-pattern 3xl:bg-white icon-slider overflow-hidden bg-cover w-full bg-center xl:pt-[147px] pt-20 xl:pb-[170px] lg:pb-20 md:pb-[60px] pb-[30px] -mt-16 md:-mt-28 2xl:-mt-32 relative z-[50] bg-no-repeat'>
+    <div className='max-3xl:bg-white-pattern 3xl:bg-white icon-slider overflow-hidden bg-cover w-full bg-center xl:pt-[147px] pt-20 xl:pb-[164px] lg:pb-20 md:pb-[60px] pb-[30px] -mt-16 md:-mt-28 2xl:-mt-32 relative z-[50] bg-no-repeat'>
       <div className="container">
         <CustomSlider dataList={ICON_SLIDER_LIST} classStyle='!gap-[39px] md:!hidden max-md:!block' customClassStyle='min-w-[100px] h-auto !max-w-[110px]' />
         <div className="flex lg:gap-[39px] gap-6 justify-center items-center">
           {ICON_SLIDER_LIST.map((obj, index) => (
             <div key={index} className='max-md:hidden md:block'data-aos="fade-right" data-aos-delay={index * 200} data-aos-duration="500">
-              <Image className='object-cover flex' src={obj.image} width={obj.width} height={obj.height} alt='icon' />
+              <Image className='object-cover flex pointer-events-none' src={obj.image} width={obj.width} height={obj.height} alt='icon' />
             </div>
           ))}
         </div>
