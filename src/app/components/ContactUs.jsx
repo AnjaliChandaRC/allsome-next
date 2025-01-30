@@ -15,7 +15,6 @@ const ContactUs = () => {
     number: "",
   };
   const [value, setValue] = useState(initialFormData);
-  const [error, setError] = useState(false);
   const form = useRef();
 
   const submitHandle = (e) => {
@@ -23,16 +22,8 @@ const ContactUs = () => {
     emailjs
       .sendForm('service_225sbpv', 'template_mfgmjof', form.current, {
         publicKey: 'yMfLmnJOVdFosmZqu',
-      });
-    setError(true);
-    if (
-      value.name !== "" &&
-      value.email !== "" &&
-      value.number
-    ) {
-
+      }); {
       setValue(initialFormData);
-      setError(false);
       Swal.fire({
         title: "Success!",
         text: "Form submitted successfully.",
@@ -69,9 +60,9 @@ const ContactUs = () => {
               <div data-aos="flip-up" className="bg-gradient-to-r from-parrot-green via-bright-green to-bright-green xl:!bg-white xl:p-0 lg:p-8 md:p-6 sm:p-4 p-3 rounded-2xl sm:rounded-[24px] lg:rounded-[40px] max-w-[586px] xl:max-w-[506px] max-xl:mx-auto">
                 <div className="flex flex-col w-full bg-white xl:max-w-[506px] shadow-[26px_31px_50px_0px_#0000001a] rounded-2xl sm:pt-[42px] sm:pb-[38px] sm:px-[29px] px-3 py-8">
                   <p className='md:text-custom-2xl sm:text-2xl text-xl font-semibold font-kanit leading-8 sm:pb-[13px] '>Get in touch!</p>
-                  <CustomInput label="Your name*" value={value.name} onChange={(e) => setValue({ ...value, name: e.target.value })} type="name" placeholder="Jhone Doe" errorMessage={error && !value.name ? "Name is required" : ""} />
-                  <CustomInput label="Your email*" value={value.email} onChange={(e) => setValue({ ...value, email: e.target.value })} type="email" placeholder="jhonedoe32@gmail.com" errorMessage={error && !value.email ? "Email is required" : ""} />
-                  <CustomInput label="Your mobile" value={value.number} onChange={(e) => setValue({ ...value, number: e.target.value })} type="number" placeholder="+1   123 123 1234" errorMessage={error && !value.number ? "Number is required" : ""} />
+                  <CustomInput label="Your name*" value={value.name} onChange={(e) => setValue({ ...value, name: e.target.value })} type="name" placeholder="Jhone Doe" />
+                  <CustomInput label="Your email*" value={value.email} onChange={(e) => setValue({ ...value, email: e.target.value })} type="email" placeholder="jhonedoe32@gmail.com" />
+                  <CustomInput label="Your mobile" value={value.number} onChange={(e) => setValue({ ...value, number: e.target.value })} type="number" placeholder="+1   123 123 1234" />
                   <CustomButton styleclass="!bg-black !text-white max-w-[153px] !h-12 sm:!h-[52px] sm:mt-[31px] mt-5 hover:!text-black" title="Next" />
                 </div>
               </div>
