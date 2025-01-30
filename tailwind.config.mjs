@@ -60,6 +60,9 @@ export default {
         "pricing-table": "url('/assets/images/webp/pricing-table-bg.webp')",
         "e-commerce": "url('/assets/images/webp/e-commerce-bg.webp')",
       },
+      animation: {
+        'spin-slow': 'spin 40s linear infinite',
+      },
     },
   },
   plugins: [],

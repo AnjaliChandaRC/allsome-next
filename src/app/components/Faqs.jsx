@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { FAQ_LIST } from '../utils/helper'
 import { ArrowIcon } from '../utils/icons'
 import CustomHeading from './common/CustomHeading'
-import 'aos/dist/aos.css'
 
 const Faqs = () => {
   const [active, setActive] = useState(0)
@@ -18,7 +17,7 @@ const Faqs = () => {
   return (
     <div
       id='about'
-      className='pb-6 pt-[93px] max-xl:py-20  max-lg:py-[60px] max-md:py-[30px] overflow-hidden'
+      className='pb-6 pt-[93px] max-xl:pt-20 max-xl:pb-8 max-lg:py-[60px] max-md:py-[30px] overflow-hidden'
     >
       <div className='container'>
         <CustomHeading
