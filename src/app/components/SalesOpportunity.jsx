@@ -19,10 +19,10 @@ const SalesOpportunity = () => {
             </div>
             <div data-aos="fade-right" className='flex lg:justify-start justify-center xl:absolute -right-24'>
               <Image
-                src="/assets/images/webp/sales.webp"
+                src="/assets/images/webp/sales-image.webp"
                 width={682}
-                height={438}
-                className='object-cover lg:max-w-[682px] max-w-[550px] lg:h-[330px] xl:h-[438px] w-full pointer-events-none'
+                height={468}
+                className='object-cover xl:max-w-[682px] max-w-[550px] xl:h-[468px] lg:h-[368px] w-full pointer-events-none'
                 alt="sales opportunity"
               />
             </div>
