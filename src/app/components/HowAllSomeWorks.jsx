@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CustomHeading from "./common/CustomHeading";
 import { ROADMAP_LIST } from "../utils/helper";
-import "aos/dist/aos.css";
+
 const HowAllSomeWorks = () => {
   
   return (
@@ -48,7 +48,7 @@ const HowAllSomeWorks = () => {
               } max-md:mt-6`}
             >
               <div className="lg:size-[60px] shadow-[0_2px_10px_#36eb58] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center">
-                <p className="text-white font-extrabold text-custom-2xl max-md:text-2xl max-sm:text-xl leading-custom-12xl font-kanit text-center ">
+                <p className="text-white font-extrabold text-custom-2xl max-md:text-2xl max-lg:text-xl leading-custom-12xl font-kanit text-center ">
                   {obj.number}
                 </p>
               </div>
