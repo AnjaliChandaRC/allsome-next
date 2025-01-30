@@ -47,6 +47,14 @@ input[type=number] {
 
 /* e-commerce-box-icons-animations */
 
+.drive-operation-btn{
+  transition:  all ease-in 300ms;
+}
+
+.drive-operation-btn:hover svg path{
+    fill: #3b82f6 ;
+}
+
 @keyframes floatStar {
   0% {
     transform: translateY(0px);
@@ -332,7 +340,6 @@ input[type=number] {
     transform: translate(0, 0);
   }
 }
-
 
 .change-direction {
   direction: rtl;

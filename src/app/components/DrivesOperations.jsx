@@ -1,18 +1,11 @@
-import React, { useEffect } from "react";
 import CustomHeading from "./common/CustomHeading";
 import Image from "next/image";
 import CustomButton from "./common/CustomButton";
 import { OPERATIONS_LIST } from "../utils/helper";
-import AOS from "aos";
 import "aos/dist/aos.css";
+import { LearnMoreIcon } from "../utils/icons";
 
 const DrivesOperations = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 100,
-      once: false,
-    });
-  }, []);
 
   return (
     <div className="bg-light-green pt-[59px] pb-[79px] rounded-[40px] max-xl:py-16 max-lg:py-[40px] max-md:my-[30px] max-lg:rounded-[20px]">
@@ -63,15 +56,9 @@ const DrivesOperations = () => {
               >
                 {obj.description}
               </p>
-              <button className="flex items-center gap-[3px] hover:gap-4 justify-center text-base font-semibold leading-6 text-center text-dark-green mx-auto transition-all ease-linear duration-300">
+              <button className="flex items-center gap-[3px] hover:text-blue-500 drive-operation-btn justify-center text-base font-semibold leading-6 text-center text-dark-green mx-auto transition-all ease-linear duration-300">
                 Learn more
-                <Image
-                  src="/assets/images/svg/green-arrow.svg"
-                  width={18}
-                  height={20}
-                  alt="arrow"
-                  className="w-auto h-auto"
-                />
+                <LearnMoreIcon/>
               </button>
             </div>
           ))}
