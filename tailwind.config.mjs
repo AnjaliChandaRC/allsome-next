@@ -7,6 +7,40 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        "3xl": "1921px",
+      },
+      animation: {
+        gelatine: "gelatine 0.6s infinite",
+        bounceCustom: "bounceCustom 14s ease infinite",
+        revolve: "revolve 12s ease infinite",
+      },
+      keyframes: {
+        gelatine: {
+          "0%, 100%": { transform: "scale(1, 1)" },
+          "25%": { transform: "scale(0.9, 1.1)" },
+          "50%": { transform: "scale(1.1, 0.9)" },
+          "75%": { transform: "scale(0.95, 1.05)" },
+        },
+        bounceCustom: {
+          "0%": { transform: "translate(0, 0)" },
+          "15%": { transform: "translate(-80%, -60%)" },
+          "30%": { transform: "translate(-90%, -170%)" },
+          "45%": { transform: "translate(200%, -100%)" },
+          "60%": { transform: "translate(-110%, -190%)" },
+          "75%": { transform: "translate(-140%, -120%)" },
+          "90%": { transform: "translate(-150%, -130%)" },
+          "100%": { transform: "translate(0, 0)" },
+        },
+        revolve: {
+          "30%": { transform: "translateY(-30%) translateX(0%)" },
+          "45%": { transform: "translateY(250%) translateX(50%)" },
+          "50%": { transform: "translateY(150%) translateX(-240%)" },
+          "60%": { transform: "translateY(-50%) translateX(-250%)" },
+          "70%": { transform: "translateY(-100%) translateX(-90%)" },
+          "100%": { transform: "translateY(0%) translateX(0%)" },
+        },
+      },
       container: {
         center: true,
         padding: "16px",
@@ -15,6 +49,7 @@ export default {
           md: "768px",
           lg: "1024px",
           xl: "1172px",
+
         },
       },
       animation: {

@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div className="flex justify-between flex-col w-full">
       <div className="w-full bg-black">
-        <div className={`container flex justify-between w-full mx-auto py-[9px] items-center`}>
+        <div className={`container flex justify-between w-full mx-auto py-[9px] lg:items-center items-start`}>
           <CustomDescription styleclass="lg:!text-xs max-sm:pr-4 max-lg:!font-normal !text-[10px] lg:!leading-custom-2xl leading-[150%] !text-white" description='AllSome is your e-commerce operation team to auto-send your sold orders.' />
           <select className="bg-transparent cursor-pointer outline-none text-xs px-2 bg-black text-white flex justify-center items-center appearance" name="Eng" id="">
             <option className="bg-black cursor-pointer text-white px-3">Eng</option>
@@ -32,7 +32,7 @@ const Header = () => {
       </div>
       <div className="container flex justify-between w-full mx-auto lg:pt-[13px] pt-4 items-center">
         <button onClick={()=>setOpen(!open)} className={`hidden size-7 justify-center items-center max-lg:absolute max-lg:right-5 relative z-[70] max-lg:flex flex-col overflow-hidden`}>
-          <span className={`w-6 transition-all duration-300 min-h-[2.2px] max-h-[2px] mb-1 rounded-sm bg-black relative after:w-full after:h-full  after:absolute after:top-0 after:left-0 ${open ? "rotate-45 after:rotate-90 after:!rounded-sm after:bg-black !bg-black" : ""}`}></span>
+          <span className={`w-6 transition-all duration-300 min-h-[2.2px] max-h-[2px] mb-1 rounded-sm bg-black relative after:w-full after:h-full  after:absolute after:top-0 after:left-0 ${open ? "rotate-45 -mb-1.5 after:rotate-90 after:!rounded-sm after:bg-black !bg-black" : ""}`}></span>
           <span className={`w-6 transition-all duration-300 min-h-[2.3px] max-h-[2px] mb-1 rounded-sm bg-black ${open ? "hidden" : ""}`}></span>
           <span className={`w-6 transition-all duration-300 min-h-[2.2px] max-h-[2px] mb-1 rounded-sm bg-black after:!bg-white ${open ? "-translate-x-10 !bg-white" : ""}`}></span>
         </button>
