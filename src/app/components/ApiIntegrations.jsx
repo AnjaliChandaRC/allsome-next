@@ -5,7 +5,7 @@ import CustomButton from './common/CustomButton'
 
 const ApiIntegrations = () => {
   return (
-    <div className='xl:pt-[130px] pt-[60px] xl:pb-[196gpx] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden'>
+    <div className='xl:pt-[130px] pt-[60px] xl:pb-[196px] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto relative'>
           <div className='xl:flex-row flex flex-col gap-7'>
@@ -16,27 +16,27 @@ const ApiIntegrations = () => {
                 description="Connect AllSome to your e-commerce stores, delivery partners, service providers and more." />
               <CustomButton styleclass="!py-[10px] !px-[22px] !bg-black text-white !max-w-[223px] !w-full max-xl:mx-auto" title="View integration guide" />
             </div>
-            <div className='max-w-[773px] w-full xl:absolute -right-12 max-xl:mx-auto max-xl:grid'>
+            <div className='max-w-[773px] w-full xl:absolute -right-12 max-xl:!mx-auto max-xl:grid'>
               <div className="relative">
                   <Image
                   src="/assets/images/webp/ninjavan.webp"
                     width={231}
                     height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:right-[390px] sm:right-[356px] right-[220px] shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] ninjavan-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:right-[390px] sm:right-[356px] right-[220px] shopify-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] integrations-logo'
                   alt="ninja"
                 />
                 <Image
                   src="/assets/images/webp/shopify.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:-right-0 right-7 ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:right-14 lg:right-12 xl:right-0 right-7 api-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A]'
                   alt="shopify"
                 />
                 <Image
                   src="/assets/images/webp/grab.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[70px] sm:top-14 top-8 md:left-[188px] sm:left-[120px] left-12 ninja-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] grab-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[70px] sm:top-14 top-8 md:left-[188px] sm:left-[120px] left-12 api-logo rounded-[27px] shadow-[0px_15px_34px_-6px_#0000001A] grab-logo'
                   alt="grab"
                 />
                 <Image
@@ -57,42 +57,42 @@ const ApiIntegrations = () => {
                   src="/assets/images/webp/integration-shopline-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[160px] sm:top-28 top-16 md:right-[119px] sm:right-24 right-12 shopify-logo rounded-[27px] shopline-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[160px] sm:top-28 top-16 md:right-[119px] sm:right-24 right-12 shopify-logo shadow-[0px_15px_34px_-6px_#0000001A] rounded-[27px] shopline-logo'
                   alt="shopline"
                 />
                 <Image
                   src="/assets/images/webp/integration-shopee.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[180px] sm:top-36 top-24 sm:left-[62px] left-0 shopify-logo rounded-[27px] shopee-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[180px] sm:top-36 top-24 sm:left-[62px] md:left-12 lg:left-[62px] shadow-[0px_15px_34px_-6px_#0000001A] left-0 shopify-logo rounded-[27px] shopee-logo'
                   alt="shopee"
                 />
                 <Image
                   src="/assets/images/webp/integration-lazada-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[237px] sm:top-48 top-[128px] md:left-[155px] sm:left-32 left-12 ninja-logo rounded-[27px] lazada-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[237px] sm:top-48 top-[128px] md:left-[155px] sm:left-32 left-12 shadow-[0px_15px_34px_-6px_#0000001A] api-logo rounded-[27px] lazada-logo'
                   alt="lazada"
                 />
                 <Image
                   src="/assets/images/webp/lalamove-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[229px] sm:top-44 top-24 xl:right-[193px] right-[120px] shopify-logo rounded-[27px] lalamove-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[229px] sm:top-44 top-24 xl:right-[193px] right-[120px] shadow-[0px_15px_34px_-6px_#0000001A] shopify-logo rounded-[27px] lalamove-logo'
                   alt="lalamove"
                 />
                 <Image
                   src="/assets/images/webp/integration-tiktok-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[202px] sm:top-36 top-[90px] right-3 ninja-logo rounded-[27px]'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[202px] sm:top-36 top-[90px] right-3 shadow-[0px_15px_34px_-6px_#0000001A] api-logo rounded-[27px]'
                   alt="tiktok"
                 />
                 <Image
                   src="/assets/images/webp/dhl-logo.webp"
                   width={231}
                   height={84}
-                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[307px] sm:top-[215px] top-[128px] sm:right-[72px] right-10 ninja-logo rounded-[27px] dhl-logo'
+                  className='object-cover pointer-events-none md:max-w-[231px] sm:max-w-[190px] max-w-[120px] lg:h-[84px] w-full absolute md:top-[307px] sm:top-[215px] top-[128px] shadow-[0px_15px_34px_-6px_#0000001A] sm:right-[72px] right-10 api-logo rounded-[27px] dhl-logo'
                   alt="dhl"
                 />
               </div>
