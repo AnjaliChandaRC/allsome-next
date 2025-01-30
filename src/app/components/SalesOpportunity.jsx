@@ -1,15 +1,15 @@
-import Image from 'next/image'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import CustomButton from './common/CustomButton'
+// import Image from 'next/image'
+// import CustomHeading from './common/CustomHeading'
+// import CustomDescription from './common/CustomDescription'
+// import CustomButton from './common/CustomButton'
 import 'aos/dist/aos.css';
 
 const SalesOpportunity = () => {
   return (
-    <div className='xl:pt-[79px] xl:pb-[125px] lg:py-16 py-[60px]'>
+    <div className=''>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto'>
-          <div className='lg:flex-row flex flex-col relative max-lg:flex-col-reverse'>
+          {/* <div className='lg:flex-row flex flex-col relative max-lg:flex-col-reverse'>
             <div data-aos="fade-left" className='xl:max-w-[560px] lg:max-w-[450px] w-full flex flex-col lg:items-start items-center justify-center xl:pt-10'>
               <CustomHeading styleclass="xl:!text-custom-5xl xl:!leading-custom-14xl lg:!text-custom-3xl md:!text-4xl !text-2xl font-kanit font-semibold max-lg:text-center sm:pb-[21px] pb-4 md:max-w-[550px] lg:max-w-[420px] xl:max-w-[560px] w-full max-lg:mx-auto"
                 title={'Maximize sales opportunity with ready inventory'} />
@@ -26,7 +26,7 @@ const SalesOpportunity = () => {
                 alt="sales opportunity"
               />
             </div>
-          </div>
+          </div> */}
        </div>
       </div>
     </div>
