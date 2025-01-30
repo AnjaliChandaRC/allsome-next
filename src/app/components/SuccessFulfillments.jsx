@@ -9,7 +9,7 @@ const SuccessFulfillments = () => {
         <CustomHeading styleclass="max-w-[843px] mx-auto text-center font-kanit xl:pb-[167px] md:pb-20 sm:pb-10 pb-8" title="Everything your brands needs for " textTwo="success" styleclassTwo="" titleTwo=" with fulfillment" />
         <CustomBrandsLayout
           myImage={'/assets/images/webp/build-image.webp'}
-          contentSize='xl:!w-[38%] lg:!w-[43%]'
+          contentSize='xl:!w-[38%] lg:!w-[41%]'
           imageWidth={455}
           imageHeight={467} 
           colSize='lg:!w-[48.66%]'

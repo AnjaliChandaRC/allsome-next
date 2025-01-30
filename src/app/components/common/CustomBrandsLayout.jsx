@@ -23,7 +23,7 @@ const CustomBrandsLayout = ({
                     title={title}
                 />
                 <CustomDescription
-                    styleclass={'lg:max-w-[462px] !text-black w-full sm:!text-base sm:!leading-6 text-sm opacity-80 font-normal max-lg:text-center'}
+                    styleclass={'lg:max-w-[462px] max-w-[570px] !text-black w-full sm:!text-base sm:!leading-6 text-sm opacity-80 font-normal max-lg:text-center'}
                     description={description}
                 />
                 <CustomButton
