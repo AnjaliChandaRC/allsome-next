@@ -19,8 +19,8 @@ export default {
         floatStarFour: "floatStarFour 13s ease-in-out infinite",
         floatStarFive: "floatStarFive 12s ease-in-out infinite",
         floatStarSix: "floatStarSix 14s ease-in-out infinite",
-        zoomin: 'zoomin 2s infinite alternate ease-in-out',
-        zoomout: 'zoomout 2s infinite alternate ease-in-out',
+        zoomIn: 'zoomIn 2s infinite alternate ease-in-out',
+        zoomOut: 'zoomOut 2s infinite alternate ease-in-out',
         'spin-slow': 'spin 20s linear infinite',
       },
       keyframes: {
