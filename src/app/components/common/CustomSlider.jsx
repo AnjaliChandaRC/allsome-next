@@ -2,11 +2,11 @@
 import React from 'react'
 import Image from 'next/image'
 
-const KeyframeSlider = ({ dataList, customClassStyle }) => {
+const KeyframeSlider = ({ dataList, customClassStyle, classStyle }) => {
   const repeatedDataList = [...dataList, ...dataList]
 
   return (
-    <div className={`overflow-hidden keyframe-slider`}>
+    <div className={`overflow-hidden keyframe-slider ${classStyle}`}>
       <div className={`slide-scroll flex ${customClassStyle}`}>
         {repeatedDataList.map((obj, index) => (
           <div

@@ -24,7 +24,7 @@ const Header = () => {
       <div className="w-full bg-black">
         <div className={`container flex justify-between w-full mx-auto py-[9px] lg:items-center items-start`}>
           <CustomDescription styleclass="lg:!text-xs max-sm:pr-4 max-lg:!font-normal !text-[10px] lg:!leading-custom-2xl leading-[150%] !text-white" description='AllSome is your e-commerce operation team to auto-send your sold orders.' />
-          <select className="bg-transparent cursor-pointer outline-none text-xs px-2 bg-black text-white flex justify-center items-center appearance" name="Eng" id="">
+          <select className="bg-transparent cursor-pointer custom-select outline-none text-xs px-2 bg-black text-white flex justify-center items-center appearance" name="Eng" id="">
             <option className="bg-black cursor-pointer text-white px-3">Eng</option>
             <option className="bg-black cursor-pointer text-white px-3">Hindi</option>
           </select>
