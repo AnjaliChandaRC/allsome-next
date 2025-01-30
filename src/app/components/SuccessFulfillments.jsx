@@ -37,9 +37,9 @@ const SuccessFulfillments = () => {
         <div className='xl:max-w-[1440px] mx-auto'>
           <div className='container mx-auto relative'>
             <CustomBrandsLayout
-              colSize='xl:!w-[54%] lg:!w-[54.66%]'
-              contentSize='xl:!w-[44%] lg:!w-[43%]'
-              imageSize='!max-w-[682px] w-full xl:!absolute -right-20 -top-5'
+              colSize='xl:!w-[48%] lg:!w-[54.66%]'
+              contentSize='xl:!w-[48%] lg:!w-[42%] !w-full'
+              imageSize='!max-w-[682px] w-full xl:!ab solute -right-20 -top-5'
               myImage={'/assets/images/webp/sales.webp'}
               imageWidth={682}
               imageHeight={468} 
