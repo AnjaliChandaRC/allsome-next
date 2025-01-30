@@ -56,13 +56,15 @@ const ContactUs = () => {
                     : index === 1
                       ? "300"
                       : "400"}
-                key={index} className={`flex rounded-2xl px-[18px] hover:shadow-[0px_1px_5px_5px_#36eb58] transition-all duration-300 ease-linear py-[23px] w-full max-w-[768px] xl:max-w-[432px] bg-gradient-to-r from-parrot-green via-bright-green to-bright-green ${index === 2 ? "items-start pb-[21px]" : "items-center"} `}>
-                <div className={`flex items-center justify-center max-sm:p-4 sm:size-[83.24px] max-sm:size-[67px] rounded-full mr-4 bg-deep-green ${index === 2 ? "sm:p-6" : ""}`}>
-                  {contact.icon}
-                </div>
-                <div>
-                  <h2 className="text-sm font-medium leading-custom-xl pb-2.5">{contact.title}</h2>
-                  <a href={contact.link} className={`md:text-2xl font-kanit sm:text-xl text-lg !leading-custom-4xl font-semibold ${index === 2 ? "sm:!leading-custom-5xl max-sm:!leading-4 sm:!text-xl max-sm:text-base" : ""}`}>{contact.description}</a>
+                key={index} className='w-full justify-center items-center flex flex-col'>
+                <div className={`flex rounded-2xl px-[18px] hover:shadow-[0px_1px_5px_5px_#36eb58] transition-all duration-300 ease-linear py-[23px] w-full max-w-[768px] xl:max-w-[432px] bg-gradient-to-r from-parrot-green via-bright-green to-bright-green ${index === 2 ? "items-start pb-[21px]" : "items-center"} `}>
+                  <div className={`flex items-center justify-center max-sm:p-4 sm:size-[83.24px] max-sm:size-[67px] rounded-full mr-4 bg-deep-green ${index === 2 ? "sm:p-6" : ""}`}>
+                    {contact.icon}
+                  </div>
+                  <div>
+                    <h2 className="text-sm font-medium leading-custom-xl pb-2.5">{contact.title}</h2>
+                    <a href={contact.link} className={`md:text-2xl font-kanit sm:text-xl text-lg !leading-custom-4xl font-semibold ${index === 2 ? "sm:!leading-custom-5xl max-sm:!leading-4 sm:!text-xl max-sm:text-base" : ""}`}>{contact.description}</a>
+                  </div>
                 </div>
               </div>
             ))}
