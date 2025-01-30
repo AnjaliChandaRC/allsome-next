@@ -3,15 +3,17 @@ import Image from 'next/image'
 import CustomButton from './common/CustomButton'
 import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
+import 'aos/dist/aos.css'
 
 const RevenueChannel = () => {
+
   return (
-    <div className='bg-light-green rounded-[40px] max-xl:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:py-[60px] max-md:py-[30px] overflow-hidden'>
+    <div className='bg-light-green rounded-[40px] max-xl:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:py-[60px] max-md:py-10 overflow-hidden'>
       <div className='container'>
         <div className='flex items-center justify-between max-xl:!gap-8 max-lg:flex-wrap max-lg:justify-center'>
-          <div className='flex flex-col'>
+          <div className='flex flex-col' data-aos='fade-right'>
             <p className='font-kanit text-xl font-semibold leading-5 text-dark-green max-lg:text-center pb-[11px]'>
-              Let's take about sales
+              Let's talk about sales
             </p>
             <CustomHeading
               title='Turn fulfillment into your '
@@ -32,7 +34,7 @@ const RevenueChannel = () => {
               />
             </div>
           </div>
-          <div>
+          <div data-aos='fade-left'>
             <Image
               src='/assets/images/webp/revenue-chart.webp'
               alt='revenue-chart'
