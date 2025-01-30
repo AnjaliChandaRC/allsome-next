@@ -1,38 +1,40 @@
-import React from 'react';
 import Image from 'next/image';
 import CustomHeading from './CustomHeading';
 import CustomDescription from './CustomDescription';
 import CustomButton from './CustomButton';
 
-const CustomBrandsLayout = ({
-    title, description, buttonText, reverse, myImage, bgColor, colSize, contentSize,imageSize = "",imageWidth = auto,imageHeight = auto}) => {
+const CustomBrandsLayout = ({ obj }) => {
     return (
-        <div className={`flex items-center !justify-center flex-wrap lg:!justify-between gap-7 relative ${bgColor} ${reverse ? "flex-row-reverse" : "flex-row"}`}>
-            <div className={`lg:w-[41.66%] w-full flex justify-center ${colSize}`}>
-                <Image
-                    src={myImage}
-                    width={imageWidth}
-                    height={imageHeight}
-                    alt='image'
-                    className={`pointer-events-none object-cover h-auto w-auto${imageSize}`}
-                />
-            </div>
-            <div className={`lg:w-1/2 w-full flex flex-col lg:justify-start justify-center lg:items-start items-center ${contentSize}`}>
-                <CustomHeading
-                    styleclass={'lg:max-w-[559px] w-full xl:!text-custom-5xl xl:!leading-custom-14xl lg:!text-custom-3xl md:!text-4xl !text-2xl font-kanit font-semibold max-lg:text-center sm:pb-[21px] pb-4 md:max-w-[550px] lg:max-w-[420px] xl:max-w-[560px] w-full max-lg:mx-auto'}
-                    title={title}
-                />
-                <CustomDescription
-                    styleclass={'lg:max-w-[462px] max-w-[570px] !text-black w-full sm:!text-base sm:!leading-6 text-sm opacity-80 font-normal max-lg:text-center'}
-                    description={description}
-                />
-                <CustomButton
-                    styleclass={'lg:mt-[25px] mt-4 !px-[22px] border border-black !py-[10px] bg-black text-white !w-[107px] !h-12 !hover:w-full !hover:text-black'}
-                    title={buttonText}
-                />
+        <div className={`${obj.bgColor ? `bg-${obj.bgColor} lg:rounded-[40px] rounded-[20px] xl:py-[112px] lg:py-20 md:py-[60px] py-[40px]` : ''} ${obj.key === 'layout-custom-one' ? 'max-lg:pb-[60px]' : ''} ${obj.key === 'layout-custom-three' ? 'lg:pt-[79px] lg:pb-[57px] pb-[60px] md:pt-8 max-sm:pt-5' : ''}${obj.key === 'layout-custom-two' ? '' : ''}`} id={obj.key}>
+
+            <div className='container'>
+                <div className={`flex max-lg:!flex-wrap max-lg:flex-col-reverse ${obj.isReverse ? "flex-row-reverse" : "lg:!flex-row"} ${obj.key === 'layout-custom-one' ? 'max-lg:gap-7 lg:pb-[68px]' : ''}${obj.key === 'layout-custom-two' ? 'max-lg:gap-7' : ''}${obj.key === 'layout-custom-three' ? 'max-lg:gap-0' : ''} items-center justify-between max-lg:justify-center max-lg:items-center max-lg:mx-auto`}>                    <div data-aos="fade-left" className={`flex-1 flex flex-col max-lg:justify-center max-lg:items-center text-center lg:text-left max-w-[419px] ${obj.key === 'layout-custom-two' ? 'max-w-[465px]' : obj.key === 'layout-custom-three' ? 'max-w-[560px]' : ''}`}>
+                    <CustomHeading
+                        styleclass={'lg:max-w-[559px] w-full xl:!text-custom-5xl xl:!leading-custom-14xl lg:!text-custom-3xl md:!text-4xl !text-2xl font-kanit font-semibold max-lg:text-center sm:pb-[21px] pb-4 md:max-w-[550px] lg:max-w-[420px] xl:max-w-[560px] w-full max-lg:mx-auto'}
+                        title={obj.heading}
+                    />
+                    <CustomDescription
+                        styleclass={`!text-black !opacity-80 !font-normal max-lg:mx-auto ${obj.key === 'layout-custom-three' ? 'max-w-[450px] w-full' : ''}`}
+                        description={obj.description}
+                    />
+                    <CustomButton
+                        styleclass={'lg:mt-[25px] mt-4 !px-[22px] border border-black !py-[10px] bg-black text-white !w-[107px] !h-12 !hover:w-full !hover:text-black'}
+                        title='sign-up'
+                    />
+                </div>
+                    <div data-aos="fade-right" className={`flex justify-center ${obj.key === 'layout-custom-two' ? '!justify-center xl:ml-8' : ''} ${obj.key === 'layout-custom-one' ? 'xl:!mr-[62px]' : ''} ${obj.key === 'layout-custom-three' ? 'xl:!-mr-14' : ''}`}>
+                        <Image
+                            src={obj.image}
+                            width={obj.width}
+                            height={obj.height}
+                            alt={obj.alt}
+                            className={`pointer-events-none object-cover ${obj.key === 'layout-custom-three' ? 'max-sm:max-w-[350px]' : 'max-sm:max-w-[300px] max-lg:max-w-[400px]'}`}
+                        />
+                    </div>
+
+                </div>
             </div>
         </div>
     );
 };
-
-export default CustomBrandsLayout;
+export default CustomBrandsLayout

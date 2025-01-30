@@ -13,8 +13,10 @@ import PricingAndPlans from "./components/PricingAndPlans";
 import RevenueChannel from "./components/RevenueChannel";
 import SellToShoppers from "./components/SellToShoppers";
 import Shoppers from "./components/Shoppers";
-import SuccessFulfillments from "./components/SuccessFulfillments";
 import TeamsAtService from "./components/TeamsAtService";
+import SuccessFulfillments from './components/SuccessFulfillments'
+import CustomBrandsLayout from "./components/common/CustomBrandsLayout";
+import { CUSTOM_LAYOUT_DATA } from "./utils/helper"
 import AOS from "aos"
 
 export default function Home() {
@@ -26,7 +28,6 @@ export default function Home() {
     });
   }, []);
   return (
-    
     <>
       <Hero />
       <IconsSlider />
@@ -35,7 +36,10 @@ export default function Home() {
       <HowAllSomeWorks />
       <DrivesOperations />
       <FulfilledMillions />
-      <SuccessFulfillments />
+      <SuccessFulfillments/>
+      {CUSTOM_LAYOUT_DATA.map((obj) => (
+        <CustomBrandsLayout key = {obj.key} obj = {obj}/>
+      ))}
       <DoMoreBest />
       <ApiIntegrations />
       <RevenueChannel />

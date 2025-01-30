@@ -164,37 +164,37 @@ export const DO_MORE_BEST_DATA = [
 ];
 
 export const MILLIONS_LIST_ONE = [
-  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32,alt:"soft-image"},
-  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image"},
-  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
-  { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
-  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
-  { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
-  { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29, alt: "wish-image" },
-  { image: "/assets/images/webp/native.webp", width: 91.59, height: 33, alt: "native-image" },
+    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+    { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
+    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
+    { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
+    { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29, alt: "wish-image" },
+    { image: "/assets/images/webp/native.webp", width: 91.59, height: 33, alt: "native-image" },
 ]
 
 export const MILLIONS_LIST_TWO = [
-  { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
-  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt:"olipop-image" },
-  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
-  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
-  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
-  { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
-  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
-  { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
+    { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
+    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt: "olipop-image" },
+    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+    { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
+    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
+    { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
 ]
 
 export const MILLIONS_LIST_THREE = [
-  { image: "/assets/images/webp/homesick.webp", width: 133.5, height: 48, alt: "kopari-image" },
-  { image: "/assets/images/webp/three-ships.webp", width: 41.33, height: 32, alt: "ships-image" },
-  { image: "/assets/images/webp/spikebell.webp", width: 90.67, height: 32, alt: "spike-image" },
-  { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
-  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt: "olipop-image" },
-  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "softi-image" },
-  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
-  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
-   
+    { image: "/assets/images/webp/homesick.webp", width: 133.5, height: 48, alt: "kopari-image" },
+    { image: "/assets/images/webp/three-ships.webp", width: 41.33, height: 32, alt: "ships-image" },
+    { image: "/assets/images/webp/spikebell.webp", width: 90.67, height: 32, alt: "spike-image" },
+    { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
+    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt: "olipop-image" },
+    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "softi-image" },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+
 ]
 
 export const FAQ_LIST = [
@@ -343,4 +343,12 @@ export const FOOTER_ICONS = [
     { icon: <InstagramIcon />, link: "https://www.instagram.com/" },
     { icon: <GmailIcon />, link: "https://mail.google.com/" },
     { icon: <LinkedinIcon />, link: "https://www.linkedin.com/" }
+];
+
+export const CUSTOM_LAYOUT_DATA = [
+    { key:"layout-custom-one", heading:"Build your technology", description:"From e-commerce stores integration, inventory management, order management, warehouse management, and return management - all within AllSome. Activate the modules through a single click.", image:"/assets/images/webp/build-image.webp", alt:"build-image", width:455, height:467, isReverse:false },
+
+    { key:"layout-custom-two", heading:"Automate your operations", description:"Build your e-commerce operation teams with ready software, modules, workforce, and more - all within AllSome. Once sold, orders will be shipped out automatically.", image:"/assets/images/webp/automate-image.webp", alt:"automate-image", width:435, height:443, isReverse:true, bgColor:"light-green" },
+
+    { key:"layout-custom-three", heading:"Maximize sales opportunity with ready inventory", description: "Be where your shoppers are, both online and offline. Appear to the right audience at the right time, both online and offline to generate sales for you.", image:"/assets/images/webp/sales-image.webp", alt:"sales-image", width:610, height:468, isReverse:false }
 ];
