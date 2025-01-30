@@ -1,4 +1,3 @@
-import React from 'react'
 import CustomHeading from './common/CustomHeading'
 import CustomButton from './common/CustomButton';
 import Image from 'next/image';
@@ -35,11 +34,11 @@ const TeamsAtService = () => {
           </p>
           <div className="flex items-center justify-center gap-[21px] mt-[38px]">
             <CustomButton
-              styleclass="!text-white py-[14px] max-md:h-[48px] h-[52px] flex items-center justify-center rounded-full min-w-[172px] max-sm:min-w-[140px] bg-gradient-to-bl to-lemon via-dark-green from-green hover:!bg-white hover:!text-black"
+              styleclass="!text-white py-[14px] max-md:h-[48px] h-[52px] flex items-center justify-center rounded-full min-w-[172px] max-sm:min-w-[140px] !border-none bg-gradient-to-bl to-lemon via-dark-green from-green hover:!bg-white hover:!text-black"
               title="Sign up today"
             />
             <CustomButton
-              styleclass="text-white border max-md:h-[48px] border-solid border-white !min-w-[172px] !h-[52px] flex items-center justify-center max-sm:!min-w-[140px]"
+              styleclass="text-white border max-md:!h-[48px] border-solid border-white !min-w-[172px] !h-[52px] flex items-center justify-center max-sm:!min-w-[140px]"
               title="Request a demo"
             />
           </div>

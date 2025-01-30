@@ -1,16 +1,8 @@
-import React, { useEffect } from "react";
 import Image from "next/image";
 import CustomHeading from "./common/CustomHeading";
 import { ROADMAP_LIST } from "../utils/helper";
-import AOS from "aos";
 import "aos/dist/aos.css";
 const HowAllSomeWorks = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 100,
-      once: false,
-    });
-  }, []);
   
   return (
     <div className="pt-[84px] pb-[124px] max-xl:py-20 max-lg:py-[60px] max-md:py-[30px] relative max-w-[1920px] mx-auto">
