@@ -8,7 +8,7 @@ const CustomBrandsLayout = ({
     title, description, buttonText, reverse, myImage, bgColor, colSize, contentSize,imageSize = "",imageWidth = auto,imageHeight = auto}) => {
     return (
         <div className={`flex items-center !justify-center flex-wrap lg:!justify-between gap-5 relative ${bgColor} ${reverse ? "flex-row-reverse" : "flex-row"}`}>
-            <div className={`lg:w-[41.66%] w-full max-lg:flex justify-center ${colSize}`}>
+            <div className={`lg:w-[41.66%] w-full flex justify-center ${colSize}`}>
                 <Image
                     src={myImage}
                     width={imageWidth}
