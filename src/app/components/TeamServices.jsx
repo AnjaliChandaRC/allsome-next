@@ -1,8 +1,8 @@
-import CustomHeading from './common/CustomHeading'
-import CustomButton from './common/CustomButton';
-import Image from 'next/image';
+import CustomHeading from "./common/CustomHeading";
+import CustomButton from "./common/CustomButton";
+import Image from "next/image";
 
-const TeamsAtService = () => {
+const TeamsServices = () => {
   return (
     <div
       id="awesome"
@@ -88,6 +88,6 @@ const TeamsAtService = () => {
       </div>
     </div>
   );
-}
+};
 
-export default TeamsAtService
+export default TeamsServices;

@@ -30,15 +30,7 @@ const HowAllSomeWorks = () => {
             <div
               key={i}
               data-aos="fade-right"
-              data-aos-delay={
-                i === 0
-                  ? "100"
-                  : i === 1
-                  ? "300"
-                  : i === 2
-                  ? "500"
-                  : "200"
-              }
+              data-aos-delay={["100", "300", "500"][i] || "200"}
               className={`${
                 i === 1
                   ? "mt-[52px]"

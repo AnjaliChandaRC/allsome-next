@@ -14,8 +14,8 @@ import RevenueChannel from "./components/RevenueChannel";
 import SellToShoppers from "./components/SellToShoppers";
 import Shoppers from "./components/Shoppers";
 import SuccessFulfillments from "./components/SuccessFulfillments";
-import TeamsAtService from "./components/TeamsAtService";
 import AOS from "aos"
+import TeamsServices from "./components/TeamServices";
 
 export default function Home() {
   useEffect(() => {
@@ -31,7 +31,7 @@ export default function Home() {
       <Hero />
       <IconsSlider />
       <SellToShoppers />
-      <TeamsAtService />
+      <TeamsServices/>
       <HowAllSomeWorks />
       <DrivesOperations />
       <FulfilledMillions />
