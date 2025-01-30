@@ -60,6 +60,130 @@ export default {
         "pricing-table": "url('/assets/images/webp/pricing-table-bg.webp')",
         "e-commerce": "url('/assets/images/webp/e-commerce-bg.webp')",
       },
+      animation: {
+        floatStarTwo: "floatStarTwo 15s ease-in-out infinite",
+        floatStarThree: "floatStarThree 14s ease-in-out infinite",
+        floatStarFour: "floatStarFour 13s ease-in-out infinite",
+        floatStarFive: "floatStarFive 12s ease-in-out infinite",
+        floatStarSix: "floatStarSix 14s ease-in-out infinite",
+      },
+      keyframes: {
+        floatStarTwo: {
+          '0%': {
+            transform: 'translateY(30px) translateX(40px)',
+          },
+          '20%': {
+            transform: 'translateY(-20px) translateX(60px)',
+          },
+          '40%': {
+            transform: 'translateY(-50px) translateX(-30px)',
+          },
+          '60%': {
+            transform: 'translateY(10px) translateX(-60px)',
+          },
+          '80%': {
+            transform: 'translateY(40px) translateX(50px)',
+          },
+          '100%': {
+            transform: 'translateY(30px) translateX(40px)',
+          },
+        },
+        floatStarThree: {
+          '0%': {
+            transform: 'translateY(30px) translateX(40px) scale(1)',
+          },
+          '25%': {
+            transform: 'translateY(-10px) translateX(70px) scale(1.1)',
+          },
+          '50%': {
+            transform: 'translateY(-40px) translateX(-50px) scale(0.95)',
+          },
+          '75%': {
+            transform: 'translateY(20px) translateX(-80px) scale(1.05)',
+          },
+          '100%': {
+            transform: 'translateY(30px) translateX(40px) scale(1)',
+          },
+        },
+        floatStarFour: {
+          '0%': {
+            transform: 'translateY(30px) translateX(40px) scale(1)',
+          },
+          '25%': {
+            transform: 'translateY(-10px) translateX(70px) scale(1.1)',
+          },
+          '50%': {
+            transform: 'translateY(-40px) translateX(-50px) scale(0.95)',
+          },
+          '75%': {
+            transform: 'translateY(20px) translateX(-80px) scale(1.05)',
+          },
+          '100%': {
+            transform: 'translateY(30px) translateX(40px) scale(1)',
+          },
+        },
+        floatStarFive: {
+          '0%': {
+            transform: 'translateY(30px) translateX(5px) scale(1)',
+          },
+          '10%': {
+            transform: 'translateY(25px) translateX(8px) scale(1.05)',
+          },
+          '25%': {
+            transform: 'translateY(-20px) translateX(-4px) scale(1)',
+          },
+          '40%': {
+            transform: 'translateY(15px) translateX(6px) scale(1.05)',
+          },
+          '55%': {
+            transform: 'translateY(-10px) translateX(-3px) scale(0.95)',
+          },
+          '70%': {
+            transform: 'translateY(5px) translateX(4px) scale(1.05)',
+          },
+          '85%': {
+            transform: 'translateY(-5px) translateX(-6px) scale(1)',
+          },
+          '100%': {
+            transform: 'translateY(30px) translateX(5px) scale(1)',
+          },
+        },
+        floatStarSix: {
+          '0%': {
+            transform: 'translateY(30px) translateX(5px) scale(1)',
+          },
+          '7%': {
+            transform: 'translateY(28px) translateX(6px) scale(1.05)',
+          },
+          '14%': {
+            transform: 'translateY(15px) translateX(12px) scale(1.1)',
+          },
+          '22%': {
+            transform: 'translateY(-25px) translateX(-8px) scale(0.95)',
+          },
+          '30%': {
+            transform: 'translateY(8px) translateX(5px) scale(1.05)',
+          },
+          '42%': {
+            transform: 'translateY(10px) translateX(-6px) scale(0.98)',
+          },
+          '55%': {
+            transform: 'translateY(0px) translateX(3px) scale(1.12)',
+          },
+          '68%': {
+            transform: 'translateY(-15px) translateX(-10px) scale(1)',
+          },
+          '78%': {
+            transform: 'translateY(5px) translateX(4px) scale(1.05)',
+          },
+          '90%': {
+            transform: 'translateY(-10px) translateX(8px) scale(1.05)',
+          },
+          '100%': {
+            transform: 'translateY(30px) translateX(5px) scale(1)',
+          },
+        },
+      },
     },
   },
   plugins: [],
