@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { FAQ_LIST } from '../utils/helper'
 import { ArrowIcon } from '../utils/icons'
 import CustomHeading from './common/CustomHeading'
+import 'aos/dist/aos.css'
 
 const Faqs = () => {
   const [active, setActive] = useState(0)
@@ -30,6 +31,8 @@ const Faqs = () => {
               key={i}
               className='rounded-2xl border-2  border-solid border-black border-opacity-70'
               onClick={() => handleParentClick(i)}
+              data-aos={i % 2 === 0 ? 'fade-right' : 'fade-left'}
+              data-aos-delay={i * 100}
             >
               <button
                 onClick={e => {
@@ -39,13 +42,13 @@ const Faqs = () => {
                 className={`flex sm:items-center gap-2 justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:leading-6 pt-[17px] pr-[18px] max-md:p-4 pl-5 ${
                   active === i
                     ? '!pb-[11px]'
-                    : '!pb-[15px] transition-all duration-300'
+                    : '!pb-[16px] transition-all duration-300'
                 }`}
               >
                 {obj.question}
                 <span
                   className={`transition-all duration-300 max-[510px]:pt-[10px] ${
-                    active === i ? 'rotate-180 ' : ''
+                    active === i ? 'rotate-180' : ''
                   }`}
                 >
                   <ArrowIcon />
