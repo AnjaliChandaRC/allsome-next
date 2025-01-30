@@ -4,7 +4,6 @@ import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
 import CustomButton from './common/CustomButton'
 import { SHOPPERS_CARDS_LIST } from '../utils/helper'
-import "aos/dist/aos.css";
 
 const SellToShoppers = () => {
   return (
