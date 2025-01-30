@@ -40,7 +40,7 @@ const SuccessFulfillments = () => {
               colSize='xl:!w-[48%] lg:!w-[54.66%]'
               contentSize='xl:!w-[48%] lg:!w-[42%] !w-full'
               imageSize='!max-w-[682px] w-full xl:!ab solute -right-20 -top-5'
-              myImage={'/assets/images/webp/sales.webp'}
+              myImage={'/assets/images/webp/sales-image.webp'}
               imageWidth={682}
               imageHeight={468} 
               title="Maximize sales opportunity with ready inventory"
