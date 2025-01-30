@@ -13,8 +13,8 @@ const Shoppers = () => {
             </p>
             <CustomHeading
               title='Be where your '
-              textTwo='shoppers ' 
-              titleTwo='are'
+              textTwo='shoppers' 
+              titleTwo=' are'
               styleclassTwo='after:absolute after:lg:!bottom-[5px] after:md:!bottom-[0px]'
               styleclass='max-w-[487px] max-lg:max-w-none font-bold'
             />
