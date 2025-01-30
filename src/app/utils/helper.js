@@ -162,39 +162,66 @@ export const DO_MORE_BEST_DATA = [
         description: "Get actionable insights and know how your shoppers interact with your products in real life.",
     },
 ];
+export const INTEGRATIONS_DATA_POSITION = [
+    "md:right-[390px] sm:right-[356px] right-[220px]",
+    "md:right-14 lg:right-12 xl:right-0 right-7", 
+    "md:top-[70px] sm:top-14 top-8 md:left-[188px] sm:left-[120px] left-12", 
+    "md:top-[70px] sm:top-12 top-7 md:right-[139px] sm:right-28 right-16", 
+    "md:top-[130px] sm:top-28 top-16 md:left-[228px] sm:left-[190px] left-16", 
+    "md:top-[160px] sm:top-28 top-16 md:right-[119px] sm:right-24 right-12", 
+    "md:top-[180px] sm:top-36 top-24 sm:left-[62px] md:left-12 lg:left-[62px] left-0", 
+    "md:top-[237px] sm:top-48 top-[128px] md:left-[155px] sm:left-32 left-12", 
+    "md:top-[229px] sm:top-44 top-24 xl:right-[193px] md:right-52 lg:right-44 right-[120px]", 
+    "md:top-[202px] sm:top-36 top-[90px] right-3", 
+    "md:top-[307px] sm:top-[215px] top-[128px] sm:right-[72px] right-10", 
+];
+
+export const INTEGRATIONS_DATA = [
+    { src: "/assets/images/webp/ninjavan.webp", alt: "ninja", animation: "animate-zoomIn" },
+    { src: "/assets/images/webp/shopify.webp", alt: "shopify", animation: "animate-zoomIn" },
+    { src: "/assets/images/webp/grab.webp", alt: "grab", animation: "animate-zoomOut" },
+    { src: "/assets/images/webp/woo-logo.webp", alt: "woo", animation: "animate-zoomOut" },
+    { src: "/assets/images/webp/aramex-logo.webp", alt: "aramex", animation: "animate-zoomIn" },
+    { src: "/assets/images/webp/integration-shopline-logo.webp", alt: "shopline", animation: "animate-zoomOut" },
+    { src: "/assets/images/webp/integration-shopee.webp", alt: "shopee", animation: "animate-zoomOut" },
+    { src: "/assets/images/webp/integration-lazada-logo.webp", alt: "lazada", animation: "animate-zoomIn" },
+    { src: "/assets/images/webp/lalamove-logo.webp", alt: "lalamove", animation: "animate-zoomOut" },
+    { src: "/assets/images/webp/integration-tiktok-logo.webp", alt: "tiktok", animation: "animate-zoomIn" },
+    { src: "/assets/images/webp/dhl-logo.webp", alt: "dhl", animation: "animate-zoomIn" },
+];
 
 export const MILLIONS_LIST_ONE = [
-  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32,alt:"soft-image"},
-  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image"},
-  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
-  { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
-  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
-  { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
-  { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29, alt: "wish-image" },
-  { image: "/assets/images/webp/native.webp", width: 91.59, height: 33, alt: "native-image" },
+    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+    { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
+    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
+    { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
+    { image: "/assets/images/webp/death-wish.webp", width: 87, height: 29, alt: "wish-image" },
+    { image: "/assets/images/webp/native.webp", width: 91.59, height: 33, alt: "native-image" },
 ]
 
 export const MILLIONS_LIST_TWO = [
-  { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
-  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt:"olipop-image" },
-  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
-  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
-  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
-  { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
-  { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
-  { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
+    { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
+    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt: "olipop-image" },
+    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "soft-image" },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+    { image: "/assets/images/webp/crossnet.webp", width: 91.59, height: 33, alt: "cross-image" },
+    { image: "/assets/images/webp/fly-by-jing.webp", width: 90.92, height: 33, alt: "fly-image" },
+    { image: "/assets/images/webp/squatch.webp", width: 90.92, height: 33, alt: "squatch-image" },
 ]
 
 export const MILLIONS_LIST_THREE = [
-  { image: "/assets/images/webp/homesick.webp", width: 133.5, height: 48, alt: "kopari-image" },
-  { image: "/assets/images/webp/three-ships.webp", width: 41.33, height: 32, alt: "ships-image" },
-  { image: "/assets/images/webp/spikebell.webp", width: 90.67, height: 32, alt: "spike-image" },
-  { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
-  { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt: "olipop-image" },
-  { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "softi-image" },
-  { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
-  { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
-   
+    { image: "/assets/images/webp/homesick.webp", width: 133.5, height: 48, alt: "kopari-image" },
+    { image: "/assets/images/webp/three-ships.webp", width: 41.33, height: 32, alt: "ships-image" },
+    { image: "/assets/images/webp/spikebell.webp", width: 90.67, height: 32, alt: "spike-image" },
+    { image: "/assets/images/webp/tower-records.webp", width: 92.48, height: 34, alt: "tower-image" },
+    { image: "/assets/images/webp/olipop.webp", width: 133.5, height: 48, alt: "olipop-image" },
+    { image: "/assets/images/webp/soft-serve.webp", width: 90.67, height: 32, alt: "softi-image" },
+    { image: "/assets/images/webp/brightland.webp", width: 45, height: 8, alt: "bright-image" },
+    { image: "/assets/images/webp/kopari.webp", width: 90.92, height: 33, alt: "kopari-image" },
+
 ]
 
 export const FAQ_LIST = [
