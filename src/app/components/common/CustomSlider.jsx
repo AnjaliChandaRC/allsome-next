@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 
 const KeyframeSlider = ({ dataList, customClassStyle }) => {
-  const repeatedDataList = [...dataList, ...dataList]
+  const repeatedDataList = [...dataList, ...dataList ]
 
   return (
     <div className={`overflow-hidden keyframe-slider`}>
