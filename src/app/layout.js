@@ -1,6 +1,7 @@
 import BackToTopButton from "./components/common/BackToTopButton";
 import Footer from "./components/common/Footer";
 import "./globals.css";
+import "aos/dist/aos.css";
 
 export const metadata = {
   title: "AllSome",
