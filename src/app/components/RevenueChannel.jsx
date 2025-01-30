@@ -1,9 +1,7 @@
-import React from 'react'
 import Image from 'next/image'
 import CustomButton from './common/CustomButton'
 import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
-import 'aos/dist/aos.css'
 
 const RevenueChannel = () => {
 

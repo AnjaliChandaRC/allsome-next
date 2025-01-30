@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import CustomHeading from './common/CustomHeading'
 import CustomButton from './common/CustomButton'
@@ -36,7 +35,7 @@ const Shoppers = () => {
               alt='shoppers-earth'
               width={503}
               height={490}
-              className='pointer-events-none xl:!max-w-[503px] !h-[490px] max-xl:!max-w-[450px] max-xl:!h-[420px] max-lg:!h-[420px] block max-md:!max-w-[310px] max-md:!h-[288px] earth-animation'
+              className='pointer-events-none xl:!max-w-[503px] !h-[490px] max-xl:!max-w-[450px] max-xl:!h-[420px] max-lg:!h-[420px] block max-md:!max-w-[310px] max-md:!h-[288px] animate-spin-slow'
             />
           </div>
         </div>
