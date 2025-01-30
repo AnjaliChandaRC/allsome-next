@@ -19,8 +19,8 @@ export default {
         floatStarFour: "floatStarFour 13s ease-in-out infinite",
         floatStarFive: "floatStarFive 12s ease-in-out infinite",
         floatStarSix: "floatStarSix 14s ease-in-out infinite",
-        zoomin: 'zoomin 2s infinite alternate ease-in-out',
-        zoomout: 'zoomout 2s infinite alternate ease-in-out',
+        zoomIn: 'zoomIn 2s infinite alternate ease-in-out',
+        zoomOut: 'zoomOut 2s infinite alternate ease-in-out',
       },
       keyframes: {
         gelatine: {
@@ -47,7 +47,7 @@ export default {
           "70%": { transform: "translateY(-100%) translateX(-90%)" },
           "100%": { transform: "translateY(0%) translateX(0%)" },
         },
-        zoomin: {
+        zoomIn: {
           '0%': {
             transform: 'scale(.8)',
             opacity: '0.6'
@@ -61,7 +61,7 @@ export default {
             opacity: '0.7'
           },
         },
-        zoomout: {
+        zoomOut: {
           '0%': {
             transform: 'scale(.8)',
             opacity: '1'

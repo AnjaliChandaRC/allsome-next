@@ -41,8 +41,8 @@ const DoMoreBest = () => {
                                 ? "750" : index === 8
                                   ? "800" : index === 9
               }
-              className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:mb-10 mb-7 best-card duration-500'>
-              <div className='lg:size-[60px] bg-circle size-12 zoom-in rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center !curser-pointer shadow-[0_2px_28px_#36eb58] justify-center'>
+              className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:mb-10 mb-7 group duration-500'>
+              <div className='lg:size-[60px] bg-circle size-12 group-hover:animate-zoomOut rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center !curser-pointer shadow-[0_2px_28px_#36eb58] justify-center'>
                 <span styleclass="max-lg:!size-6 !width-3 !height-3">{obj.cardIcon}</span>
               </div>
               <h3 className="font-kanit font-medium lg:text-lg text-base lg:leading-custom-8xl text-white lg:pt-[19px] pt-4 pb-[11px]">
