@@ -17,6 +17,40 @@ export default {
           xl: "1172px",
         },
       },
+      animation: {
+        zoomin: 'zoomin 2s infinite alternate ease-in-out',
+        zoomout: 'zoomout 2s infinite alternate ease-in-out',
+      },
+      keyframes: {
+        zoomin: {
+          '0%': {
+            transform: 'scale(.8)',
+            opacity:'0.6'
+           },
+          '50%': {
+            transform: 'scale(1)',
+            opacity: '1'
+          },
+          '100%': {
+            transform: 'scale(.7)',
+            opacity: '0.7'
+          },
+        },
+        zoomout: {
+          '0%': {
+            transform: 'scale(.8)',
+            opacity: '1'
+          },
+          '50%': {
+            transform: 'scale(.7)',
+            opacity: '0.5'
+          },
+          '100%': {
+            transform: 'scale(1)',
+            opacity: '1'
+          },
+        },
+      },
       fontFamily: {
         kanit: ["kanit", "sans-serif"],
       },
