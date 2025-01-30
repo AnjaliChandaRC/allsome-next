@@ -19,19 +19,15 @@ body {
       #51ffc0 111.65%);
 }
 
-.shadow-custom-1 {
-  box-shadow: 25px -20px 60px 0px #0000001A;
-}
-
 .check-icon svg path {
   fill: black;
 }
 
-button:hover .whatsapp-icon svg path {
+.group:hover .whatsapp-icon svg path {
   fill: white;
 }
 
-button:hover .whatsapp-icon svg path.logo {
+.group:hover .whatsapp-icon svg path.logo {
   fill: #25d366;
 }
 
@@ -45,7 +41,6 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-/* e-commerce-box-icons-animations */
 
 .drive-operation-btn{
   transition:  all ease-in 300ms;
@@ -71,6 +66,30 @@ input[type=number] {
 
 .e-commerce-box-icon-one {
   animation: floatStar 3s ease infinite;
+}
+
+.gelatine {
+  animation: gelatine 0.6s infinite;
+}
+
+@keyframes gelatine {
+
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    transform: scale(0.95, 1.05);
+  }
 }
 
 @keyframes floatStarTwo {
@@ -318,24 +337,31 @@ input[type=number] {
   0% {
     transform: translate(0, 0);
   }
+
   15% {
     transform: translate(-80%, -60%);
   }
+
   30% {
     transform: translate(-90%, -170%);
   }
+
   45% {
     transform: translate(200%, -100%);
   }
+
   60% {
     transform: translate(-110%, -190%);
   }
+
   75% {
     transform: translate(-140%, -120%);
   }
+
   90% {
     transform: translate(-150%, -130%);
   }
+
   100% {
     transform: translate(0, 0);
   }
