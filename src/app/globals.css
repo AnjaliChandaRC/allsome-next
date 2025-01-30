@@ -161,11 +161,11 @@ input[type='number'] {
 }
 
 .slide-scroll {
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 5s linear infinite;
 }
 
 .slide-reverse {
-  animation: scroll-right 20s linear infinite;
+  animation: scroll-right 5s linear infinite;
 }
 
 @keyframes scroll-left {
