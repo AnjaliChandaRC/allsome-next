@@ -22,7 +22,7 @@ const SuccessFulfillments = () => {
       <div className="bg-light-green lg:rounded-[40px] rounded-[20px] lg:py-[112px] py-10 md:py-[60px]">
         <div className='container'>
           <CustomBrandsLayout
-            imageSize='object-cover !lg:max-w-[435px] sm:max-w-[335px] max-w-[300px] w-full'
+            imageSize='object-cover w-full max-w-[435px]'
             imageWidth={435}
             imageHeight={443} 
             contentSize='lg:!w-[41%]'
