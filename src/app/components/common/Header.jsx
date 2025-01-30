@@ -24,15 +24,15 @@ const Header = () => {
       <div className="w-full bg-black">
         <div className={`container flex justify-between w-full mx-auto py-[9px] lg:items-center items-start`}>
           <CustomDescription styleclass="lg:!text-xs max-sm:pr-4 max-lg:!font-normal !text-[10px] lg:!leading-custom-2xl leading-[150%] !text-white" description='AllSome is your e-commerce operation team to auto-send your sold orders.' />
-          <select className="bg-transparent cursor-pointer custom-select outline-none text-xs px-2 bg-black text-white flex justify-center items-center appearance" name="Eng" id="">
+          <select className="bg-transparent cursor-pointer custom-select outline-none text-xs px-1 bg-black text-white flex justify-center items-center appearance" name="Eng" id="">
             <option className="bg-black cursor-pointer text-white px-3">Eng</option>
-            <option className="bg-black cursor-pointer text-white px-3">Hindi</option>
+            <option className="bg-black cursor-pointer mr-1 pr-1 text-white px-3">Hindi</option>
           </select>
         </div>
       </div>
-      <div className="container flex justify-between w-full mx-auto lg:pt-[13px] pt-4 items-center">
+      <div className="container flex justify-between w-full mx-auto lg:pt-[13px] pt-4 items-center relative">
         <button onClick={()=>setOpen(!open)} className={`hidden size-7 justify-center items-center max-lg:absolute max-lg:right-5 relative z-[70] max-lg:flex flex-col overflow-hidden`}>
-          <span className={`w-6 transition-all duration-300 min-h-[2.2px] max-h-[2px] mb-1 rounded-sm bg-black relative after:w-full after:h-full  after:absolute after:top-0 after:left-0 ${open ? "rotate-45 -mb-1.5 after:rotate-90 after:!rounded-sm after:bg-black !bg-black" : ""}`}></span>
+          <span className={`w-6 transition-all duration-300 min-h-[2.2px] max-h-[2px] mb-1 rounded-sm bg-black relative after:w-full after:h-full after:absolute after:top-0 after:left-0 ${open ? "rotate-45 !-mb-1 after:rotate-90 after:!rounded-sm after:bg-black !bg-black" : ""}`}></span>
           <span className={`w-6 transition-all duration-300 min-h-[2.3px] max-h-[2px] mb-1 rounded-sm bg-black ${open ? "hidden" : ""}`}></span>
           <span className={`w-6 transition-all duration-300 min-h-[2.2px] max-h-[2px] mb-1 rounded-sm bg-black after:!bg-white ${open ? "-translate-x-10 !bg-white" : ""}`}></span>
         </button>
@@ -47,14 +47,14 @@ const Header = () => {
           ))}
           <div className="lg:hidden max-lg:block">
             <div className="flex flex-col gap-2.5">
-              <a href="#contact"><CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !text-lg !py-1.5' title='Log in' /></a>
+              <Link href="#contact"><CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !text-lg !py-1.5' title='Log in' /></Link>
               <CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !text-lg !py-1.5 !bg-black text-white hover:!bg-transparent hover:text-black' title='Start free' />
             </div>
           </div>
         </div>
         <div className="lg:block max-lg:hidden  ">
           <div className="flex gap-2.5 w-full">
-            <a href="#contact"><CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !py-1.5 xl:!max-w-[95px] hover:!bg-black before:!bg-black hover:text-white !px-0 max-w-24' title='Log in' /></a>
+            <Link href="#contact"><CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !py-1.5 xl:!max-w-[95px] hover:!bg-black before:!bg-black hover:text-white !px-0 max-w-24' title='Log in' /></Link>
             <CustomButton CustomOnClick={()=>setOpen(!open)} styleclass='lg:!py-[8.5px] !py-1.5 max-w-[122px] !bg-black text-white hover:!bg-transparent hover:text-black' title='Start free' />
           </div>
         </div>
