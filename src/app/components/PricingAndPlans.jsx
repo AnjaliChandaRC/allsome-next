@@ -14,16 +14,8 @@ const PricingAndPlans = () => {
         <div className="flex xl:gap-[39px] gap-4 max-lg:flex-wrap justify-center">
           {PRICING_DATA_LIST.map((card, index) => (
             <div key={index}
-              data-aos={
-                index === 0
-                  ? "fade-right"
-                  : index === 1
-                    ? "zoom-in-down"
-                    : "fade-left"}
-              data-aos-delay={
-                index === 1
-                  ? "300"
-                  : "100"}>
+              data-aos={index === 0 ? "fade-right" : index === 1 ? "zoom-in-down" : "fade-left"}
+              data-aos-delay={index === 1 ? "300" : "100"}>
               <div className={`w-full relative max-w-[303px] rounded-2xl sm:py-[31px] py-5 bg-cover bg-center hover:shadow-[0px_1px_5px_5px_#36eb58] transition-all duration-300 ease-linear bg-no-repeat ${index === 1 ? "bg-pricing-table" : " border-2 border-black/20 hover:border-transparent "} `}>
                 <div className="sm:px-7 px-5">
                   <h3 className="text-sm font-semibold uppercase pb-[3px] ">{card.title}</h3>

@@ -49,13 +49,7 @@ const ContactUs = () => {
         <div className="flex xl:pb-[259px] md:pb-[120px] sm:pb-16 pb-[60px] justify-center max-xl:flex-col-reverse max-xl:flex-wrap xl:gap-16 ">
           <div className="gap-[11px] flex flex-col w-full xl:w-5/12 justify-center items-center">
             {CONTACT_DATA_LIST.map((contact, index) => (
-              <div data-aos="flip-down"
-                data-aos-delay={
-                  index === 0
-                    ? "200"
-                    : index === 1
-                      ? "300"
-                      : "400"}
+              <div data-aos="flip-down" data-aos-delay={index === 0 ? "200" : index === 1 ? "300" : "400"}
                 key={index} className='w-full justify-center items-center flex flex-col'>
                 <div className={`flex rounded-2xl px-[18px] hover:shadow-[0px_1px_5px_5px_#36eb58] transition-all duration-300 ease-linear py-[23px] w-full max-w-[768px] xl:max-w-[432px] bg-gradient-to-r from-parrot-green via-bright-green to-bright-green ${index === 2 ? "items-start pb-[21px]" : "items-center"} `}>
                   <div className={`flex items-center justify-center max-sm:p-4 sm:size-[83.24px] max-sm:size-[67px] rounded-full mr-4 bg-deep-green ${index === 2 ? "sm:p-6" : ""}`}>
@@ -84,7 +78,7 @@ const ContactUs = () => {
             </form>
           </div>
         </div>
-      </div >
+      </div>
     </div>
   )
 }

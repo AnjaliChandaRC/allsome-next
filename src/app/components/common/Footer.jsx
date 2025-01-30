@@ -2,7 +2,6 @@ import Image from 'next/image'
 import { FOOTER_ICONS, FOOTER_LIST } from '../../utils/helper';
 
 const Footer = () => {
-
   return (
     <div className="bg-black lg:rounded-t-[40px] rounded-t-[20px] relative overflow-hidden">
       <Image className='w-full h-auto absolute z-0 top-0 left-0 max-2xl:top-[-20%] max-2xl:left-[-20%] max-md:left-0 max-md:top-0 pointer-events-none ' src="/assets/images/webp/footer-top-layer.webp" width={582} height={529} alt="footer top layer" />
