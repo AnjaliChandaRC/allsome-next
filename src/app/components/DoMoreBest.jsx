@@ -2,12 +2,11 @@ import Image from 'next/image';
 import CustomHeading from '../components/common/CustomHeading'
 import CustomDescription from './common/CustomDescription';
 import { DO_MORE_BEST_DATA } from '../utils/helper';
-import 'aos/dist/aos.css';
 
 const DoMoreBest = () => {
  
   return (
-    <div className='bg-black lg:rounded-[40px] rounded-[20px] py-[60px] relative' id='features'>
+    <div className='bg-black lg:rounded-[40px] rounded-[20px] lg:py-[60px] py-10 relative' id='features'>
       <Image
         src="/assets/images/webp/best-left-ellipse.webp"
         width={656}
@@ -28,15 +27,15 @@ const DoMoreBest = () => {
         <div className='flex flex-row flex-wrap xl:gap-[22px] max-xl:justify-between xl:pt-[108px] lg:pt-20 md:pt-11 pt-9'>
           {DO_MORE_BEST_DATA.map((obj, index) => (
             <div key={index} className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:mb-10 mb-7 best-card duration-500'>
-              <div className='lg:size-[60px] bg-circle size-12 zoom-in rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center !curser-pointer shadow-[0_2px_28px_#36eb58] justify-center'>
-                <span styleclass="max-lg:!size-6 !width-3 !height-3">{obj.cardIcon}</span>
-              </div>
-              <h3 className="font-kanit font-medium lg:text-lg text-base lg:leading-custom-8xl text-white lg:pt-[19px] pt-4 pb-[11px]">
-                {obj.title}
-              </h3>
-              <p className="font-normal lg:text-base text-sm lg:leading-6 text-white opacity-70 xl:max-w-[250px]">
-                {obj.description}
-              </p>
+                <div className='lg:size-[60px] bg-circle size-12 zoom-in rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center !curser-pointer shadow-[0_2px_28px_#36eb58] justify-center'>
+                  <span styleclass="max-lg:!size-6 !width-3 !height-3">{obj.cardIcon}</span>
+                </div>
+                <h3 className="font-kanit font-medium lg:text-lg text-base lg:leading-custom-8xl text-white lg:pt-[19px] pt-4 pb-[11px]">
+                  {obj.title}
+                </h3>
+                <p className="font-normal lg:text-base text-sm lg:leading-6 text-white opacity-70 xl:max-w-[266px]">
+                  {obj.description}
+                </p>
             </div>
           ))}
         </div>
