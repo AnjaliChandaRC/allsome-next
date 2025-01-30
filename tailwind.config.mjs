@@ -21,7 +21,7 @@ export default {
         floatStarSix: "floatStarSix 14s ease-in-out infinite",
         zoomIn: 'zoomIn 2s infinite alternate ease-in-out',
         zoomOut: 'zoomOut 2s infinite alternate ease-in-out',
-        'spin-slow': 'spin 20s linear infinite',
+        'spin-slow': 'spin 40s linear infinite',
       },
       keyframes: {
         gelatine: {

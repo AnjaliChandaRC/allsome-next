@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { FAQ_LIST } from '../utils/helper'
 import { ArrowIcon } from '../utils/icons'
 import CustomHeading from './common/CustomHeading'
+import Link from 'next/link'
 
 const Faqs = () => {
   const [active, setActive] = useState(0)
@@ -16,7 +17,6 @@ const Faqs = () => {
 
   return (
     <div
-      id='about'
       className='pb-6 pt-[93px] max-xl:pt-20 max-xl:pb-8 max-lg:py-[60px] max-md:py-[30px] overflow-hidden'
     >
       <div className='container'>
@@ -55,18 +55,18 @@ const Faqs = () => {
               </button>
               <div
                 className={`text-black transition-all duration-300 overflow-hidden pl-5 pr-[18px] max-md:px-4 ${
-                  active === i ? 'pb-[20px] max-md:pb-4 max-h-40' : 'max-h-0'
+                  active === i ? 'pb-[20px] max-md:pb-4 max-h-40 transition-all duration-300' : 'max-h-0'
                 }`}
               >
                 <p className='text-black leading-6 max-md:text-sm max-md:leading-5 pb-[9px] max-md:pb-1 max-w-[716px]'>
                   {obj.answer}
                 </p>
-                <a
+                <Link
                   href='/'
                   className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-5 hover:text-blue-400 transition-all duration-300'
                 >
                   Contact us to learn more
-                </a>
+                </Link>
               </div>
             </div>
           ))}
