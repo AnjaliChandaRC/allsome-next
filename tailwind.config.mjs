@@ -48,10 +48,10 @@ export default {
           "70%": { transform: "translateY(-100%) translateX(-90%)" },
           "100%": { transform: "translateY(0%) translateX(0%)" },
         },
-        zoomin: {
-          "0%": {
-            transform: "scale(.8)",
-            opacity: "0.6",
+        zoomIn: {
+          '0%': {
+            transform: 'scale(.8)',
+            opacity: '0.6'
           },
           "50%": {
             transform: "scale(1)",
@@ -62,10 +62,10 @@ export default {
             opacity: "0.7",
           },
         },
-        zoomout: {
-          "0%": {
-            transform: "scale(.8)",
-            opacity: "1",
+        zoomOut: {
+          '0%': {
+            transform: 'scale(.8)',
+            opacity: '1'
           },
           "50%": {
             transform: "scale(.7)",
