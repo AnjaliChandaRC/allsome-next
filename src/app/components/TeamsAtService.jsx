@@ -12,14 +12,14 @@ const TeamsAtService = () => {
         src="/assets/images/webp/light-green-shadow-e-commerce.webp"
         width={656}
         height={596}
-        className="absolute left-0 top-0 object-cover shadow-one"
+        className="absolute left-0 top-0 object-cover shadow-one pointer-events-none"
         alt="shadow"
       />
       <Image
         src="/assets/images/webp/light-yellow-shadow-e-commerce.webp"
         width={563}
         height={347}
-        className="absolute right-0 bottom-0 object-cover shadow-Two"
+        className="absolute right-0 bottom-0 object-cover shadow-Two pointer-events-none"
         alt="shadow"
       />
       <div className="max-xl:p-24 max-lg:p-10 max-lg:rounded-[20px]">
@@ -28,7 +28,7 @@ const TeamsAtService = () => {
             title="“Your e-commerce tech operation teams at service”"
             styleclass="!text-white text-center max-w-[761px] mx-auto"
           />
-          <p className="text-center pt-[19px] text-white max-w-[445px] mx-auto text-base leading-6 opacity-80">
+          <p className="text-center pt-[19px] text-white max-w-[445px] mx-auto font-normal text-base leading-6 opacity-80">
             Fulfillment is perfect for brands looking to get more traffic, build
             real connection with customers and grow revenue.
           </p>
@@ -38,7 +38,7 @@ const TeamsAtService = () => {
               title="Sign up today"
             />
             <CustomButton
-              styleclass="text-white border max-md:!h-[48px] border-solid border-white !min-w-[172px] !h-[52px] flex items-center justify-center max-sm:!min-w-[140px]"
+              styleclass="text-white border max-md:!h-[48px] border-solid border-white hover:!border-transparent !min-w-[172px] !h-[52px] flex items-center justify-center max-sm:!min-w-[140px]"
               title="Request a demo"
             />
           </div>
