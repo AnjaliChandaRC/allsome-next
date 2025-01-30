@@ -5,7 +5,7 @@ import CustomButton from './CustomButton';
 
 const CustomBrandsLayout = ({ obj }) => {
     return (
-        <div className={`${obj.bgColor ? `bg-${obj.bgColor} lg:rounded-[40px] rounded-[20px] xl:py-[112px] lg:py-20 md:py-[60px] py-[40px]` : ''} ${obj.key === 'layout-custom-one' ? 'max-lg:pb-[60px]' : ''} ${obj.key === 'layout-custom-three' ? 'lg:pt-[79px] lg:pb-[57px] pb-[60px] md:pt-8 max-sm:pt-5' : ''}${obj.key === 'layout-custom-two' ? '' : ''}`} id={obj.key}>
+        <div className={`${obj.bgColor ? `bg-${obj.bgColor} lg:rounded-[40px] rounded-[20px] xl:py-[112px] lg:py-20 md:py-[60px] py-[40px]` : ''} ${obj.key === 'layout-custom-one' ? 'max-lg:pb-[60px]' : ''} ${obj.key === 'layout-custom-three' ? 'lg:pt-[79px] lg:pb-[57px] pb-[60px] pt-8' : ''}${obj.key === 'layout-custom-two' ? '' : ''}`} id={obj.key}>
 
             <div className='container'>
                 <div className={`flex max-lg:!flex-wrap max-lg:flex-col-reverse ${obj.isReverse ? "flex-row-reverse" : "lg:!flex-row"} ${obj.key === 'layout-custom-one' ? 'max-lg:gap-7 lg:pb-[68px]' : ''}${obj.key === 'layout-custom-two' ? 'max-lg:gap-7' : ''}${obj.key === 'layout-custom-three' ? 'max-lg:gap-0' : ''} items-center justify-between max-lg:justify-center max-lg:items-center max-lg:mx-auto`}>                    <div data-aos="fade-left" className={`flex-1 flex flex-col max-lg:justify-center max-lg:items-center text-center lg:text-left max-w-[419px] ${obj.key === 'layout-custom-two' ? 'max-w-[465px]' : obj.key === 'layout-custom-three' ? 'max-w-[560px]' : ''}`}>
