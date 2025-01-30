@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 export const metadata = {
   title: "AllSome",
   description: "SELL & SHIP EVERYWHERE",
-  metadataBase: new URL('https://allsome-next.vercel.app'),
+  metadataBase: new URL('https://allsome-next-eight.vercel.app/'),
   openGraph: {
     images: '/meta-image.png',
   },
