@@ -16,6 +16,8 @@ import Shoppers from "./components/Shoppers";
 import SuccessFulfillments from "./components/SuccessFulfillments";
 import AOS from "aos"
 import TeamsServices from "./components/TeamServices";
+import { CUSTOM_LAYOUT_DATA } from "./utils/helper";
+import CustomBrandsLayout  from "./components/common/CustomBrandsLayout"
 
 export default function Home() {
   useEffect(() => {
