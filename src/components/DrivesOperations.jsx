@@ -27,7 +27,7 @@ const DrivesOperations = () => {
               // cards-delay
               data-aos-delay={["100", "200", "400", "600", "800"][i] || "200"}
             >
-              <div className="bg-white hover:!shadow-[0px_1px_5px_5px_#36eb58] transition-all ease-linear duration-300 rounded-lg pt-[31px] pb-[17px] h-[284px] shadow-[0px_5px_12px_0px_#D1EFE9] min-w-[212px] flex items-center justify-center flex-col">
+              <div className="bg-white hover:!shadow-[0px_1px_5px_5px_#36eb58] transition-all ease-linear duration-300 rounded-lg pt-[31px] pb-[17px] h-[284px] shadow-[0px_5px_12px_0px_#D1EFE9] min-w-[212px] max-xl:min-w-[240px] max-md:min-w-[260px] flex items-center justify-center flex-col ">
                 <Image
                   src={obj.cardIcon}
                   width={64}
