@@ -1,3 +1,4 @@
+import PageLoader from "../components/common/PageLoader";
 import BackToTopButton from "../components/common/BackToTopButton";
 import Footer from "../components/common/Footer";
 import "./globals.css";
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
           <BackToTopButton />
+          <PageLoader/>
        </div>
       </body>
     </html>
