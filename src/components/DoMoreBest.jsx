@@ -30,7 +30,7 @@ const DoMoreBest = () => {
               // use aos
               data-aos="fade-right"
               data-aos-delay={`${index * 100 + 100}`}
-              className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:pb-[18px] mb-4 group duration-500'>
+              className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:pb-[18px] pb-2 mb-4 group duration-500'>
               <div className='lg:size-[60px] bg-circle size-12 group-hover:animate-zoomOut rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center !curser-pointer shadow-[0_2px_28px_#36eb58] justify-center'>
                 <span styleclass="max-lg:!size-6 !width-3 !height-3">{obj.cardIcon}</span>
               </div>
