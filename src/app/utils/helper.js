@@ -378,5 +378,5 @@ export const CUSTOM_LAYOUT_DATA = [
 
     { key:"layout-custom-two", heading:"Automate your operations", description:"Build your e-commerce operation teams with ready software, modules, workforce, and more - all within AllSome. Once sold, orders will be shipped out automatically.", image:"/assets/images/webp/automate-image.webp", alt:"automate-image", width:435, height:443, isReverse:true, bgColor:"light-green" },
 
-    { key:"layout-custom-three", heading:"Maximize sales opportunity with ready inventory", description: "Be where your shoppers are, both online and offline. Appear to the right audience at the right time, both online and offline to generate sales for you.", image:"/assets/images/webp/sales-image.webp", alt:"sales-image", width:610, height:468, isReverse:false }
+    { key:"layout-custom-three", heading:"Maximize sales opportunity with ready inventory", description: "Be where your shoppers are, both online and offline. Appear to the right audience at the right time, both online and offline to generate sales for you.", image:"/assets/images/webp/sales-image.webp", alt:"sales-image", width:682, height:468, isReverse:false }
 ];
