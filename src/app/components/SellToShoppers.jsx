@@ -19,6 +19,7 @@ const SellToShoppers = () => {
           </div>
           <div className="xl:w-8/12 w-full xl:pt-0 md:pt-10 pt-7 lg:pl-8 mx-auto max-xl:justify-center flex items-center">
             <div className="flex xl:gap-x-[36px] lg:gap-x-36 md:gap-x-10 max-xl:justify-center items-center lg:gap-y-[62px] md:gap-y-14 sm:gap-y-12 gap-y-10 flex-wrap">
+              {/* ============================== shoppers map ======================================== */}
               {SHOPPERS_CARDS_LIST.map((item, index) => (
                 <div className="max-w-[323px] w-full gap-4 items-center flex" key={index} data-aos="fade-left" data-aos-delay={index * 100} data-aos-duration="500">
                   <div className="w-auto">

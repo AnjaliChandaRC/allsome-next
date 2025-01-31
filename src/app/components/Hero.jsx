@@ -9,6 +9,7 @@ import Header from './common/Header'
 const Hero = () => {
   return (
     <div className='bg-hero-pattern bg-cover mx-auto bg-no-repeat bg-center flex flex-col items-center overflow-hidden justify-center relative'>
+    {/* ============================== Header ======================================== */}
       <Header />
       <div className="relative max-w-[1440px] w-full mx-auto">
         <div className="container mx-auto">
@@ -19,7 +20,7 @@ const Hero = () => {
               <Image className='absolute pointer-events-none lg:right-[36%] md:right-14 right-7 bottom-6 animate-bounceCustom xl:max-w-24 lg:max-w-20 max-w-16 opacity-80 w-full' src='/assets/images/webp/hero-ellipse-img-3.webp' width={213} height={230} alt='ellipse-img-1' />
               <div className="relative z-20">
                 <h1 className='uppercase lg:mb-2.5 mb-1.5 font-kanit max-lg:text-center max-lg:mx-auto text-black font-extrabold xl:text-custom-6xl lg:text-custom-5xl md:text-custom-4xl sm:text-custom-3xl text-4xl max-w-[579px] !leading-[100%] text-start'>SELL & SHIP EVERYWHERE</h1>
-                <CustomDescription styleclass="xl:mb-[34px] lg:mb-7 md:mb-5 mb-4 max-lg:text-center max-lg:mx-auto max-w-[450px] xl:!text-xl lg:!text-lg md:!text-base !text-sm" description="Turn your inventory into sales channel. Sell more stuff everywhere" />
+                <CustomDescription styleclass="xl:mb-[34px] lg:mb-7 md:mb-5 mb-4 max-lg:text-center max-lg:mx-auto max-w-[460px] xl:!text-xl lg:!text-lg md:!text-base !text-sm" description="Turn your inventory into sales channel. Sell more stuff everywhere" />
                 <div className="flex gap-2 max-lg:justify-center">
                   <CustomButton styleclass='xl:!py-[16.5px] xl:!h-14 xl:!max-w-[185px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[34.5px] !bg-black text-white hover:!bg-transparent hover:text-black' title='Sign up for free' />
                   <a href="https://web.whatsapp.com/" target='_blank'> <CustomButton styleclass='xl:!py-[14.5px] xl:!h-14 xl:!max-w-[170px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[25px] hover:!bg-black before:!bg-black hover:text-white group' styleclassTwo='!block whatsapp-icon transiction-all ease-in-out duration-300' icon={<WhatsAppLogo />} title='Whatsapp us' /></a>
