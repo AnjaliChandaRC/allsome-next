@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import CustomButton from "./CustomButton";
 import CustomDescription from "./CustomDescription";
-import { HEADER_LIST } from "./../../utils/helper";
+import { HEADER_LIST } from "../../app/utils/helper";
 
 const Header = () => {
   const [open, setOpen] = useState(false);

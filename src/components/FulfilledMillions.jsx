@@ -1,10 +1,6 @@
-import CustomSlider from './common/CustomSlider'
-import CustomHeading from './common/CustomHeading'
-import {
-  MILLIONS_LIST_ONE,
-  MILLIONS_LIST_TWO,
-  MILLIONS_LIST_THREE
-} from '../utils/helper'
+import CustomSlider from '../components/common/CustomSlider'
+import CustomHeading from '../components/common/CustomHeading'
+import { MILLIONS_LIST_ONE, MILLIONS_LIST_TWO, MILLIONS_LIST_THREE } from '../app/utils/helper'
 import Image from 'next/image'
 
 const FulfilledMillions = () => {

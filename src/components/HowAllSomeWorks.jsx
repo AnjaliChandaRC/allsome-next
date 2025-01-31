@@ -1,6 +1,6 @@
 import Image from "next/image";
-import CustomHeading from "./common/CustomHeading";
-import { ROADMAP_LIST } from "../utils/helper";
+import CustomHeading from "../components/common/CustomHeading";
+import { ROADMAP_LIST } from '../app/utils/helper';
 
 const HowAllSomeWorks = () => {
   

@@ -2,11 +2,11 @@
 import React, { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import Image from 'next/image'
-import CustomHeading from './common/CustomHeading';
-import CustomInput from './common/CustomInput';
-import CustomButton from './common/CustomButton';
+import CustomHeading from '../components/common/CustomHeading';
+import CustomInput from '../components/common/CustomInput';
+import CustomButton from '../components/common/CustomButton';
 import Swal from 'sweetalert2';
-import { CONTACT_DATA_LIST } from '../utils/helper';
+import { CONTACT_DATA_LIST } from '../app/utils/helper';
 import Link from 'next/link';
 
 const ContactUs = () => {

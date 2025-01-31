@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import CustomButton from './common/CustomButton'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
+import CustomButton from '../components/common/CustomButton'
+import CustomHeading from '../components/common/CustomHeading'
+import CustomDescription from '../components/common/CustomDescription'
 
 const RevenueChannel = () => {
 

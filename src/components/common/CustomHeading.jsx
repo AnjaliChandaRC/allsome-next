@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CustomHeading = ({ styleclass, styleclassOne, text, title, styleclassTwo, textTwo, titleTwo }) => {
   return (
     <h2 className={`${styleclass} xl:text-7xl font-kanit lg:text-6xl md:text-5xl sm:text-4xl text-3xl lg:!leading-[100%] !leading-[120%] text-black font-semibold`}>

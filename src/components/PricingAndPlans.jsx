@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import CustomButton from './common/CustomButton';
-import CustomHeading from './common/CustomHeading';
-import CustomDescription from './common/CustomDescription';
-import { CheckIcon } from '../utils/icons';
-import { PRICING_DATA_LIST } from '../utils/helper'
+import CustomButton from '../components/common/CustomButton';
+import CustomHeading from '../components/common/CustomHeading';
+import CustomDescription from '../components/common/CustomDescription';
+import { CheckIcon } from '../app/utils/icons';
+import { PRICING_DATA_LIST } from '../app/utils/helper'
 
 const PricingAndPlans = () => {
   return (

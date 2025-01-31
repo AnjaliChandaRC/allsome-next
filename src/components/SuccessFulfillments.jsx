@@ -1,4 +1,4 @@
-import CustomHeading from './common/CustomHeading';
+import CustomHeading from '../components/common/CustomHeading';
 
 const SuccessFulfillments = () => {
   return (

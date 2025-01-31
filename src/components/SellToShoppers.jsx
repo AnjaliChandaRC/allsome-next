@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import CustomDescription from './common/CustomDescription'
-import CustomButton from './common/CustomButton'
-import { SHOPPERS_CARDS_LIST } from '../utils/helper'
-import CustomHeading from './common/CustomHeading'
+import CustomDescription from '../components/common/CustomDescription'
+import CustomButton from '../components/common/CustomButton'
+import { SHOPPERS_CARDS_LIST } from '../app/utils/helper'
+import CustomHeading from '../components/common/CustomHeading'
 
 const SellToShoppers = () => {
   return (

@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import CustomButton from './common/CustomButton'
-import { INTEGRATIONS_DATA } from '../utils/helper'
-import { INTEGRATIONS_DATA_POSITION } from '../utils/helper'
+import CustomHeading from '../components/common/CustomHeading'
+import CustomDescription from '../components/common/CustomDescription'
+import CustomButton from '../components/common/CustomButton'
+import { INTEGRATIONS_DATA, INTEGRATIONS_DATA_POSITION } from '../app/utils/helper'
 
 const ApiIntegrations = () => {
   return (

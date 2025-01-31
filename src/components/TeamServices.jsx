@@ -1,5 +1,5 @@
-import CustomHeading from "./common/CustomHeading";
-import CustomButton from "./common/CustomButton";
+import CustomHeading from "../components/common/CustomHeading";
+import CustomButton from "../components/common/CustomButton";
 import Image from "next/image";
 
 const TeamsServices = () => {

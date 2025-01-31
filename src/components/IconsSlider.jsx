@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import CustomSlider from './common/CustomSlider'
-import { ICON_SLIDER_LIST } from '../utils/helper'
+import CustomSlider from '../components/common/CustomSlider'
+import { ICON_SLIDER_LIST } from '../app/utils/helper'
 import Image from 'next/image'
 
 const IconsSlider = () => {

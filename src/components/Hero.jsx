@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import CustomDescription from './common/CustomDescription'
-import CustomButton from './common/CustomButton'
-import { WhatsAppLogo } from '../utils/icons'
-import Header from './common/Header'
+import CustomDescription from '../components/common/CustomDescription'
+import CustomButton from '../components/common/CustomButton'
+import { WhatsAppLogo } from '../app/utils/icons'
+import Header from '../components/common/Header'
 
 const Hero = () => {
   return (
