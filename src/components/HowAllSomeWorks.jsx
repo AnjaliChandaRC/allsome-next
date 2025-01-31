@@ -12,7 +12,7 @@ const HowAllSomeWorks = () => {
           styleTwo="text-dark-green"
           textTwo="AllSome "
           styleclassTwo=""
-          titleTwo="Works?"
+          titleTwo="works?"
           className="!max-w-[591px] !mx-auto"
         />
       </div>
