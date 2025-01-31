@@ -20,16 +20,19 @@ const ContactUs = () => {
 
   const submitHandle = (e) => {
     e.preventDefault();
+    // Email Js
     emailjs
       .sendForm('service_225sbpv', 'template_mfgmjof', form.current, {
         publicKey: 'yMfLmnJOVdFosmZqu',
       }); {
       setValue(initialFormData);
+      // Sweet Alert 
       Swal.fire({
         title: "Success!",
         text: "Form submitted successfully.",
         icon: "success",
         confirmButtonText: "Cool",
+        // Custom button
         customClass: {
           confirmButton: 'sweet-alert-button'
         }
@@ -52,7 +55,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h2 className="text-sm font-medium leading-custom-xl pb-2.5">{contact.title}</h2>
-                    <Link href={contact.directLink} className={`md:text-2xl font-kanit sm:text-xl text-lg !leading-custom-4xl font-semibold ${index === 2 ? "sm:!leading-custom-5xl max-sm:!leading-4 sm:!text-xl max-sm:text-base" : ""}`}>{contact.description}</Link>
+                    <Link href={contact.directLink} className={`md:text-2xl font-kanit sm:text-xl text-lg !leading-custom-4xl font-semibold ${index === 2 ? "sm:!leading-custom-5xl max-sm:!leading-4 sm:!text-xl max-sm:text-base !font-medium" : ""}`}>{contact.description}</Link>
                   </div>
                 </div>
               </div>

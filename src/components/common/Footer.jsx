@@ -9,10 +9,14 @@ const Footer = () => {
       <div className='container relative z-10'>
         <div className="flex max-md:flex-col justify-between md:pt-16 sm:pt-10 pt-8">
           <div className="w-full md:w-4/12 lg:w-5/12">
-            <a href={'/'}><Image src="/assets/images/webp/footer-logo.webp" width={173} height={32} alt="logo" /></a>
+            {/* footer logo */}
+            <div className="max-w-[173px]">
+              <a href={'/'} className='w-full'><Image src="/assets/images/webp/footer-logo.webp" width={173} height={32} alt="logo" /></a>
+            </div>
             <p className='text-white/70 pt-5'>AllSome is where the logistics works</p>
             <p className='text-white/70 sm:pt-[38px] pt-7 pb-4'>Social Media:</p>
             <div className="flex gap-2.5">
+              {/* footer icons */}
               {FOOTER_ICONS.map((obj, i) => (
                 <Link key={i} href={obj.directLink} target='_blank' className='size-[28.91px] !cursor-pointer flex items-center justify-center bg-gradient-to-bl to-lemon via-dark-green from-green rounded-full transition-all duration-300 ease-linear relative shadow-[0_2px_10px_#36eb58] hover:scale-110 hover:shadow-xl hover:to-yellow-400 hover:via-orange-500 hover:from-teal-500'>{obj.icon}</Link>
               ))}
@@ -25,11 +29,11 @@ const Footer = () => {
               <div key={index}>
                 <p className='text-white/50 text-sm pb-2.5'>{obj.title}</p>
                 <ul className="space-y-2">
-                    {obj.links.map((items, i) => (
-                      <li key={i}>
-                        <a href={items.directLink} className="cursor-pointer hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-alld">{items.name}</a>
-                      </li>
-                    ))}
+                  {obj.links.map((items, i) => (
+                    <li key={i}>
+                      <a href={items.directLink} className="cursor-pointer hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-alld">{items.name}</a>
+                    </li>
+                  ))}
                 </ul>
               </div>
             ))}
@@ -38,7 +42,7 @@ const Footer = () => {
       </div>
       <div className="mt-9 border-t border-white/10"></div>
       <div className="container flex justify-between items-center sm:pt-[22px] sm:pb-[33px] py-5 max-[480px]:flex-col-reverse min-[480px]:gap-y-5 gap-3">
-        <p className='text-white/50 text-sm leading-custom-3xl'>(c) {new Date().getFullYear()} ALLSOME. All Right Reserved.</p>
+        <p className='text-white/50 text-custom-sm leading-custom-3xl'>(c) {new Date().getFullYear()} ALLSOME. All Right Reserved.</p>
         <div className="flex items-center gap-[26px] text-white">
           <Link href={'#contact'} className='cursor-pointer hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Sign up</Link>
           <Link href={'#contact'} className='cursor-pointer hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Log in</Link>

@@ -12,6 +12,7 @@ const PricingAndPlans = () => {
         <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center !font-bold" title="Pricing & Plans" />
         <CustomDescription styleclass="text-center sm:pb-9 !pb-5" description="Free access to outlets, pay-as-you-go." />
         <div className="flex xl:gap-[39px] gap-4 max-lg:flex-wrap justify-center">
+          {/* Pricing Table */}
           {PRICING_DATA_LIST.map((card, index) => (
             <div key={index}
               data-aos={index === 0 ? "fade-right" : index === 1 ? "zoom-in-down" : "fade-left"}
@@ -32,7 +33,7 @@ const PricingAndPlans = () => {
                         <span className={`pt-1.5 ${index === 1 ? "check-icon" : ""}`}>
                           <CheckIcon />
                         </span>
-                        <span className="opacity-80 text-sm">{feature}</span>
+                        <span className="opacity-80 text-custom-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -40,6 +41,7 @@ const PricingAndPlans = () => {
                     <CustomButton title="Start for free" styleclass={`!py-3 !px-[67px] !w-full hover:!bg-black hover:text-white before:!bg-black ${index === 1 ? "bg-black text-white hover:!text-black hover:!bg-white before:!bg-white" : ""}`} />
                   </div>
                 </div>
+                {/* table bottom layer */}
                 <Image className={`absolute bottom-[-12%] pointer-events-none  ${index === 1 ? "block" : "hidden"} `} height={34} width={272} src="/assets/images/webp/price-table-shadow.webp" alt='table shadow' />
               </div>
             </div>
