@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
 import CustomButton from './common/CustomButton'
 import { SHOPPERS_CARDS_LIST } from '../utils/helper'
+import CustomHeading from './common/CustomHeading'
 
 const SellToShoppers = () => {
   return (
@@ -20,9 +20,9 @@ const SellToShoppers = () => {
           <div className="xl:w-8/12 w-full xl:pt-0 md:pt-10 pt-7 lg:pl-8 mx-auto max-xl:justify-center flex items-center">
             <div className="flex xl:gap-x-[36px] lg:gap-x-36 md:gap-x-10 max-xl:justify-center items-center lg:gap-y-[62px] md:gap-y-14 sm:gap-y-12 gap-y-10 flex-wrap">
               {SHOPPERS_CARDS_LIST.map((item, index) => (
-                <div className="max-w-[323px] w-full gap-4 flex" key={index} data-aos="fade-left" data-aos-delay={index * 100} data-aos-duration="500">
+                <div className="max-w-[323px] w-full gap-4 items-center flex" key={index} data-aos="fade-left" data-aos-delay={index * 100} data-aos-duration="500">
                   <div className="w-auto">
-                    <Image className={`lg:min-w-[80px] sm:min-w-[60px] max-sm:!max-w-[60px] h-auto pointer-events-none 
+                    <Image className={`lg:min-w-[64px] sm:min-w-[60px] max-sm:!max-w-[60px] h-auto pointer-events-none 
                         ${index === 2 ? "sm:!min-w-[62px] lg:translate-y-2 max-w-[62px]" : ""}  ${index === 3 ? "sm:!min-w-[65px] xl:!max-h-[69px] sm:translate-y-1 max-w-[65px]" : ""}`} src={item.cardImg} width={item.width} height={item.height} alt={item.alt} />
                   </div>
                   <div>
