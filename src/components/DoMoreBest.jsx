@@ -3,7 +3,7 @@ import CustomHeading from '../components/common/CustomHeading'
 import CustomDescription from '../components/common/CustomDescription';
 import { DO_MORE_BEST_DATA } from '../app/utils/helper';
 
-const DoMoreBest = () => { 
+const DoMoreBest = () => {
   return (
     <div className='bg-black lg:rounded-[40px] rounded-[20px] lg:py-[60px] py-10 relative' id='features'>
       <Image
@@ -23,14 +23,14 @@ const DoMoreBest = () => {
       <div className='container max-w-[1178px] mx-auto relative z-10'>
         <CustomHeading title="Do more of what you do best" styleclass="!text-white text-center lg:!text-custom-4xl md:!text-5xl sm:!text-4xl !text-3xl !font-bold" />
         <CustomDescription description="Everything you need to run your awesome e-commerce" styleclass="!text-white !font-normal opacity-80 text-center lg:pt-8 md:pt-6 pt-5" />
-      {/* cards data map */}
-        <div className='flex flex-row flex-wrap xl:gap-[22px] max-xl:justify-between xl:pt-[108px] lg:pt-20 md:pt-11 pt-9'>
+        {/* cards data map */}
+        <div className='flex flex-row flex-wrap xl:gap-[22px] max-xl:justify-between xl:pt-[108px] lg:pt-20'>
           {DO_MORE_BEST_DATA.map((obj, index) => (
             <div key={index}
               // use aos
               data-aos="fade-right"
-            data-aos-delay={`${index * 100 + 100}`}
-              className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:mb-10 mb-7 group duration-500'>
+              data-aos-delay={`${index * 100 + 100}`}
+              className='xl:max-w-[270px] xl:w-full md:w-[31.33%] sm:w-[48%] w-full lg:pb-[18px] mb-4 group duration-500'>
               <div className='lg:size-[60px] bg-circle size-12 group-hover:animate-zoomOut rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center !curser-pointer shadow-[0_2px_28px_#36eb58] justify-center'>
                 <span styleclass="max-lg:!size-6 !width-3 !height-3">{obj.cardIcon}</span>
               </div>
