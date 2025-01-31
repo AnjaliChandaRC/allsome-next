@@ -43,7 +43,7 @@ const ContactUs = () => {
   return (
     <div id='contact' className="overflow-hidden">
       <div className='container xl:pt-[67px] md:pt-[54px] sm:pt-10 pt-[30px]'>
-        <CustomHeading styleclass="text-center !font-bold font-kanit max-w-[545px] md:max-w-[910px] mx-auto lg:pb-[85px] sm:pb-10 pb-8 " title="Can't make up your mind? " textTwo="Contact us" titleTwo=" today!" styleclassTwo="" />
+        <CustomHeading styleclass="text-center !font-bold !font-kanit max-w-[545px] md:max-w-[910px] mx-auto lg:pb-[85px] sm:pb-10 pb-8 " title="Can't make up your mind? " textTwo="Contact us" titleTwo=" today!" styleclassTwo="" />
         <div className="flex xl:pb-[259px] md:pb-[120px] sm:pb-16 pb-[60px] justify-center max-xl:flex-col-reverse max-xl:flex-wrap xl:gap-16 ">
           <div className="gap-[11px] flex flex-col w-full xl:w-5/12 justify-center items-center">
             {CONTACT_DATA_LIST.map((contact, index) => (
