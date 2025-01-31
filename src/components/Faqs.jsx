@@ -41,7 +41,7 @@ const Faqs = () => {
                 className={`flex sm:items-center gap-2 justify-between font-kanit font-medium text-xl text-black w-full leading-custom-9xl text-left max-md:text-lg max-md:leading-7 max-sm:text-base max-sm:!leading-6 pt-[17px] pr-[18px] max-md:p-4 pl-5 ${
                   active === i
                     ? '!pb-[11px]'
-                    : '!pb-[16px] transition-all duration-300'
+                    : '!pb-[15px] transition-all duration-300'
                 }`}
               >
                 {obj.question}
@@ -58,12 +58,12 @@ const Faqs = () => {
                   active === i ? 'pb-[20px] max-md:pb-4 max-h-40 transition-all duration-300' : 'max-h-0'
                 }`}
               >
-                <p className='text-black leading-6 max-md:text-sm max-md:leading-5 pb-[9px] max-md:pb-1 max-w-[716px]'>
+                <p className='text-black !leading-6 max-md:text-sm max-md:leading-5 pb-[9px] max-md:pb-1 max-w-[716px]'>
                   {obj.answer}
                 </p>
                 <Link
                   href='/'
-                  className='font-semibold leading-6 text-dark-green max-md:text-sm max-md:leading-5 hover:text-blue-400 transition-all duration-300'
+                  className='font-semibold !leading-6 text-dark-green max-md:text-sm max-md:leading-5 hover:text-blue-400 transition-all duration-300'
                 >
                   Contact us to learn more
                 </Link>
