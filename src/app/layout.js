@@ -9,7 +9,7 @@ export const metadata = {
   description: "SELL & SHIP EVERYWHERE",
   metadataBase: new URL('https://allsome-next-eight.vercel.app/'),
   openGraph: {
-    images: '/meta-image.png',
+    images: '/meta-img.png',
   },
 };
 
