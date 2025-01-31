@@ -11,7 +11,7 @@ const DrivesOperations = () => {
         <CustomHeading
           styleclass="max-w-[915px] mx-auto text-center"
           text="AllSome"
-          title=" drives operations for every e-commerce business"
+          title=" drives operations for every e-commerce businesses"
         />
         <p className="text-center pt-[22px] opacity-80 font-normal text-base leading-6 pb-[49px] max-xl:py-6">
           Our customers come from all e-commerce space and we have moved
