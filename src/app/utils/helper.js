@@ -162,6 +162,7 @@ export const DO_MORE_BEST_DATA = [
         description: "Get actionable insights and know how your shoppers interact with your products in real life.",
     },
 ];
+
 export const INTEGRATIONS_DATA_POSITION = [
     "md:right-[390px] sm:right-[356px] right-[220px]",
     "md:right-14 lg:right-12 xl:right-0 right-7", 
