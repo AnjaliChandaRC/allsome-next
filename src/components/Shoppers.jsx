@@ -4,7 +4,7 @@ import CustomButton from '../components/common/CustomButton'
 
 const Shoppers = () => {
   return (
-    <div className='pt-10 pb-20 max-xl:py-12 max-lg:py-[60px] max-md:py-[30px] overflow-hidden'>
+    <div className='pt-10 pb-20 max-xl:py-12 max-lg:py-[60px] max-md:py-[30px] overflow-hidden' id='blog'>
       <div className='container'>
         <div className='flex items-center justify-between xl:gap-10 max-lg:flex-wrap max-lg:justify-center w-full'>
           <div className='max-lg:text-center w-full'>

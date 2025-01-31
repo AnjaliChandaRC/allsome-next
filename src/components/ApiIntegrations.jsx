@@ -6,7 +6,7 @@ import { INTEGRATIONS_DATA, INTEGRATIONS_DATA_POSITION } from '../app/utils/help
 
 const ApiIntegrations = () => {
   return (
-    <div className='xl:pt-[130px] lg:pt-20 pt-[60px] xl:pb-[196px] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden'>
+    <div className='xl:pt-[130px] lg:pt-20 pt-[60px] xl:pb-[196px] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden' id='partner'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto relative'>
           <div className="xl:flex-row flex flex-col gap-7">
