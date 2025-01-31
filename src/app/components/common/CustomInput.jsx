@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CustomInput = ({ label, value, onChange, type, placeholder }) => {
   return (
     <>
