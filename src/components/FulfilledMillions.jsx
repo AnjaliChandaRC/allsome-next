@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const FulfilledMillions = () => {
   return (
-    <div className='lg:pt-[89px] lg:pb-[76px] md:py-14 py-12 max-w-[1920px] mx-auto relative'>
+    <div className='xl:pt-[89px] lg:pb-[76px] lg:pt-20 md:pt-[60px] pb-12 pt-[30px] max-w-[1920px] mx-auto relative'>
       <Image
         src='/assets/images/webp/left-ellipse.webp'
         width={471}

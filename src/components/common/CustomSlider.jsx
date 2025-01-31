@@ -1,13 +1,12 @@
-'use client'
-import React from 'react'
 import Image from 'next/image'
 
 const CustomSlider = ({ dataList, customClassStyle, classStyle }) => {
-  const repeatedDataList = [...dataList, ...dataList]
-
+  const repeatedDataList = [...dataList, ...dataList,...dataList]
+// custom-slider-data
   return (
     <div className={`overflow-hidden keyframe-slider ${classStyle}`}>
       <div className={`slide-scroll flex ${customClassStyle}`}>
+        {/* custom-slider-map */}
         {repeatedDataList.map((obj, index) => (
           <div
             key={index}
