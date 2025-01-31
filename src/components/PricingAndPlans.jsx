@@ -33,7 +33,7 @@ const PricingAndPlans = () => {
                         <span className={`pt-1.5 ${index === 1 ? "check-icon" : ""}`}>
                           <CheckIcon />
                         </span>
-                        <span className="opacity-80 text-sm">{feature}</span>
+                        <span className="opacity-80 text-custom-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
