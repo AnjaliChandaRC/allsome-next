@@ -22,7 +22,7 @@ const Hero = () => {
                 <CustomDescription styleclass="xl:mb-[34px] lg:mb-7 md:mb-5 mb-4 max-lg:text-center max-lg:mx-auto max-w-[450px] xl:!text-xl lg:!text-lg md:!text-base !text-sm" description="Turn your inventory into sales channel. Sell more stuff everywhere" />
                 <div className="flex gap-2 max-lg:justify-center">
                   <CustomButton styleclass='xl:!py-[16.5px] xl:!h-14 xl:!max-w-[185px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[34.5px] !bg-black text-white hover:!bg-transparent hover:text-black' title='Sign up for free' />
-                  <CustomButton styleclass='xl:!py-[14.5px] xl:!h-14 xl:!max-w-[170px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[25px] hover:!bg-black before:!bg-black hover:text-white group' styleclassTwo='!block whatsapp-icon transiction-all ease-in-out duration-300' icon={<WhatsAppLogo />} title='Whatsapp us' />
+                  <a href="https://web.whatsapp.com/" target='_blank'> <CustomButton styleclass='xl:!py-[14.5px] xl:!h-14 xl:!max-w-[170px] !max-w-[160px] xl:w-full lg:!py-3 !py-2 xl:!px-[25px] hover:!bg-black before:!bg-black hover:text-white group' styleclassTwo='!block whatsapp-icon transiction-all ease-in-out duration-300' icon={<WhatsAppLogo />} title='Whatsapp us' /></a>
                 </div>
               </div>
             </div>
@@ -31,7 +31,7 @@ const Hero = () => {
               <Image data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='shadow-[25px_-20px_60px_0px_#0000001A] pointer-events-none xl:max-w-[318] lg:block max-lg:hidden rounded-[29px] lg:max-w-64 lg:absolute xl:!translate-x-8 lg:!-translate-x-10 xl:-bottom-16 -bottom-10' src='/assets/images/webp/hero-mobile-img.webp' width={318} height={430} alt='mobile-img' />
               <div className="max-lg:relative justify-center flex">
                 <Image className='max-lg:block pointer-events-none lg:hidden relative w-full max-w-2xl' src='/assets/images/webp/hero-mobile-location-img.webp' width={635} height={543} alt='location-img' />
-                <Image className='max-lg:block pointer-events-none lg:hidden w-full z-50 md:max-w-44 sm:max-w-32 max-w-28 absolute md:top-14 sm:top-12 top-10 md:left-0 sm:left-7 left-3' src='/assets/images/webp/mobile-screen-img-2.png' width={635} height={543} alt='mobile-img' />
+                <Image className='max-lg:block pointer-events-none lg:hidden w-full z-50 md:max-w-44 sm:max-w-32 max-w-28 absolute md:top-14 sm:top-12 top-10 md:left-0 sm:left-7 left-3' src='/assets/images/webp/mobile-screen-img-2.webp' width={635} height={543} alt='mobile-img' />
               </div>
             </div>
           </div>

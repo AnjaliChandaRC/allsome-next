@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CustomDescription = (props) => {
+const CustomDescription = ({ styleclass, description }) => {
   return (
-    <p className={`${props.styleclass} lg:text-base text-sm text-black font-medium`}> {props.description} </p>
+    <p className={`${styleclass} lg:text-base text-sm text-black font-medium`}> {description} </p>
   )
 }
 
