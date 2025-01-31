@@ -18,7 +18,7 @@ const CustomBrandsLayout = ({ obj }) => {
                     />
                     <CustomButton
                         styleclass={'!px-[22px] border border-black !py-[10px] bg-black text-white !w-[107px] !h-12 !hover:w-full !hover:text-black'}
-                        title='Sign-up'/>
+                        title='Sign up'/>
                 </div>
                     <div data-aos="fade-right" className={`flex justify-center ${obj.key === 'layout-custom-two' ? '!justify-center xl:ml-8' : ''} ${obj.key === 'layout-custom-one' ? 'xl:!mr-[62px]' : ''} ${obj.key === 'layout-custom-three' ? 'xl:!-mr-14' : ''}`}>
                         <Image
