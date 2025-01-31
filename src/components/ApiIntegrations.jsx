@@ -6,7 +6,7 @@ import { INTEGRATIONS_DATA, INTEGRATIONS_DATA_POSITION } from '../app/utils/help
 
 const ApiIntegrations = () => {
   return (
-    <div className='xl:pt-[130px] pt-[60px] xl:pb-[196px] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden'>
+    <div className='xl:pt-[130px] lg:pt-20 pt-[60px] xl:pb-[196px] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden'>
       <div className='xl:max-w-[1440px] mx-auto'>
         <div className='container mx-auto relative'>
           <div className="xl:flex-row flex flex-col gap-7">
@@ -18,6 +18,7 @@ const ApiIntegrations = () => {
               <CustomButton styleclass="!py-[10px] !px-[22px] !bg-black text-white !max-w-[223px] !w-full max-xl:mx-auto" title="View integration guide" />
             </div>
             <div className="max-w-[773px] w-full xl:absolute md:absolute md:right-[38px] lg:relative max-lg:bottom-0 xl:-right-12 max-xl:!mx-auto max-xl:grid">
+              {/* api logo images map */}
               <div className="relative">
                 {INTEGRATIONS_DATA.map((image, index) => (
                   <Image
