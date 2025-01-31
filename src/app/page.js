@@ -13,11 +13,16 @@ import PricingAndPlans from "./components/PricingAndPlans";
 import RevenueChannel from "./components/RevenueChannel";
 import SellToShoppers from "./components/SellToShoppers";
 import Shoppers from "./components/Shoppers";
+<<<<<<< HEAD
 import TeamsAtService from "./components/TeamsAtService";
 import SuccessFulfillments from './components/SuccessFulfillments'
 import CustomBrandsLayout from "./components/common/CustomBrandsLayout";
 import { CUSTOM_LAYOUT_DATA } from "./utils/helper"
+=======
+import SuccessFulfillments from "./components/SuccessFulfillments";
+>>>>>>> 302d4081b6b9bd17179c5655d3b26d394ad9acc8
 import AOS from "aos"
+import TeamsServices from "./components/TeamServices";
 
 export default function Home() {
   useEffect(() => {
@@ -32,7 +37,7 @@ export default function Home() {
       <Hero />
       <IconsSlider />
       <SellToShoppers />
-      <TeamsAtService />
+      <TeamsServices/>
       <HowAllSomeWorks />
       <DrivesOperations />
       <FulfilledMillions />

@@ -22,19 +22,7 @@ const DrivesOperations = () => {
             <div
               key={i}
               data-aos="fade-up"
-              data-aos-delay={
-                i === 0
-                  ? "100"
-                  : i === 1
-                  ? "200"
-                  : i === 2
-                  ? "400"
-                  : i === 3
-                  ? "600"
-                  : i === 4
-                  ? "800"
-                  : "200"
-              }
+              data-aos-delay={["100", "200", "400", "600", "800"][i] || "200"}
             >
               <div className="bg-white hover:!shadow-[0px_1px_5px_5px_#36eb58] transition-all ease-linear duration-300 rounded-lg pt-[31px] pb-[17px] h-[284px] shadow-[0px_5px_12px_0px_#D1EFE9] min-w-[212px] flex items-center justify-center flex-col">
                 <Image
