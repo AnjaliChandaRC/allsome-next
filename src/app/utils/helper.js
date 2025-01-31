@@ -294,18 +294,19 @@ export const CONTACT_DATA_LIST = [
         title: "Whatsapp Us",
         description: "(+60)11-51624248",
         icon: <WhatsappIcon />,
-        link: "tel:+6011-51624248"
+        directLink: 'tel:+6011-51624248'
     },
     {
         title: "Email Us",
         description: "Support@allsome.my",
         icon: <EmailUsIcon />,
-        link: "mailto:-Support@allsome.my"
+        directLink: 'mailto:-Support@allsome.my'
     },
     {
         title: "Visit Us",
         description: "LEVEL4, Block 9, Hap Seng Business Park, Persiaran Perusahaan, Kawasan Miel 40300, Shah Alam, Selangor, Malaysia.",
-        icon: <VisitUsIcon />
+        icon: <VisitUsIcon />,
+        directLink : ''
     }
 ];
 
@@ -313,34 +314,34 @@ export const FOOTER_LIST = [
     {
         title: "ALLSOME",
         links: [
-            { name: "Contact us", link: "#contact" },
-            { name: "Blog", link: "#blog" },
-            { name: "Become Partner", link: "#partner" }
+            { name: "Contact us", directLink: "#contact" },
+            { name: "Blog", directLink: "#blog" },
+            { name: "Become Partner", directLink: "#partner" }
         ]
     },
     {
         title: "PRODUCT",
         links: [
-            { name: "Features", link: "#features" },
-            { name: "Pricing", link: "#pricing" },
-            { name: "Tutorial", link: "#tutorial" }
+            { name: "Features", directLink: "#features" },
+            { name: "Pricing", directLink: "#pricing" },
+            { name: "Tutorial", directLink: "#tutorial" }
         ]
     },
     {
         title: "REGION",
         links: [
-            { name: "China", link: "/" },
-            { name: "Hong Kong", link: "/" },
-            { name: "Malaysia", link: "/" },
-            { name: "Australia", link: "/" },
-            { name: "United States", link: "/" }
+            { name: "China", directLink: "/" },
+            { name: "Hong Kong", directLink: "/" },
+            { name: "Malaysia", directLink: "/" },
+            { name: "Australia", directLink: "/" },
+            { name: "United States", directLink: "/" }
         ]
     }
 ];
 
 export const FOOTER_ICONS = [
-    { icon: <FacebookIcon />, link: "https://www.facebook.com/" },
-    { icon: <InstagramIcon />, link: "https://www.instagram.com/" },
-    { icon: <GmailIcon />, link: "https://mail.google.com/" },
-    { icon: <LinkedinIcon />, link: "https://www.linkedin.com/" }
+    { icon: <FacebookIcon />, directLink: "https://www.facebook.com/" },
+    { icon: <InstagramIcon />, directLink: "https://www.instagram.com/" },
+    { icon: <GmailIcon />, directLink: "https://mail.google.com/" },
+    { icon: <LinkedinIcon />, directLink: "https://www.linkedin.com/" }
 ];

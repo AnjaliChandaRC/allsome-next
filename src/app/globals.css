@@ -178,3 +178,7 @@ input[type='number'] {
     animation: iconAnimationsLg 3s ease infinite;
   }
 }
+
+.sweet-alert-button {
+  background-color: #4CAF50;
+}
