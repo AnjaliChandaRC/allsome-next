@@ -4,11 +4,14 @@ import CustomHeading from '../components/common/CustomHeading'
 import CustomDescription from '../components/common/CustomDescription'
 
 const RevenueChannel = () => {
-
   return (
-    <div id='tutorial' className='bg-light-green rounded-[40px] max-xl:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:py-[60px] max-md:py-10 max-md:!my-[30px] overflow-hidden'>
+    <div
+      id='tutorial'
+      className='bg-light-green rounded-[40px] max-xl:rounded-[20px] pt-[90px] pb-[103px] max-xl:py-20 max-lg:py-[60px] max-md:py-10 max-md:!my-[30px] overflow-hidden'
+    >
       <div className='container'>
         <div className='flex items-center justify-between max-xl:!gap-8 max-lg:flex-wrap max-lg:justify-center'>
+          {/* add aos */}
           <div className='flex flex-col' data-aos='fade-right'>
             <p className='font-kanit text-xl font-semibold leading-5 text-dark-green max-lg:text-center pb-[11px]'>
               Let's talk about sales
@@ -32,6 +35,7 @@ const RevenueChannel = () => {
               />
             </div>
           </div>
+          {/* add aos */}
           <div data-aos='fade-left'>
             <Image
               src='/assets/images/webp/revenue-chart.webp'
