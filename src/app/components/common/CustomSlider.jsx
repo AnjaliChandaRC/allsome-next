@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const KeyframeSlider = ({ dataList, customClassStyle, classStyle }) => {
+const CustomSlider = ({ dataList, customClassStyle, classStyle }) => {
   const repeatedDataList = [...dataList, ...dataList]
 
   return (
@@ -27,4 +27,4 @@ const KeyframeSlider = ({ dataList, customClassStyle, classStyle }) => {
   )
 }
 
-export default KeyframeSlider
+export default CustomSlider
