@@ -17,7 +17,7 @@ const Faqs = () => {
 
   return (
     <div
-      className='pb-6 pt-[93px] max-xl:pt-20 max-xl:pb-8 max-lg:py-[60px] max-md:py-[30px] overflow-hidden'
+      className='pb-4 pt-[93px] max-xl:pt-20 max-xl:pb-8 max-lg:py-[60px] max-md:py-[30px] overflow-hidden'
     >
       <div className='container'>
         <CustomHeading

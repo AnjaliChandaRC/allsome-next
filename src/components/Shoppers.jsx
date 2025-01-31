@@ -18,14 +18,14 @@ const Shoppers = () => {
               styleclassTwo='after:absolute after:lg:!bottom-[-3px] after:md:!bottom-[-6px]'
               styleclass='max-w-[487px] max-lg:max-w-none !font-bold'
             />
-            <div className='flex items-center gap-3 pt-10 max-lg:justify-center max-lg:!pt-7 max-md:!pt-5'>
+            <div className='flex items-center gap-3 pt-[52px] max-lg:justify-center max-lg:!pt-9 max-md:!pt-5'>
               <CustomButton
                 title='Start for free'
-                styleclass='!w-[166px] h-[52px] max-lg:!h-[48px] max-lg:!w-[140px] bg-black text-white hover:!text-black hover:bg-white'
+                styleclass='!w-[166px] h-[52px] max-lg:!h-[48px] max-lg:!w-[140px] max-md:!w-[130px] bg-black text-white hover:!text-black hover:bg-white'
               />
               <CustomButton
                 title='Request demo'
-                styleclass='w-[158px] h-[52px] max-lg:!h-[48px] max-lg:!w-[140px] hover:!bg-black hover:text-white before:!bg-black'
+                styleclass='w-[158px] h-[52px] max-lg:!h-[48px] max-lg:!w-[140px] max-md:!w-[130px] hover:!bg-black hover:text-white before:!bg-black'
               />
             </div>
           </div>
