@@ -20,16 +20,19 @@ const ContactUs = () => {
 
   const submitHandle = (e) => {
     e.preventDefault();
+    // Email Js
     emailjs
       .sendForm('service_225sbpv', 'template_mfgmjof', form.current, {
         publicKey: 'yMfLmnJOVdFosmZqu',
       }); {
       setValue(initialFormData);
+      // Sweet Alert 
       Swal.fire({
         title: "Success!",
         text: "Form submitted successfully.",
         icon: "success",
         confirmButtonText: "Cool",
+        // Custom button
         customClass: {
           confirmButton: 'sweet-alert-button'
         }

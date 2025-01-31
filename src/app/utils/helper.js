@@ -333,7 +333,7 @@ export const CONTACT_DATA_LIST = [
         title: "Visit Us",
         description: "LEVEL4, Block 9, Hap Seng Business Park, Persiaran Perusahaan, Kawasan Miel 40300, Shah Alam, Selangor, Malaysia.",
         icon: <VisitUsIcon />,
-        directLink : ''
+        directLink : '#'
     }
 ];
 
