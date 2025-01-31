@@ -31,7 +31,7 @@ const RevenueChannel = () => {
             <div className='max-lg:flex max-lg:justify-center mt-[23px] max-md:mt-5'>
               <CustomButton
                 title='Chat with our fulfillment experts'
-                styleclass='!w-[298px] max-lg:!w-[250px] hover:before:h-40 hover:before:w-[298px] hover:!bg-black hover:text-white before:!bg-black'
+                styleclass='!w-[298px] max-lg:!w-[250px] hover:before:h-40 hover:before:w-[298px] !bg-black text-white hover:!text-black hover:!bg-white before:!bg-white'
               />
             </div>
           </div>

@@ -15,8 +15,8 @@ const Shoppers = () => {
               title='Be where your '
               textTwo='shoppers' 
               titleTwo=' are'
-              styleclassTwo='after:absolute after:lg:!bottom-[5px] after:md:!bottom-[0px]'
-              styleclass='max-w-[487px] max-lg:max-w-none font-bold'
+              styleclassTwo='after:absolute after:lg:!bottom-[-3px] after:md:!bottom-[-6px]'
+              styleclass='max-w-[487px] max-lg:max-w-none !font-bold'
             />
             <div className='flex items-center gap-3 pt-10 max-lg:justify-center max-lg:!pt-7 max-md:!pt-5'>
               <CustomButton
