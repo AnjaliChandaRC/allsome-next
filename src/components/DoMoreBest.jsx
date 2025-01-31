@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import CustomHeading from '../components/common/CustomHeading'
 import CustomDescription from '../components/common/CustomDescription';
-import { DO_MORE_BEST_DATA } from '../app/utils/helper';
+import { DO_MORE_BEST_DATA } from '../utils/helper';
 
 const DoMoreBest = () => {
   return (

@@ -165,16 +165,16 @@ export const DO_MORE_BEST_DATA = [
 
 export const INTEGRATIONS_DATA_POSITION = [
     "md:right-[390px] sm:right-[356px] right-[220px]",
-    "md:right-14 lg:right-12 xl:right-0 right-7", 
-    "md:top-[70px] sm:top-14 top-8 md:left-[188px] sm:left-[120px] left-12", 
-    "md:top-[70px] sm:top-12 top-7 md:right-[139px] sm:right-28 right-16", 
-    "md:top-[130px] sm:top-28 top-16 md:left-[228px] sm:left-[190px] left-16", 
-    "md:top-[160px] sm:top-28 top-16 md:right-[119px] sm:right-24 right-12", 
-    "md:top-[180px] sm:top-36 top-24 sm:left-[62px] md:left-12 lg:left-[62px] left-0", 
-    "md:top-[237px] sm:top-48 top-[128px] md:left-[155px] sm:left-32 left-12", 
-    "md:top-[229px] sm:top-44 top-24 xl:right-[193px] md:right-52 lg:right-44 right-[120px]", 
-    "md:top-[202px] sm:top-36 top-[90px] right-3", 
-    "md:top-[307px] sm:top-[215px] top-[128px] sm:right-[72px] right-10", 
+    "md:right-14 lg:right-12 xl:right-0 right-7",
+    "md:top-[70px] sm:top-14 top-8 md:left-[188px] sm:left-[120px] left-12",
+    "md:top-[70px] sm:top-12 top-7 md:right-[139px] sm:right-28 right-16",
+    "md:top-[130px] sm:top-28 top-16 md:left-[228px] sm:left-[190px] left-16",
+    "md:top-[160px] sm:top-28 top-16 md:right-[119px] sm:right-24 right-12",
+    "md:top-[180px] sm:top-36 top-24 sm:left-[62px] md:left-12 lg:left-[62px] left-0",
+    "md:top-[237px] sm:top-48 top-[128px] md:left-[155px] sm:left-32 left-12",
+    "md:top-[229px] sm:top-44 top-24 xl:right-[193px] md:right-52 lg:right-44 right-[120px]",
+    "md:top-[202px] sm:top-36 top-[90px] right-3",
+    "md:top-[307px] sm:top-[215px] top-[128px] sm:right-[72px] right-10",
 ];
 
 export const INTEGRATIONS_DATA = [
@@ -334,7 +334,7 @@ export const CONTACT_DATA_LIST = [
         title: "Visit Us",
         description: "LEVEL4, Block 9, Hap Seng Business Park, Persiaran Perusahaan, Kawasan Miel 40300, Shah Alam, Selangor, Malaysia.",
         icon: <VisitUsIcon />,
-        directLink : '#'
+        directLink: '#'
     }
 ];
 
@@ -375,9 +375,9 @@ export const FOOTER_ICONS = [
 ];
 
 export const CUSTOM_LAYOUT_DATA = [
-    { key:"layout-custom-one", heading:"Build your technology", description:"From e-commerce stores integration, inventory management, order management, warehouse management, and return management - all within AllSome. Activate the modules through a single click.", image:"/assets/images/webp/build-image.webp", alt:"build-image", width:455, height:467, isReverse:false },
+    { key: "layout-custom-one", heading: "Build your technology", description: "From e-commerce stores integration, inventory management, order management, warehouse management, and return management - all within AllSome. Activate the modules through a single click.", image: "/assets/images/webp/build-image.webp", alt: "build-image", width: 455, height: 467, isReverse: false },
 
-    { key:"layout-custom-two", heading:"Automate your operations", description:"Build your e-commerce operation teams with ready software, modules, workforce, and more - all within AllSome. Once sold, orders will be shipped out automatically.", image:"/assets/images/webp/automate-image.webp", alt:"automate-image", width:435, height:443, isReverse:true, bgColor:"light-green" },
+    { key: "layout-custom-two", heading: "Automate your operations", description: "Build your e-commerce operation teams with ready software, modules, workforce, and more - all within AllSome. Once sold, orders will be shipped out automatically.", image: "/assets/images/webp/automate-image.webp", alt: "automate-image", width: 435, height: 443, isReverse: true, bgColor: "light-green" },
 
-    { key:"layout-custom-three", heading:"Maximize sales opportunity with ready inventory", description: "Be where your shoppers are, both online and offline. Appear to the right audience at the right time, both online and offline to generate sales for you.", image:"/assets/images/webp/sales-image.webp", alt:"sales-image", width:682, height:468, isReverse:false }
+    { key: "layout-custom-three", heading: "Maximize sales opportunity with ready inventory", description: "Be where your shoppers are, both online and offline. Appear to the right audience at the right time, both online and offline to generate sales for you.", image: "/assets/images/webp/sales-image.webp", alt: "sales-image", width: 682, height: 468, isReverse: false }
 ];

@@ -8,7 +8,7 @@ const PageLoader = () => {
         const timer = setTimeout(() => {
             document.documentElement.style.overflow = '';
             setPreLoader(false);
-        }, 2000);
+        }, 1);
     }, []);
   return (
       <>

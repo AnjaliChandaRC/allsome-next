@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
-import { FAQ_LIST } from '../app/utils/helper'
-import { ArrowIcon } from '../app/utils/icons'
+import { FAQ_LIST } from '../utils/helper'
+import { ArrowIcon } from '../utils/icons'
 import CustomHeading from '../components/common/CustomHeading'
 import Link from 'next/link'
 

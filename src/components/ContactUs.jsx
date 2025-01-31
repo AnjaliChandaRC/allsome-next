@@ -6,7 +6,7 @@ import CustomHeading from '../components/common/CustomHeading';
 import CustomInput from '../components/common/CustomInput';
 import CustomButton from '../components/common/CustomButton';
 import Swal from 'sweetalert2';
-import { CONTACT_DATA_LIST } from '../app/utils/helper';
+import { CONTACT_DATA_LIST } from '../utils/helper';
 import Link from 'next/link';
 
 const ContactUs = () => {

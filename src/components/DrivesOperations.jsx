@@ -1,8 +1,8 @@
 import CustomHeading from "../components/common/CustomHeading";
 import Image from "next/image";
 import CustomButton from "../components/common/CustomButton";
-import { OPERATIONS_LIST } from '../app/utils/helper';
-import { LearnMoreIcon } from '../app/utils/icons';
+import { OPERATIONS_LIST } from '../utils/helper';
+import { LearnMoreIcon } from '../utils/icons';
 
 const DrivesOperations = () => {
   return (

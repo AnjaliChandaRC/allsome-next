@@ -1,5 +1,5 @@
 'use client'
-import { BackToTop } from '../../app/utils/icons';
+import { BackToTop } from '../../utils/icons';
 import { useEffect, useState } from 'react';
 
 const BackToTopButton = () => {

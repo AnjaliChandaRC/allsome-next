@@ -2,9 +2,10 @@ import Image from 'next/image'
 import CustomHeading from '../components/common/CustomHeading'
 import CustomDescription from '../components/common/CustomDescription'
 import CustomButton from '../components/common/CustomButton'
-import { INTEGRATIONS_DATA, INTEGRATIONS_DATA_POSITION } from '../app/utils/helper'
+import { INTEGRATIONS_DATA, INTEGRATIONS_DATA_POSITION } from '../utils/helper'
 
 const ApiIntegrations = () => {
+
   return (
     <div className='xl:pt-[130px] lg:pt-20 pt-[60px] xl:pb-[196px] md:pb-[445px] sm:pb-[330px] pb-[200px] overflow-hidden' id='partner'>
       <div className='xl:max-w-[1440px] mx-auto'>

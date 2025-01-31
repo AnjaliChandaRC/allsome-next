@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import CustomDescription from '../components/common/CustomDescription'
 import CustomButton from '../components/common/CustomButton'
-import { WhatsAppLogo } from '../app/utils/icons'
+import { WhatsAppLogo } from '../utils/icons'
 import Header from '../components/common/Header'
 
 const Hero = () => {

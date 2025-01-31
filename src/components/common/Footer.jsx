@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { FOOTER_ICONS, FOOTER_LIST } from '../../app/utils/helper';
+import { FOOTER_ICONS, FOOTER_LIST } from '../../utils/helper';
 import Link from 'next/link';
 
 const Footer = () => {
