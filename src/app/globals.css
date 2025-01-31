@@ -92,11 +92,11 @@ input[type='number'] {
 }
 
 .slide-scroll {
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left 18s linear infinite;
 }
 
 .slide-reverse {
-  animation: scroll-right 10s linear infinite;
+  animation: scroll-right 18s linear infinite;
 }
 
 @keyframes scroll-left {
