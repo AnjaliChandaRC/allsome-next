@@ -28,7 +28,7 @@ const SellToShoppers = () => {
                   </div>
                   <div>
                     <h4 className="font-medium lg:text-lg md:text-base font-kanit text-sm mb-1 leading-[150%] text-black">{item.title}</h4>
-                    <p className={`${index === 0 ? "" : "xl:min-w-[260px]"} text-black w-full opacity-80 lg:text-base md:text-sm text-xs`}> {item.description} </p>
+                    <p className={`${index === 0 ? "xl:pe-6" : "xl:min-w-[260px]"} text-black w-full opacity-80 lg:text-base md:text-sm text-xs`}> {item.description} </p>
                   </div>
                 </div>
               ))}
