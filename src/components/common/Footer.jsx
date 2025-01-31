@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-9 border-t border-white/10"></div>
-      <div className="container flex justify-between items-center sm:pt-[22px] sm:pb-[33px] py-5 max-[480px]:flex-col-reverse min-[480px]:gap-y-5 gap-3">
+      <div className="container flex justify-between items-center sm:pt-[21px] sm:pb-[22px] py-5 max-[480px]:flex-col-reverse min-[480px]:gap-y-5 gap-3">
         <p className='text-white/50 text-custom-sm leading-custom-3xl'>(c) {new Date().getFullYear()} ALLSOME. All Right Reserved.</p>
         <div className="flex items-center gap-[26px] text-white">
           <Link href={'#contact'} className='cursor-pointer hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Sign up</Link>

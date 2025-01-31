@@ -10,7 +10,7 @@ const PricingAndPlans = () => {
     <div id='pricing' className="overflow-hidden">
       <div className="container sm:pb-10 md:pb-[66px] lg:pt-8 max-sm:py-[30px] max-xl:pt-8 max-lg:pt-[60px] max-md:pt-10 max-sm:pt-[30px]">
         <CustomHeading styleclass="lg:!text-7xl md:!text-6xl sm:!text-5xl !text-4xl pb-3.5 font-kanit font-bold text-center !font-bold" title="Pricing & Plans" />
-        <CustomDescription styleclass="text-center sm:pb-9 !pb-5" description="Free access to outlets, pay-as-you-go." />
+        <CustomDescription styleclass="text-center sm:pb-9 sm:!pb-9 pb-5" description="Free access to outlets, pay-as-you-go." />
         <div className="flex xl:gap-[39px] gap-4 max-lg:flex-wrap justify-center">
           {/* Pricing Table */}
           {PRICING_DATA_LIST.map((card, index) => (
