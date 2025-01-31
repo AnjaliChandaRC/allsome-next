@@ -1,10 +1,10 @@
-import CustomHeading from "../components/common/CustomHeading";
-import CustomButton from "../components/common/CustomButton";
+import CustomHeading from "./common/CustomHeading";
+import CustomButton from "./common/CustomButton";
 import Image from "next/image";
 
 const TeamsServices = () => {
   return (
-    // e-commerce bg
+    
     <div
       id="awesome"
       className="bg-e-commerce bg-cover max-lg:my-[30px] bg-no-repeat bg-center rounded-[40px] max-w-[1920px] mx-auto max-lg:rounded-[20px] relative overflow-hidden h-[606px] max-xl:h-full"

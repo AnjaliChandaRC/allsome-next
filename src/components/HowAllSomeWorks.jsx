@@ -25,11 +25,14 @@ const HowAllSomeWorks = () => {
         alt="line"
       />
       <div className="container 2xl:mt-5 max-2xl:mt-0">
+        {/* roadmap-list  */}
         <div className="flex items-center justify-evenly relative z-10 max-md:flex-wrap max-md:pt-6">
           {ROADMAP_LIST.map((obj, i) => (
             <div
               key={i}
+              // animation-name
               data-aos="fade-right"
+              // animation-delay
               data-aos-delay={["100", "300", "500"][i] || "200"}
               className={`${
                 i === 1
