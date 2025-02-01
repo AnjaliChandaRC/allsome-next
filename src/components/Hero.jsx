@@ -29,7 +29,7 @@ const Hero = () => {
             </div>
             <div className="lg:w-6/12 w-full lg:pt-10">
               <Image className='shadow-[25px_-20px_60px_0px_#0000001A] pointer-events-none lg:block max-lg:hidden xl:max-w-[635px] rounded-md lg:max-w-lg lg:absolute right-0' src='/assets/images/webp/hero-location-img.webp' width={635} height={543} alt='location-img' />
-              <Image data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='shadow-[25px_-20px_60px_0px_#0000001A] pointer-events-none xl:min-w-[318] w-full lg:block max-lg:hidden rounded-[29px] lg:max-w-64 lg:absolute xl:!translate-x-8 lg:!-translate-x-10 xl:-bottom-16 -bottom-10' src='/assets/images/webp/hero-mobile-img.webp' width={318} height={430} alt='mobile-img' />
+              <Image data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='shadow-[25px_-20px_60px_0px_#0000001A] pointer-events-none xl:min-w-[318px] w-full lg:block max-lg:hidden rounded-[29px] lg:max-w-64 lg:absolute xl:!translate-x-8 lg:!-translate-x-10 xl:-bottom-16 -bottom-10' src='/assets/images/webp/hero-mobile-img.webp' width={318} height={430} alt='mobile-img' />
               <div className="max-lg:relative justify-center flex">
                 <Image className='max-lg:block pointer-events-none lg:hidden relative w-full max-w-2xl' src='/assets/images/webp/hero-mobile-location-img.webp' width={635} height={543} alt='location-img' />
                 <Image className='max-lg:block pointer-events-none lg:hidden w-full z-50 md:max-w-44 sm:max-w-32 max-w-28 absolute md:top-14 sm:top-12 top-10 md:left-0 sm:left-7 left-3' src='/assets/images/webp/mobile-screen-img-2.webp' width={635} height={543} alt='mobile-img' />
