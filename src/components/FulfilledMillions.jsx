@@ -24,7 +24,7 @@ const FulfilledMillions = () => {
         styleclass='max-w-[746px] mx-auto text-center font-kanit'
         title='We have fulfilled '
         textTwo='millions'
-        styleclassTwo=''
+        styleclassTwo='after:absolute after:lg:!bottom-5 after:md:!bottom-3 after:lg:!bottom-4 after:!bottom-1.5'
       />
       <div className='lg:pt-[63px] sm:pt-12 pt-8'>
         <div className='!py-[7px]'>
