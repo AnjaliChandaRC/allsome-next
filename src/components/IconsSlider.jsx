@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const IconsSlider = () => {
   return (
-    <div className='max-3xl:bg-white-pattern 3xl:bg-white overflow-hidden bg-cover w-full bg-center xl:pt-[147px] pt-20 xl:pb-[164px] lg:pb-20 md:pb-[60px] pb-[30px] -mt-16 md:-mt-28 2xl:-mt-32 relative z-[50] bg-no-repeat'>
+    <div className='max-3xl:bg-white-pattern 3xl:bg-white overflow-hidden bg-cover w-full bg-center xl:pt-[147px] pt-20 xl:pb-[164px] lg:pb-20 md:pb-[60px] pb-[30px] max-sm:-mt-16 max-lg:-mt-36 -mt-28 relative z-[50] bg-no-repeat'>
       <div className="container">
         {/* ============================== custom Slider ======================================== */}
         <CustomSlider dataList={ICON_SLIDER_LIST} classStyle='!gap-[39px] md:!hidden max-md:!block' customClassStyle='sm:!gap-5 gap-3' />
