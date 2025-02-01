@@ -15,10 +15,10 @@ const Shoppers = () => {
               title='Be where your '
               textTwo='shoppers' 
               titleTwo=' are'
-              styleclassTwo='after:absolute after:lg:!bottom-[-3px] after:md:!bottom-[-6px]'
+              styleclassTwo='after:absolute after:sm:!bottom-[3px] after:!bottom-[1px]'
               styleclass='max-w-[487px] max-lg:max-w-none !font-bold'
             />
-            <div className='flex items-center gap-3 pt-10 max-lg:justify-center max-lg:!pt-7 max-md:!pt-5'>
+            <div className='flex items-center gap-3 pt-12 max-lg:justify-center max-lg:!pt-8 max-md:!pt-6'>
               <CustomButton
                 title='Start for free'
                 styleclass='!w-[166px] h-[52px] max-lg:!h-[48px] max-lg:!w-[140px] bg-black text-white hover:!text-black hover:bg-white'
