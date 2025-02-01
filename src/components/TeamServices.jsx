@@ -33,7 +33,7 @@ const TeamsServices = () => {
             Fulfillment is perfect for brands looking to get more traffic, build
             real connection with customers and grow revenue.
           </p>
-          <div className="flex items-center justify-center gap-[21px] mt-[38px]">
+          <div className="flex items-center justify-center gap-[21px] mt-[38px] max-sm:mt-6">
             <CustomButton
               styleclass="!text-white py-[14px] max-md:h-[48px] h-[52px] flex items-center justify-center rounded-full min-w-[172px] max-sm:min-w-[140px] !border-none bg-gradient-to-bl to-lemon via-dark-green from-green hover:!bg-white hover:!text-black"
               title="Sign up today"

@@ -13,7 +13,7 @@ const DrivesOperations = () => {
           text="AllSome"
           title=" drives operations for every e-commerce businesses"
         />
-        <p className="text-center pt-[22px] opacity-80 font-normal text-base leading-6 pb-[49px] max-xl:py-6">
+        <p className="text-center pt-[22px] opacity-80 font-normal text-base leading-6 pb-[49px] max-xl:py-6 max-lg:py-4">
           Our customers come from all e-commerce space and we have moved
           millions!
         </p>

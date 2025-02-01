@@ -10,8 +10,8 @@ const HowAllSomeWorks = () => {
         <CustomHeading
           title="How "
           styleTwo="text-dark-green"
-          textTwo="AllSome "
-          styleclassTwo=""
+          textTwo="AllSome"
+          styleclassTwo="after:!absolute after:max-md:!bottom-[3px] after:max-lg:!bottom-[12px] after:max-2xl:!bottom-[19px]"
           titleTwo="works?"
           className="!max-w-[591px] !mx-auto"
         />
@@ -21,12 +21,12 @@ const HowAllSomeWorks = () => {
         src="/assets/images/svg/line.svg"
         width={100}
         height={95}
-        className="object-cover w-full absolute max-xl:translate-y-[44px] max-md:hidden 2xl:translate-y-[-3px] max-2xl:translate-y-0"
+        className="object-cover w-full absolute max-xl:translate-y-[44px] max-md:hidden 2xl:translate-y-[-10px] max-2xl:translate-y-0"
         alt="line"
       />
       <div className="container 2xl:mt-5 max-2xl:mt-0">
         {/* roadmap-list  */}
-        <div className="flex items-center justify-evenly relative z-10 max-md:flex-wrap max-md:pt-6">
+        <div className="flex items-center justify-center gap-[62px] max-lg:gap-10 max-md:gap-6 max-sm:gap-4 relative z-10 max-md:flex-wrap max-md:pt-6">
           {ROADMAP_LIST.map((obj, i) => (
             <div
               key={i}
@@ -39,7 +39,7 @@ const HowAllSomeWorks = () => {
                   ? "mt-[52px]"
                   : i === 2
                   ? "mt-[25px]"
-                  : "mt-[55px] max-lg:mt-[30px]"
+                  : "mt-[55px] max-lg:mt-[30px] 2xl:mt-0"
               } max-md:mt-6`}
             >
               <div className="lg:size-[60px] shadow-[0_2px_10px_#36eb58] size-[42px] rounded-full bg-gradient-to-bl to-lemon via-dark-green from-green flex items-center justify-center">
