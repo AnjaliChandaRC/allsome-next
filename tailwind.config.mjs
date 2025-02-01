@@ -137,15 +137,17 @@ export default {
       },
       colors: {
         "aqua-marine": "#51FFAB",
-        lemon: "#C7FF51",
+        "lemon": "#C7FF51",
         "light-green": "#DFF6F1",
         "dark-green": "#00C934",
         "deep-green": "#00E765",
-        green: "#51FFAB",
+        "green": "#51FFAB",
         "off-white": "#F9F9F9",
         "parrot-green": "#06FF88",
         "bright-green": "#05ED38",
         "deep-gray": "#5A5A5A",
+        "primary-green": "#71F632",
+        "secondary-green":"#2DF360"
       },
       fontSize: {
         "custom-sm": "13px",

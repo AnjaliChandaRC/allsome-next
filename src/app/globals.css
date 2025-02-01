@@ -102,6 +102,9 @@ input[type='number'] {
 .slide-reverse {
   animation: scroll-right 18s linear infinite;
 }
+select option:hover{
+  background: #c7ff51 !important;
+}
 
 @keyframes scroll-left {
   0% {

@@ -11,7 +11,7 @@ const SellToShoppers = () => {
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center items-center">
           <div className="xl:w-4/12 w-full">
-            <div className="lg:py-[22px] xl:max-w-[367px] relative lg:max-w-3xl md:max-w-2xl max-w-lg max-xl:mx-auto md:py-4 py-3 lg:px-5 md:px-4 px-3 green-gradient lg:rounded-2xl md:rounded-xl rounded-lg xl:min-h-[365px]">
+            <div className="lg:py-[22px] xl:max-w-[367px] relative lg:max-w-3xl md:max-w-2xl max-w-lg max-xl:mx-auto md:py-4 py-3 lg:px-5 md:px-4 px-3 bg-gradient-to-tr from-aqua-marine via-primary-green to-secondary-green lg:rounded-2xl md:rounded-xl rounded-lg xl:min-h-[365px]">
               <CustomHeading styleclass='xl:!text-[40px] lg:!leading-[112%] max-w-[307px] lg:text-3xl md:!text-2xl !text-xl !font-semibold lg:mb-4 md:mb-3 mb-2' title='Sell to shoppers wherever they are' />
               <CustomDescription styleclass='lg:mb-6 md:mb-5 mb-4 max-w-md' description='AllSome helps you to build your e-commerce operations across all sales channels.' />
               <CustomButton styleclass='hover:!bg-transparent xl:!max-w-[172px] md:!max-w-40 !max-w-32 xl:!h-[52px] w-full xl:!px-8 xl:!py-[12.5px] !bg-black hover:!text-black !text-white' title='Sign up today' />
