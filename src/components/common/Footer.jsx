@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-black lg:rounded-t-[40px] rounded-t-[20px] relative overflow-hidden">
       <Image className='w-full h-auto absolute z-0 top-0 left-0 max-2xl:top-[-20%] max-2xl:left-[-20%] max-md:left-0 max-md:top-0 pointer-events-none ' src="/assets/images/webp/footer-top-layer.webp" width={582} height={529} alt="footer top layer" />
-      <div className='container relative z-10'>
+      <div className='container relative z-10 lg:!px-5'>
         <div className="flex max-md:flex-col justify-between md:pt-16 sm:pt-10 pt-8">
           <div className="w-full md:w-4/12 lg:w-5/12">
             {/* footer logo */}
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-9 border-t border-white/10"></div>
-      <div className="container flex justify-between items-center sm:pt-[21px] sm:pb-[22px] py-5 max-[480px]:flex-col-reverse min-[480px]:gap-y-5 gap-3">
+      <div className="container lg:!px-5 flex justify-between items-center sm:pt-[21px] sm:pb-[22px] py-5 max-[480px]:flex-col-reverse min-[480px]:gap-y-5 gap-3">
         <p className='text-white/50 text-custom-sm leading-custom-3xl'>(c) {new Date().getFullYear()} ALLSOME. All Right Reserved.</p>
         <div className="flex items-center gap-[26px] text-white">
           <Link href={'#contact'} className='cursor-pointer hover:bg-gradient-to-r to-lemon via-dark-green from-green bg-clip-text hover:text-transparent text-white duration-300 ease-linear transition-all leading-custom-10xl'>Sign up</Link>
